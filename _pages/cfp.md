@@ -1,5 +1,6 @@
 ---
 permalink: /cfp/
+title: "Call for Papers - SQAI 2026"
 author_profile: true
 ---
 
