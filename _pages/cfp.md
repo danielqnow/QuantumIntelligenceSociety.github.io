@@ -3,8 +3,6 @@ permalink: /cfp/
 author_profile: true
 ---
 
-# Call for Papers: SQAI 2026
-
 We invite submissions of original research papers, demos, and workshop proposals in all areas related to Quantum Artificial Intelligence, including but not limited to:
 
 - Quantum machine learning and algorithms
