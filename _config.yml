@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Academic society dedicated to the advancement of quantum AI research and education."
   location         : "Taipei, Taiwan"
-  employer         : "Red Brick University"
+#  employer         : "Red Brick University"
   uri              : # URL
   email            : "r11922203@csie.ntu.edu.tw" 
 
