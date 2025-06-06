@@ -25,9 +25,9 @@ If you're interested in becoming a sponsor or would like more information about 
 
 We’re deeply grateful to the sponsors who supported our early efforts in building the Society for Quantum AI:
 
-- **APAC Blockchain Development Association**
-- **Reliance Biosciences**
-- **Smart Contract Research Forum**
+- [**APAC Blockchain Development Association**](https://apbcd.org/)
+- [**Reliance Biosciences**](https://reliance-bio.com/en/)
+- [**Smart Contract Research Forum**](https://x.com/scrforum)
 
 Your support made our virtual events possible and helped us reach hundreds of participants around the world.
 
