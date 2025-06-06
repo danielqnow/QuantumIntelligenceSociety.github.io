@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "量子人工智慧協會 Society for Quantum AI"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
