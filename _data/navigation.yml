@@ -10,5 +10,7 @@
 main:
   - title: "Committee"
     url: /committee/
+  - title: "Call for Papers"
+    url: /cfp/
   - title: "Publications"
     url: /publications/
