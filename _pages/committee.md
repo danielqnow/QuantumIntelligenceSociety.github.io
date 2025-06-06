@@ -10,4 +10,6 @@ author_profile: true
 
 **Technical Program Committee (TPC) Chair**: TBD
 
+If you are interested in contributing as a member of either committee, please contact us directly. Feel free to use the above email or send us a message on our Discord server.
+
 <!-- 请根据实际情况补充和修改名单及职务 -->

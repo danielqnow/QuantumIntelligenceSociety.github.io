@@ -21,3 +21,5 @@ SQAI 2026 will feature a rich lineup of keynote speeches, technical presentation
 This year's conference emphasizes cross-disciplinary innovation, drawing participants from academia, industry, policy, and the open-source community. Our single-track format ensures that every presentation gets the spotlight it deserves and every attendee can engage deeply with the full spectrum of ideas presented.
 
 We are honored to host SQAI 2026 in the dynamic and culturally rich city of Taipei. We look forward to your contributions and to advancing the frontier of Quantum AI—together.
+
+If you are interested in contributing to SQAI 2026, please contact us by joining our Discord server, or alternatively contact using the information provided on the "Committee" page.
