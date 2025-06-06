@@ -14,5 +14,7 @@ main:
     url: /cfp/
   - title: "Program"
     url: /program/
+  - title: "Past Conferences"
+    url: /past/
   - title: "Publications"
     url: /publications/
