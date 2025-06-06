@@ -27,16 +27,16 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Academic society dedicated to the advancement of quantum AI research and education."
   location         : "Taipei, Taiwan"
-#  employer         : "Red Brick University"
+  employer         : "National Taiwan University"
   uri              : # URL
   email            : "r11922203@csie.ntu.edu.tw" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com.tw/citations?user=JqSt8doAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
