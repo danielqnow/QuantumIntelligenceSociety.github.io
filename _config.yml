@@ -27,9 +27,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Academic society dedicated to the advancement of quantum AI research and education."
   location         : "Taipei, Taiwan"
-  employer         : "National Taiwan University"
+  employer         : # "National Taiwan University"
   uri              : # URL
-  email            : "r11922203@csie.ntu.edu.tw" 
+  email            : # "r11922203@csie.ntu.edu.tw" 
 
   # Academic websites
   academia         : # URL
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : /company/sqai
+  linkedin         : "https://www.linkedin.com/company/sqai"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -75,6 +75,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  discord          : "https://discord.gg/YhJNBApW8v"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
