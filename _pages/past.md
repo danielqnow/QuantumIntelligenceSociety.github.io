@@ -4,9 +4,37 @@ title: "Past SQAI Conferences"
 author_profile: true
 ---
 
+![Past Collaborators](/images/collaborators.png)
+**Past sponsors, speakers, and collaborators are from the following entities.**
+
 Since its founding, the we have hosted innovative events that bring together researchers, students, and professionals at the cutting edge of quantum computing and artificial intelligence. Below is a summary of our past conferences and workshops.
 
 ---
+## **SQAI 2021**  
+
+![Promotion Poster](/images/promotionposter.jpg)
+
+**May 20 & May 29, 2021**  
+**15 speakers** | **Multilingual & International** | **250+ attendees**
+
+- [Event Link / Day 1](https://www.facebook.com/events/885042462066989/)
+- [Event Link / Day 2](https://www.facebook.com/events/314126556952680/)
+
+**Overview**:  
+SQAI 2021 was our first large-scale event — a two-day virtual conference uniting voices from academia, medicine, and industry. Presentations were conducted in both English and Mandarin, with speakers joining from around the world. The event included sessions on quantum health, smart contracts, and AI ethics.
+
+**Recordings**:
+- [Watch Day 1](https://www.youtube.com/watch?v=Ba4BuGCNrm0)
+- [Watch Day 2](https://www.youtube.com/watch?v=5w1HDaM4dHg)
+
+**Partner Organizations**:  
+- [Microsoft](https://mvp.microsoft.com/studentambassadors)  
+- [Taiwan AI Association](https://www.aiatw.org/about?lang=en)
+- [NTU AI Club](https://www.facebook.com/NTUAIClub/)
+- [NTU IBM Q](https://quantum.ntu.edu.tw/?page_id=275)
+
+---
+
 
 ## **SQAI 2023**  
 **May 7 – June 18, 2023**  
@@ -30,25 +58,6 @@ SQAI 2023 was a 7-week series of hands-on workshops and lectures focused on quan
   *Quantum Deep Learning: Challenges and Prospects*
 - **Week 7 (2023/6/18)** – [Will Nien](https://www.facebook.com/will.nien)  
   *(Closing Session)*
-
----
-
-## **SQAI 2021**  
-**May 20 & May 29, 2021**  
-**15 speakers** | **Multilingual & International** | **250+ attendees**
-
-**Overview**:  
-SQAI 2021 was our first large-scale event — a two-day virtual conference uniting voices from academia, medicine, and industry. Presentations were conducted in both English and Mandarin, with speakers joining from around the world. The event included sessions on quantum health, smart contracts, and AI ethics.
-
-**Recordings**:
-- [Watch Day 1](https://www.youtube.com/watch?v=Ba4BuGCNrm0)
-- [Watch Day 2](https://www.youtube.com/watch?v=5w1HDaM4dHg)
-
-**Partner Organizations**:  
-- [Microsoft](https://mvp.microsoft.com/studentambassadors)  
-- [Taiwan AI Association](https://www.aiatw.org/about?lang=en)
-- [NTU AI Club](https://www.facebook.com/NTUAIClub/)
-- [NTU IBM Q](https://quantum.ntu.edu.tw/?page_id=275)
 
 ---
 
