@@ -4,7 +4,7 @@ title: "Sponsors"
 author_profile: true
 ---
 
-![Past Collaborators](/images/collaborators.png)
+![Past Collaborators](/images/collaborators.png)  
 *Past sponsors, speakers, and collaborators have been from the following entities.*
 
 ## Why Sponsor SQAI 2026?
@@ -33,5 +33,34 @@ We’re deeply grateful to the sponsors who supported our early efforts in build
 - [**Smart Contract Research Forum**](https://x.com/scrforum)
 
 Your support made our virtual events possible and helped us reach hundreds of participants around the world.
+
+---
+
+## Leading Quantum AI Organizations
+
+As part of our vision for the future, we hope to partner with the following world-class institutions working at the frontier of quantum AI:
+
+### United States
+
+- [**Google Quantum AI**](https://quantumai.google/)
+- [**IBM Quantum**](https://www.ibm.com/quantum)
+- [**Microsoft Quantum**](https://www.microsoft.com/en-us/quantum)
+- [**AWS Braket (Amazon Quantum)**](https://aws.amazon.com/braket/)
+- [**Rigetti Computing**](https://www.rigetti.com/)
+- [**MIT Center for Quantum Engineering**](https://cqe.mit.edu/)
+- [**Berkeley Quantum Information and Computation Center**](https://bqic.berkeley.edu/)
+
+### Taiwan
+
+- [**Taiwan AI Academy**](https://aiacademy.tw/)
+- [**Quanta Computer – Quantum Computing Division**](https://www.quantatw.com/)
+- [**Academia Sinica – Institute of Physics**](https://www.phys.sinica.edu.tw/)
+- [**National Taiwan University – Quantum Information Science Lab**](https://quantum.ntu.edu.tw/)
+- [**National Cheng Kung University – Quantum Information Group**](https://phys.ncku.edu.tw/)
+- [**Taiwan Semiconductor Research Institute (TSRI)**](https://www.tsri.org.tw/)
+
+We warmly welcome future collaborations and outreach with these organizations to grow the quantum AI ecosystem together.
+
+---
 
 Together, we're shaping the future of Quantum AI.
