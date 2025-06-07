@@ -4,6 +4,9 @@ title: "Sponsors"
 author_profile: true
 ---
 
+![Past Collaborators](/images/collaborators.png)
+*Past sponsors, speakers, and collaborators have been from the following entities.*
+
 ## Why Sponsor SQAI 2026?
 
 The **Symposium for Quantum AI (SQAI)** is an emerging gathering at the intersection of **quantum computing and artificial intelligence**, bringing together leading researchers, engineers, and innovators from academia and industry.

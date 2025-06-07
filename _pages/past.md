@@ -4,8 +4,8 @@ title: "Past SQAI Conferences"
 author_profile: true
 ---
 
-![Past Collaborators](/images/collaborators.png)
-**Past sponsors, speakers, and collaborators are from the following entities.**
+![Grover AI](/images/groverAI.png)
+*Renowned Taiwan NCKU [Professor Chi-Chuan Hwang](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang) explaining quantum Grover Algorithm applications in AI during SQAI 2021 to an audience of more than 100 participants*
 
 Since its founding, the we have hosted innovative events that bring together researchers, students, and professionals at the cutting edge of quantum computing and artificial intelligence. Below is a summary of our past conferences and workshops.
 
@@ -13,6 +13,7 @@ Since its founding, the we have hosted innovative events that bring together res
 ## **SQAI 2021**  
 
 ![Promotion Poster](/images/promotionposter.jpg)
+*SQAI 2021 promotional poster*
 
 **May 20 & May 29, 2021**  
 **15 speakers** | **Multilingual & International** | **250+ attendees**
