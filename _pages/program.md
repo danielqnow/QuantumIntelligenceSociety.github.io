@@ -1,6 +1,6 @@
 ---
 permalink: /program/
-title: "SQAI 2026 Program"
+title: "Program - SQAI 2026"
 author_profile: true
 ---
 

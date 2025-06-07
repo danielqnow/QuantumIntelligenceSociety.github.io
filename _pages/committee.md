@@ -1,6 +1,6 @@
 ---
 permalink: /committee/
-title: "Committee"
+title: "Committee - SQAI 2026"
 author_profile: true
 ---
 

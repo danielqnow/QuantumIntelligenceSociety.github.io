@@ -10,7 +10,7 @@
 main:
   - title: "Committee"
     url: /committee/
-  - title: "Call for Papers"
+  - title: "CFP"
     url: /cfp/
   - title: "Program"
     url: /program/
@@ -18,3 +18,5 @@ main:
     url: /past/
   - title: "Sponsors"
     url: /sponsors/
+  - title: "Research"
+    url: /research/
