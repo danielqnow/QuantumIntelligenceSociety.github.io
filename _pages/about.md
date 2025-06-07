@@ -23,3 +23,12 @@ This year's conference emphasizes cross-disciplinary innovation, drawing partici
 We are honored to host SQAI 2026 in the dynamic and culturally rich city of Taipei. We look forward to your contributions and to advancing the frontier of Quantum AI—together.
 
 If you are interested in contributing to SQAI 2026, please contact us by joining our Discord server, or alternatively contact using the information provided on the "Committee" page.
+
+## 📅 Important Dates
+
+| Milestone | Date |
+|-----------|------|
+| Submission Deadline | **March 1, 2026** |
+| Notification of Acceptance | **April 10, 2026** |
+| Camera-Ready Deadline | **May 10, 2026** |
+| Conference Date | **July 3, 2026** |
