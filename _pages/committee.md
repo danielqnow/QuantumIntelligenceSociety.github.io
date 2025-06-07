@@ -4,6 +4,9 @@ title: "Committee - SQAI 2026"
 author_profile: true
 ---
 
+![SQAI 2023 Committee](/images/sqaicommittee.jpg)
+*SQAI 2023 Committee - including AIATW [Joannie Hsieh](https://www.facebook.com/joanniehsieh), NTUAI Steven Lu, and SQAI founder and OC Chair Austin Hua.*
+
 The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication of volunteers who help shape both the logistics and the technical quality of the event. Our committees include leaders, researchers, and organizers working together to build a meaningful experience for our community.
 
 ---
