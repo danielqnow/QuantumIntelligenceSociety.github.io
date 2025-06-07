@@ -22,7 +22,7 @@ Since its founding, the we have hosted innovative events that bring together res
 - [Event Link / Day 2](https://www.facebook.com/events/314126556952680/)
 
 **Overview**:  
-SQAI 2021 was our first large-scale event — a two-day virtual conference uniting voices from academia, medicine, and industry. Presentations were conducted in both English and Mandarin, with speakers joining from around the world. The event included sessions on quantum health, smart contracts, and AI ethics.
+SQAI 2021 was our first large-scale event - a two-day virtual conference uniting voices from academia and industry. Presentations were conducted in both English and Mandarin, with speakers joining from around the world. The event included sessions on quantum neural networks, quantum AI feature transformation, AI ethics, quantum information theory, societal impacts of QAI, future trajectories of quantum and AI, and more.
 
 **Recordings**:
 - [Watch Day 1](https://www.youtube.com/watch?v=Ba4BuGCNrm0)
