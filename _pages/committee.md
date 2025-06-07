@@ -8,11 +8,11 @@ The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication
 
 ---
 
-## 🎯 Organizing Committee (OC)
+## Organizing Committee (OC)
 
 **Chair**: Austin Hua  
-📧 Email: [r11922203@csie.ntu.edu.tw](mailto:r11922203@csie.ntu.edu.tw)  
-🔗 [Austin’s LinkedIn](https://www.linkedin.com/in/austin-hua/)  
+Email: [r11922203@csie.ntu.edu.tw](mailto:r11922203@csie.ntu.edu.tw)  
+[Austin’s LinkedIn](https://www.linkedin.com/in/austin-hua/)  
 
 The **Organizing Committee (OC)** oversees the overall planning and execution of the conference, including:
 
@@ -26,7 +26,7 @@ If you have skills in project coordination, event planning, community building, 
 
 ---
 
-## 📚 Technical Program Committee (TPC)
+## Technical Program Committee (TPC)
 
 **Chair**: *To be determined*
 
@@ -42,11 +42,11 @@ If you're an active researcher, academic, or practitioner in quantum computing, 
 
 ---
 
-## ✋ Want to Contribute?
+## Want to Contribute?
 
 We’re actively recruiting contributors for both the OC and TPC.
 
-📧 Reach out via email: [r11922203@csie.ntu.edu.tw](mailto:r11922203@csie.ntu.edu.tw)  
+Reach out via email: [r11922203@csie.ntu.edu.tw](mailto:r11922203@csie.ntu.edu.tw)  
 
 Whether you’re interested in helping with logistics or reviewing papers, this is a great chance to be involved from the ground up in a rapidly growing field.
 

@@ -1,19 +1,22 @@
 ---
 permalink: /program/
-title: "Program"
+title: "SQAI 2026 Program"
 author_profile: true
 ---
 
-The official program for the **Symposium for Quantum AI (SQAI) 2026** is not yet available — but it’s in the works! 🚧
+![Quantum Laser](/images/quantumlaser.jpg)
+*Source: [quantum.gov](https://www.quantum.gov/quantum-image-gallery/) - Laser beam passes through a vapor cell of rubidium atoms to measure microwave fields*
+
+The official program for the **Symposium for Quantum AI (SQAI) 2026** is not yet available — but it’s in the works!
 
 We’re building a dynamic and forward-looking lineup that will bring together leading minds from quantum computing, artificial intelligence, and beyond. Whether you're a researcher, developer, or just curious about the cutting edge, there's something for you.
 
 ### What to Expect:
-- 🔬 **Research Talks** on quantum machine learning, quantum optimization, and hybrid architectures
-- 🧠 **Invited Keynotes** from thought leaders in both academia and industry
-- 💬 **Panel Discussions** on the future of QAI and ethical, social, and policy implications
-- 🤝 **Networking Sessions** to connect with peers and mentors in the field
-- 🌍 **Poster Sessions**, demos, and emerging startup showcases
+- **Research Talks** on quantum machine learning, quantum optimization, and hybrid architectures
+- **Invited Keynotes** from thought leaders in both academia and industry
+- **Panel Discussions** on the future of QAI and ethical, social, and policy implications
+- **Networking Sessions** to connect with peers and mentors in the field
+- **Poster Sessions**, demos, and emerging startup showcases
 
 Check back soon — we’ll be updating this page with the full schedule, speaker list, and session details as they’re confirmed.
 

@@ -5,11 +5,9 @@ author_profile: true
 ---
 
 ![Quantum Computer](/images/quantumcomputer.jpg)
-*Source: quantum.gov – QSA researchers work on the E8 experiment using ultracold atoms to study novel quantum phases of matter.*
+*Source: [quantum.gov](https://www.quantum.gov/quantum-image-gallery/) – QSA researchers work on the E8 experiment using ultracold atoms to study novel quantum phases of matter.*
 
-📍 Taipei, Taiwan | 🗓️ July 3, 2026
-
-## 📅 Important Dates
+## Important Dates
 
 | Milestone | Date |
 |-----------|------|
@@ -20,7 +18,7 @@ author_profile: true
 
 ---
 
-## 📌 Overview
+## Overview
 
 We invite submissions of **original research papers, demos, and workshop proposals** in all areas related to **Quantum Artificial Intelligence**, including but not limited to:
 
@@ -36,7 +34,7 @@ Whether you're working on fundamental theory, practical applications, or novel f
 
 ---
 
-## 🧠 What is Quantum AI?
+## What is Quantum AI?
 
 **Quantum AI** is the emerging field at the intersection of **quantum computing** and **artificial intelligence**, where quantum algorithms and hardware are leveraged to enhance the way intelligent systems learn, reason, and process information.
 
@@ -51,7 +49,7 @@ It is more than just a technical fusion—it is a reimagination of how intellige
 
 ---
 
-## 📤 Submission Guidelines
+## Submission Guidelines
 
 - Submissions must be **original** and **not under review elsewhere**.
 - Papers should follow the official [conference template](#) and be submitted via [EasyChair / Submission Portal](#).
@@ -61,9 +59,9 @@ We welcome theoretical, applied, and exploratory contributions. Both short paper
 
 ---
 
-## 📬 Questions?
+## Questions?
 
 Please contact the organizing committee at:  
 **[r11922203@csie.ntu.edu.tw](mailto:r11922203@csie.ntu.edu.tw)**
 
-You can also reach us through our [Discord server](#) for informal inquiries and community discussion.
+You can also reach us through our [Discord server](https://discord.gg/YhJNBApW8v#) for informal inquiries and community discussion.

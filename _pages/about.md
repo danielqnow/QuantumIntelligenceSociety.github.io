@@ -14,6 +14,8 @@ Welcome from the Chairs of SQAI 2026
 ===
 It is with great pleasure that we welcome you to the 3rd Symposium for Quantum AI (SQAI), to be held on July 3, 2026, in Taipei, Taiwan.
 
+📍 Taipei, Taiwan | 🗓️ July 3, 2026
+
 As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique platform to explore breakthroughs at the intersection of these transformative technologies. From quantum-enhanced learning algorithms to ethical design in intelligent systems, the conference will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
 
 SQAI 2026 will feature a rich lineup of keynote speeches, technical presentations, workshops, demos, and panel discussions, offering researchers, engineers, and practitioners a vibrant space to share insights, collaborate across domains, and chart new directions in AI and quantum research.
@@ -24,7 +26,7 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich city of Taip
 
 If you are interested in contributing to SQAI 2026, please contact us by joining our Discord server, or alternatively contact using the information provided on the "Committee" page.
 
-## 📅 Important Dates
+## Important Dates
 
 | Milestone | Date |
 |-----------|------|

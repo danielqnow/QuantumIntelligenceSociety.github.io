@@ -8,15 +8,15 @@ Since its founding, the we have hosted innovative events that bring together res
 
 ---
 
-## 🧠 **SQAI 2023**  
-📅 **May 7 – June 18, 2023**  
-🎓 In collaboration with: Taiwan AI Association, NTU AI Club, NTU IBM Q  
-👥 **100+ participants**
+## **SQAI 2023**  
+**May 7 – June 18, 2023**  
+In collaboration with: Taiwan AI Association, NTU AI Club, NTU IBM Q  
+**100+ participants**
 
 **Overview**:  
 SQAI 2023 was a 7-week series of hands-on workshops and lectures focused on quantum computing fundamentals and applications. We explored everything from Qiskit to Grover’s Algorithm, with participation from both newcomers and experienced practitioners.
 
-### 📅 Event Schedule:
+### Event Schedule:
 - **Week 1 (2023/5/7)** – [Ace Est](https://www.facebook.com/ace.est1)  
   *Quantum Computing Applications and Introduction to Qiskit*
 - **Week 2 (2023/5/14)** – *Quantum ML Workshop*
@@ -33,14 +33,14 @@ SQAI 2023 was a 7-week series of hands-on workshops and lectures focused on quan
 
 ---
 
-## 🌐 **SQAI 2021**  
-📅 **May 20 & May 29, 2021**  
-🗣️ **15 speakers** | 🌏 **Multilingual & International** | 👥 **250+ attendees**
+## **SQAI 2021**  
+**May 20 & May 29, 2021**  
+**15 speakers** | **Multilingual & International** | **250+ attendees**
 
 **Overview**:  
 SQAI 2021 was our first large-scale event — a two-day virtual conference uniting voices from academia, medicine, and industry. Presentations were conducted in both English and Mandarin, with speakers joining from around the world. The event included sessions on quantum health, smart contracts, and AI ethics.
 
-🎥 **Recordings**:
+**Recordings**:
 - [Watch Day 1](https://www.youtube.com/watch?v=Ba4BuGCNrm0)
 - [Watch Day 2](https://www.youtube.com/watch?v=5w1HDaM4dHg)
 
@@ -53,4 +53,4 @@ SQAI 2021 was our first large-scale event — a two-day virtual conference uniti
 ---
 
 Want to be part of our future events or see a new initiative launched?  
-📩 Contact us or visit our [Get Involved](/committee) page to learn more.
+Contact us or visit our [Get Involved](/committee) page to learn more.

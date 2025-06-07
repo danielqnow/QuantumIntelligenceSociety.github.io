@@ -10,10 +10,10 @@ The **Symposium for Quantum AI (SQAI)** is an emerging gathering at the intersec
 
 We are actively seeking sponsors to help support this groundbreaking event in its inaugural in-person edition. By sponsoring SQAI 2026, you'll have the opportunity to:
 
-- 🌍 Connect with top talent and thought leaders in quantum AI.
-- 🎤 Gain visibility through talks, panels, and promotional materials.
-- 🚀 Support the growth of a pioneering academic community.
-- 🧠 Contribute to the future of cutting-edge research and innovation.
+- Connect with top talent and thought leaders in quantum AI.
+- Gain visibility through talks, panels, and promotional materials.
+- Support the growth of a pioneering academic community.
+- Contribute to the future of cutting-edge research and innovation.
 
 Sponsorships help us provide scholarships, host keynote speakers, maintain a high-quality program, and make the event accessible and impactful.
 
@@ -21,7 +21,7 @@ If you're interested in becoming a sponsor or would like more information about 
 
 ---
 
-## 🙏 Thank You to Our Past Sponsors
+## Thank You to Our Past Sponsors
 
 We’re deeply grateful to the sponsors who supported our early efforts in building the Society for Quantum AI:
 
