@@ -4,6 +4,9 @@ title: "Research"
 author_profile: true
 ---
 
+![Quantum Research](/images/quantumresearch.jpg)
+*Source: [quantum.gov](https://www.quantum.gov/quantum-image-gallery/) - Computer scientists in the NSF Quantum Leap Challenge Institute for Robust Quantum Simulation.*
+
 Welcome to the SQAI Research page.
 
 Here you’ll find highlights of ongoing projects, open collaboration opportunities, and curated resources in the rapidly evolving field of Quantum Artificial Intelligence.
