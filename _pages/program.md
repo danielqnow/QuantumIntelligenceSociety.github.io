@@ -9,6 +9,29 @@ author_profile: true
 
 The official program for the **Symposium for Quantum AI (SQAI) 2026** is not yet available — but it’s in the works!
 
+## SQAI 2026 Symposium: One-Day Program
+
+**Date:** July 3, 2026 (Friday)
+**Venue:** Taipei, Taiwan
+
+**Note:** The "Quantum Meets AI" session is specifically designed to be open and accessible to the public, fostering broader engagement. Registration is required for all other symposium sessions, including keynotes and technical paper presentations.
+
+| Time          | Session / Event                                                     |
+| :------------ | :------------------------------------------------------------------ |
+| **08:30 - 09:00** | Registration & Welcome Coffee                                       |
+| **09:00 - 09:15** | Opening Remarks                                                     |
+| **09:15 - 10:15** | Keynote Address I                                                   |
+| **10:15 - 11:15** | Call for Papers: Technical Session 1 (Quantum Algorithms & Architectures) (For registered attendees only) |
+| **11:15 - 11:30** | Coffee Break                                                        |
+| **11:30 - 12:30** | Call for Papers: Technical Session 2 (AI Applications in Quantum & Quantum Machine Learning) (For registered attendees only) |
+| **12:30 - 13:30** | Lunch Break (For registered attendees)                              |
+| **13:30 - 14:30** | Keynote Address II (For registered attendees only)                  |
+| **14:30 - 17:30** | **Quantum Meets AI: Collaborative Dialogue & Exchange (Open to the Public)** |
+|               | *Includes a 15-minute comfort break around 16:00.* |
+|               | *No prior registration required for this session only.* |
+| **17:30 - 17:45** | Closing Remarks & Best Paper Award Ceremony (For registered attendees) |
+
+
 We’re building a dynamic and forward-looking lineup that will bring together leading minds from quantum computing, artificial intelligence, and beyond. Whether you're a researcher, developer, or just curious about the cutting edge, there's something for you.
 
 ### What to Expect:

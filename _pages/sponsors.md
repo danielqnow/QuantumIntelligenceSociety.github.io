@@ -26,7 +26,7 @@ If you're interested in becoming a sponsor or would like more information about 
 
 ## Thank You to Our Past Sponsors
 
-We’re deeply grateful to the sponsors who supported our early efforts in building the Society for Quantum AI:
+We’re deeply grateful to the sponsors who supported our early efforts in building the Symposium for Quantum AI:
 
 - [**APAC Blockchain Development Association**](https://apbcd.org/)
 - [**Reliance Biosciences**](https://reliance-bio.com/en/)

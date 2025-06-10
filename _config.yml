@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "量子人工智慧協會 Society for Quantum AI"
+title                    : "Symposium for Quantum AI"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "SQAI"
   pronouns         : # example: "she/her"  
-  bio              : "Academic society dedicated to the advancement of quantum AI research and education."
+  bio              : "Academic conference dedicated to the advancement of quantum AI research and education."
   location         : "Taipei, Taiwan"
   employer         : # "National Taiwan University"
   uri              : # URL
@@ -76,6 +76,7 @@ author:
   youtube          : # Username
   zhihu            : # Username
   discord          : "https://discord.gg/YhJNBApW8v"
+  threads          : "https://www.threads.net/@sqaicon"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
