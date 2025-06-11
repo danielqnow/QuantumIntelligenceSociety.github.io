@@ -49,7 +49,7 @@ If you're an active researcher, academic, or practitioner in quantum computing, 
 
 We’re actively recruiting contributors for both the OC and TPC.
 
-Reach out via email: [r11922203@csie.ntu.edu.tw](mailto:r11922203@csie.ntu.edu.tw)  
+Reach out via email: [info@sqai.org](mailto:info@sqai.org)  
 
 Whether you’re interested in helping with logistics or reviewing papers, this is a great chance to be involved from the ground up in a rapidly growing field.
 

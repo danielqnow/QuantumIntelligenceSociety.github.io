@@ -61,7 +61,6 @@ We welcome theoretical, applied, and exploratory contributions. Both short paper
 
 ## Questions?
 
-Please contact the organizing committee at:  
-**[r11922203@csie.ntu.edu.tw](mailto:r11922203@csie.ntu.edu.tw)**
+Please contact us at: **info@sqai.org**
 
 You can also reach us through our [Discord server](https://discord.gg/YhJNBApW8v#) for informal inquiries and community discussion.
