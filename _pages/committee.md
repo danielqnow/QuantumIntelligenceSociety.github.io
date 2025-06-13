@@ -9,6 +9,17 @@ author_profile: true
 
 The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication of volunteers who help shape both the logistics and the technical quality of the event. Our committees include leaders, researchers, and organizers working together to build a meaningful experience for our community.
 
+**SQAI 2026 Collaborators**
+- [Chi-Chuan Hwang](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang), NCKU Engineering Science Professor
+- [Stathes Paganis](https://www.phys.ntu.edu.tw/enphysics/paganis.html), NTU Physics Professor
+- [Ran-Yu Chang](https://www.linkedin.com/in/ran-yu-chang-72a1041b6/), EntangleTech Founder
+- [Shih-Wei Liao](https://ieeexplore.ieee.org/author/37086846354), NTU Computer Science Professor
+- [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941), NTU Quantum ML Researcher
+- [Ryan Landay](https://www.linkedin.com/in/rlanday/), Ex-Googler and ML Engineer
+- [Mark Chen](https://www.linkedin.com/in/mark-chen-next/), UoL QAI Researcher
+- [Austin Hua](https://www.linkedin.com/in/austin-hua/), NTU Researcher
+- [Alexander Frankish](https://www.linkedin.com/in/alexander-frankish/), A Pro Solutions Founder
+
 ---
 
 ## Organizing Committee (OC)
