@@ -10,7 +10,6 @@ author_profile: true
 The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication of volunteers who help shape both the logistics and the technical quality of the event. Our committees include leaders, researchers, and organizers working together to build a meaningful experience for our community.
 
 **SQAI 2026 Collaborators**
-- [Chi-Chuan Hwang](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang), NCKU Engineering Science Professor
 - [Stathes Paganis](https://www.phys.ntu.edu.tw/enphysics/paganis.html), NTU Physics Professor
 - [Ran-Yu Chang](https://www.linkedin.com/in/ran-yu-chang-72a1041b6/), EntangleTech Founder
 - [Shih-Wei Liao](https://ieeexplore.ieee.org/author/37086846354), NTU Computer Science Professor
@@ -19,7 +18,7 @@ The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication
 - [Mark Chen](https://www.linkedin.com/in/mark-chen-next/), UoL QAI Researcher
 - [Alexander Frankish](https://www.linkedin.com/in/alexander-frankish/), A Pro Solutions Founder
 
-**General Chair**: [Austin Hua](https://www.linkedin.com/in/austin-hua/), NTU Researcher
+**Conference Chair**: [Austin Hua](https://www.linkedin.com/in/austin-hua/), NTU Researcher
 
 ---
 
@@ -41,7 +40,8 @@ If you have skills in project coordination, event planning, community building, 
 
 ## Technical Program Committee (TPC)
 
-**Chair**: *To be determined*
+**Chair**: [Chi-Chuan Hwang](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang), NCKU Engineering Science Professor
+- **TPC Chair contact**: [hchwang1110@gmail.com](mailto:hchwang1110@gmail.com)
 
 The **Technical Program Committee (TPC)** ensures the academic and technical quality of the conference by:
 
