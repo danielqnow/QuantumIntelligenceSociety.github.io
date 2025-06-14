@@ -40,8 +40,8 @@ If you have skills in project coordination, event planning, community building, 
 
 ## Technical Program Committee (TPC)
 
-**Chair**: [Chi-Chuan Hwang](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang), NCKU Engineering Science Professor
-- **TPC Chair contact**: [hchwang1110@gmail.com](mailto:hchwang1110@gmail.com)
+**Chair**: [Professor Chi-Chuan Hwang (黃吉川)](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang), NCKU Engineering Science Professor
+- **TPC Chair contact**: [chchwang@mail.ncku.edu.tw](mailto:chchwang@mail.ncku.edu.tw)
 
 The **Technical Program Committee (TPC)** ensures the academic and technical quality of the conference by:
 
