@@ -15,7 +15,7 @@ The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication
 - [Shih-Wei Liao](https://ieeexplore.ieee.org/author/37086846354), NTU Computer Science Professor
 - [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941), NTU Quantum ML Researcher
 - [Ryan Landay](https://www.linkedin.com/in/rlanday/), Ex-Googler and ML Engineer
-- [Mark Chen](https://www.linkedin.com/in/mark-chen-next/), UoL QAI Researcher
+- [Mark Chen](https://www.linkedin.com/in/mark-chen-next/), UoL QAI Researcher，[Mindify AI](https://www.mindifyai.dev/) Co-Founder
 - [Alexander Frankish](https://www.linkedin.com/in/alexander-frankish/), A Pro Solutions Founder
 
 **Conference Chair**: [Austin Hua](https://www.linkedin.com/in/austin-hua/), NTU Researcher
