@@ -6,9 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-<link rel="stylesheet" href="/assets/css/about-banner.css">
-
-<img src="/images/sqai2026.png" alt="Taipei" class="about-banner-curved" style="display:block; width:100%; max-width:770px; margin:0 auto 2rem auto;" />
+<img src="/images/sqai2026.png" alt="Taipei" style="display:block; width:100%; max-width:770px; margin:0 auto 2rem auto;" />
 
 <!-- 首页图片已移至布局文件 default.html，无需在此重复插入 -->
 
@@ -17,6 +15,8 @@ Welcome from the Chairs of SQAI 2026
 It is with great pleasure that we welcome you to the 3rd Symposium for Quantum AI (SQAI), to be held on June 26-27, 2026, in two locations: Taipei and Washington D.C.
 
 📍 Taipei and Washington D.C. | 🗓️ June 26-27, 2026
+
+> SQAI’s mission is to democratize artificial intelligence through quantum technologies while enhancing public understanding of quantum science. We unite researchers and professionals across AI, quantum computing, and quantum AI to foster cross-disciplinary innovation. By building bridges between Taiwan, the United States, and the global tech ecosystem, we aim to drive impactful collaboration and progress.
 
 As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique platform to explore breakthroughs at the intersection of these transformative technologies. From quantum-enhanced learning algorithms to ethical design in intelligent systems, the conference will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
 
