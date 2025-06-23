@@ -6,7 +6,9 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/sqai2026.png" alt="Taipei" style="display:block; width:100%; max-width:770px; margin:0 auto 2rem auto;" />
+<link rel="stylesheet" href="/assets/css/about-banner.css">
+
+<img src="/images/sqai2026.png" alt="Taipei" class="about-banner-curved" style="display:block; width:100%; max-width:770px; margin:0 auto 2rem auto;" />
 
 <!-- 首页图片已移至布局文件 default.html，无需在此重复插入 -->
 
