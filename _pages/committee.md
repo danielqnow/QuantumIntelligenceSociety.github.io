@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 ![SQAI 2023 Committee](/images/sqaicommittee.jpg)
-*SQAI 2023 Committee - including AIATW Joannie Hsieh, AIATW Jeff Peng, NTUAI President Steven Lu, and SQAI founder Austin Hua*
+*SQAI 2023 Committee - including TAIA Joannie Hsieh, TAIA Jeff Peng, NTUAI President Steven Lu, and SQAI founder Austin Hua*
 
 The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication of volunteers who help shape both the logistics and the technical quality of the event. Our committees include leaders, researchers, and organizers working together to build a meaningful experience for our community.
 
