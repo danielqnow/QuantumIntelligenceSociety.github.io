@@ -11,10 +11,10 @@ author_profile: true
 
 | Milestone | Date |
 |-----------|------|
-| Submission Deadline | **March 1, 2026** |
-| Notification of Acceptance | **April 10, 2026** |
-| Camera-Ready Deadline | **May 10, 2026** |
-| Conference Date | **July 3, 2026** |
+| Submission Deadline | **February 22, 2026** |
+| Notification of Acceptance | **April 3, 2026** |
+| Camera-Ready Deadline | **May 3, 2026** |
+| Conference Date | **June 26-27, 2026** |
 
 ---
 
