@@ -10,13 +10,21 @@
 main:
   - title: "Committee"
     url: /committee/
-  - title: "CFP"
+  - title: "Authors"
     url: /cfp/
   - title: "Program"
     url: /program/
-  - title: "Past Conferences"
-    url: /past/
+  - title: "Registration"
+    url: /registration/
   - title: "Sponsors"
     url: /sponsors/
-  - title: "Research"
-    url: /research/
+  - title: "Past Conferences"
+    url: /past/
+  # Dropdown menu for CFP saved below for future use:
+  # children:
+  #   - title: "For Authors"
+  #     url: /cfp/#for-authors
+  #   - title: "For Attendees"
+  #     url: /cfp/#for-attendees
+  #   - title: "Registration"
+  #     url: /registration/

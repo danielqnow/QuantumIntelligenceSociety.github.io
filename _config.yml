@@ -25,8 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "SQAI"
   pronouns         : # example: "she/her"  
-  bio              : "Academic conference dedicated to the advancement of quantum AI research and education."
-  location         : "Taipei, Taiwan"
+  bio              : "Academic conference dedicated to the advancement of quantum AI research and application."
+  location         : "Washington D.C."
   employer         : # "National Taiwan University"
   uri              : # URL
   email            : "info@sqai.org" 
