@@ -14,7 +14,7 @@ Welcome from the Chairs of SQAI 2026
 ===
 It is with great pleasure that we welcome you to the 3rd Symposium for Quantum AI (SQAI), to be held on June 26-27, 2026, in two locations: Taipei and Washington D.C.
 
-| 📍 Event | 🗓️ Date (Local Time) |
+| 📍 Event | 🗓️ Time |
 |--------------------------|-----------------------------|
 | SQAI Taipei              | 08:30-18:00, June 26-27, 2026 (UTC +8) |
 | SQAI D.C.    | 08:30-16:30, June 27, 2026 (UTC-4)          |
