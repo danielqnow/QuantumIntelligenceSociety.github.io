@@ -35,12 +35,3 @@ We will also have a business exhibition.
 We will offer researchers, engineers, and government a vibrant space to share insights, collaborate across domains, and chart new directions in quantum-enhanced AI research.
 
 We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Taipei and DC. We look forward to your contributions and to advancing the frontier of Quantum AI - together.
-
-## Important Dates
-
-| Milestone | Date |
-|-----------|------|
-| Submission Deadline | **February 22, 2026** |
-| Notification of Acceptance | **April 3, 2026** |
-| Camera-Ready Deadline | **May 3, 2026** |
-| Conference Date | **June 26-27, 2026** |
