@@ -20,7 +20,12 @@ It is with great pleasure that we welcome you to the 3rd Symposium for Quantum A
 | SQAI D.C.    | 08:30-16:30, June 27, 2026 (UTC-4)          |
 | Award Ceremony (Virtual) | 21:00-22:00, June 28, 2026 (UTC+8) |
 
-> SQAI’s mission is to democratize artificial intelligence through quantum technologies while enhancing public understanding of quantum science. We unite researchers and professionals across AI, quantum computing, and quantum AI to foster cross-disciplinary innovation. By building bridges between Taiwan, the United States, and the global tech ecosystem, we aim to drive impactful collaboration and progress.
+> Here is our vision.  
+SQAI is the world's premiere international **academic + business** conference in **quantum + AI**.  
+We lead a future of universal quantum utility where AI runs natively on quantum hardware.  
+> (1) Merge quantum and AI.  
+> (2) Merge academia and industry.  
+> (3) Unite QAI research initiatives between the United States, Taiwan, and the world.
 
 As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique platform to explore breakthroughs at the intersection of these transformative technologies. From quantum-enhanced learning algorithms to ethical design in intelligent systems, the conference will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
 
