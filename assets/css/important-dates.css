@@ -1,0 +1,60 @@
+.important-dates-list {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+}
+.important-dates-list li {
+  background: #f7f7fa;
+  border-left: 4px solid #90d0d9;
+  margin-bottom: 0.7em;
+  padding: 0.7em 1em 0.5em 1em;
+  border-radius: 4px;
+  font-size: 1em;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}
+.important-dates-list strong {
+  color: #90d0d9;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.2em;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}
+.important-dates-list span {
+  color: #555;
+  font-size: 0.98em;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}
+.sqai-dates-fixed-sidebar {
+  position: fixed;
+  top: 90px;
+  right: 0;
+  width: 270px;
+  z-index: 1200;
+  background: #fff;
+  border-left: 1px solid #e5e5e5;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.04);
+  padding: 1.2em 1.2em 1em 1.2em;
+  margin: 0;
+  height: auto;
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 0 0 0 8px;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 1em;
+  color: #222;
+}
+.sqai-dates-fixed-sidebar h3 {
+  margin-top: 0;
+  font-size: 1.1em;
+  color: #222;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}
+@media (max-width: 1100px) {
+  .sqai-dates-fixed-sidebar {
+    display: none;
+  }
+}

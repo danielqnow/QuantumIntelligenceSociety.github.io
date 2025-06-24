@@ -27,15 +27,14 @@ We lead a future of universal quantum utility where AI runs natively on quantum 
 > (2) Merge academia and industry.  
 > (3) Unite QAI research initiatives between the United States, Taiwan, and the world.
 
-As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique platform to explore breakthroughs at the intersection of these transformative technologies. From quantum-enhanced learning algorithms to ethical design in intelligent systems, the conference will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
+As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique academic and business platform to explore breakthroughs at the intersection of these transformative technologies. The conference will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
 
-SQAI 2026 will feature a rich lineup of keynote speeches, technical presentations, workshops, demos, and panel discussions, offering researchers, engineers, and practitioners a vibrant space to share insights, collaborate across domains, and chart new directions in AI and quantum research.
+SQAI 2026 will feature a rich lineup of keynote speeches, technical presentations, demos, poster sessions, and panel discussions.  
+We will also have a business exhibition.
 
-This year's conference emphasizes cross-disciplinary innovation, drawing participants from academia, industry, policy, and the open-source community. Our single-track format ensures that every presentation gets the spotlight it deserves and every attendee can engage deeply with the full spectrum of ideas presented.
+We will offer researchers, engineers, and government a vibrant space to share insights, collaborate across domains, and chart new directions in quantum-enhanced AI research.
 
-We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Taipei and DC. We look forward to your contributions and to advancing the frontier of Quantum AI—together.
-
-If you are interested in contributing to SQAI 2026, please contact us by joining our Discord server, or alternatively contact using the information provided on the "Committee" page.
+We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Taipei and DC. We look forward to your contributions and to advancing the frontier of Quantum AI - together.
 
 ## Important Dates
 
