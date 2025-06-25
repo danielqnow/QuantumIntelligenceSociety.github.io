@@ -7,17 +7,6 @@ author_profile: true
 ![Quantum Computer](/images/quantumcomputer.jpg)
 *Source: [quantum.gov](https://www.quantum.gov/quantum-image-gallery/) – QSA researchers work on the E8 experiment using ultracold atoms to study novel quantum phases of matter.*
 
-## Important Dates
-
-| Milestone | Date |
-|-----------|------|
-| Submission Deadline | **February 22, 2026** |
-| Notification of Acceptance | **April 3, 2026** |
-| Camera-Ready Deadline | **May 3, 2026** |
-| Conference Date | **June 26-27, 2026** |
-
----
-
 ## Overview
 
 We invite submissions of **original research papers, demos, and workshop proposals** in all areas related to **Quantum Artificial Intelligence**, including but not limited to:
