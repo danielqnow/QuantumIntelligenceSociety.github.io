@@ -9,18 +9,18 @@ author_profile: true
 
 ## Why Sponsor SQAI 2026?
 
-The **Symposium for Quantum AI (SQAI)** is an emerging gathering at the intersection of **quantum computing and artificial intelligence**, bringing together leading researchers, engineers, and innovators from academia and industry.
+> PLEASE NOTE: sponsorship benefits will be finalized by July 31, 2025. Until then, this table is subject to change.
 
 We are actively seeking sponsors to help support this groundbreaking event in its inaugural in-person edition. By sponsoring SQAI 2026, you'll have the opportunity to:
 
-- Connect with top talent and thought leaders in quantum AI.
-- Gain visibility through talks, panels, and promotional materials.
-- Support the growth of a pioneering academic community.
-- Contribute to the future of cutting-edge research and innovation.
+| **LEVEL**    | **FEE** (in USD) | **BENEFITS INCLUDE**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------ | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **DIAMOND**  | \$10,000         | • Exhibit space (two tables at both D.C. & Taipei venues)  <br> • Six complimentary conference registrations  <br> • Logo on all SQAI programs, banners, and lanyards  <br> • Logo on SQAI website (with link)  <br> • Logo on auditorium and reception screens/slides (both venues)  <br> • Full-page advertisement in the final program booklet  <br> • Company-supplied banner prominently displayed at both venues  <br> • Acknowledgment by Chair during opening keynote  <br> • Speaking slot during prime lunch session (D.C. or Taipei) |
+| **PLATINUM** | \$7,500          | • Exhibit space (two tables at one venue: D.C. or Taipei) <br> • Four complimentary conference registrations <br> • Logo on all SQAI programs and signage <br> • Logo on SQAI website (with link) <br> • Logo on auditorium screens at selected venue <br> • Full-page advertisement in the final program <br> • Company banner prominently displayed at one venue <br> • Acknowledgment during opening session <br> • Speaking slot during breakout lunch session                                                                              |
+| **GOLD**     | \$5,000          | • Exhibit space (one table at one venue) <br> • Three complimentary conference registrations <br> • Logo on SQAI program and signage <br> • Logo on SQAI website (with link) <br> • Logo on auditorium slides at one venue <br> • Half-page advertisement in the final program <br> • Company banner displayed in exhibit hall <br> • Recognition by session moderator                                                                                                                                                                          |
+| **SILVER**   | \$2,500          | • Exhibit space (one table at one venue) <br> • Two complimentary conference registrations <br> • Logo on SQAI printed program <br> • Logo on SQAI website (with link) <br> • Logo on reception slide loop <br> • Quarter-page advertisement in the final program                                                                                                                                                                                                                                                                               |
+| **BRONZE**   | \$1,000          | • Exhibit space (one table at one venue) <br> • One complimentary conference registration <br> • Logo on SQAI printed program <br> • Logo on SQAI website (with link)                                                                                                                                                                                                                                                                                                                                                                           |
 
-Sponsorships help us provide scholarships, host keynote speakers, maintain a high-quality program, and make the event accessible and impactful.
-
-If you're interested in becoming a sponsor or would like more information about sponsorship tiers, please contact us.
 
 ---
 
@@ -34,33 +34,4 @@ We’re deeply grateful to the sponsors who supported our early efforts in build
 
 Your support made our virtual events possible and helped us reach hundreds of participants around the world.
 
----
-
-## Leading Quantum AI Organizations
-
-As part of our vision for the future, we hope to partner with the following world-class institutions working at the frontier of quantum AI:
-
-### United States
-
-- [**Google Quantum AI**](https://quantumai.google/)
-- [**IBM Quantum**](https://www.ibm.com/quantum)
-- [**Microsoft Quantum**](https://www.microsoft.com/en-us/quantum)
-- [**AWS Braket (Amazon Quantum)**](https://aws.amazon.com/braket/)
-- [**Rigetti Computing**](https://www.rigetti.com/)
-- [**MIT Center for Quantum Engineering**](https://cqe.mit.edu/)
-- [**Berkeley Quantum Information and Computation Center**](https://bqic.berkeley.edu/)
-
-### Taiwan
-
-- [**Taiwan AI Academy**](https://aiacademy.tw/)
-- [**Quanta Computer – Quantum Computing Division**](https://www.quantatw.com/)
-- [**Academia Sinica – Institute of Physics**](https://www.phys.sinica.edu.tw/)
-- [**National Taiwan University – Quantum Information Science Lab**](https://quantum.ntu.edu.tw/)
-- [**National Cheng Kung University – Quantum Information Group**](https://phys.ncku.edu.tw/)
-- [**Taiwan Semiconductor Research Institute (TSRI)**](https://www.tsri.org.tw/)
-
 We warmly welcome future collaborations and outreach with these organizations to grow the quantum AI ecosystem together.
-
----
-
-Together, we're shaping the future of Quantum AI.
