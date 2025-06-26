@@ -22,11 +22,20 @@ The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication
 | Bernadette Harding | OC Member |  | info@sqai.org |
 | [Mark Chen](https://www.linkedin.com/in/mark-chen-next/) | TPC Member | UoL QAI Researcher, [Mindify AI](https://www.mindifyai.dev/) Co-Founder | mark.chen.sstm@gmail.com |
 | [Ran-Yu Chang](https://www.linkedin.com/in/ran-yu-chang-72a1041b6/) | Collaborator | EntangleTech Founder | - |
-| [Shih-Wei Liao](https://ieeexplore.ieee.org/author/37086846354) | Collaborator | NTU Computer Science Professor | liao@csie.ntu.edu.tw |
 | [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941) | Collaborator | NTU Quantum ML Researcher | - |
 | [Ryan Landay](https://www.linkedin.com/in/rlanday/) | Collaborator | Ex-Googler and ML Engineer | - |
 | [Stathes Paganis](https://www.phys.ntu.edu.tw/enphysics/paganis.html) | Collaborator | NTU Physics Professor | paganis@phys.ntu.edu.tw |
 | [Alexander Frankish](https://www.linkedin.com/in/alexander-frankish/) | Collaborator | A Pro Solutions Founder | - |
+
+---
+
+## Advisory Board
+
+| Name | Role | Info | Contact |
+|------|------|------|---------|
+| [Lawrence Gasman](https://www.linkedin.com/in/lawrence-gasman-7480511/) | Advisor | President, IQT Research and Q+AI Organizer |  lawrence@insidequantumtechnology.com |
+| [Shih-Wei Liao](https://ieeexplore.ieee.org/author/37086846354) | Advisor | NTU Computer Science Professor | liao@csie.ntu.edu.tw |
+
 
 ---
 
