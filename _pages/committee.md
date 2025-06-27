@@ -33,7 +33,7 @@ The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication
 
 | Name | Role | Info | Contact |
 |------|------|------|---------|
-| [Lawrence Gasman](https://www.linkedin.com/in/lawrence-gasman-7480511/) | Advisor | President, IQT Research and Q+AI Organizer |  lawrence@insidequantumtechnology.com |
+| [Lawrence Gasman](https://www.linkedin.com/in/lawrence-gasman-7480511/) | Advisor | President, [IQT Research](https://www.insidequantumtechnology.com/) and [Q+AI](https://iqtevent.com/quantumai/) Organizer |  lawrence@insidequantumtechnology.com |
 | [Shih-Wei Liao](https://ieeexplore.ieee.org/author/37086846354) | Advisor | NTU Computer Science Professor | liao@csie.ntu.edu.tw |
 
 
