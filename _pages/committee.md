@@ -21,7 +21,7 @@ The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication
 | *To be determined* | **Publicity Chair** | - | |
 | Bernadette Harding | OC Member |  | info@sqai.org |
 | [Mark Chen](https://www.linkedin.com/in/mark-chen-next/) | TPC Member | UoL QAI Researcher, [Mindify AI](https://www.mindifyai.dev/) Co-Founder | mark.chen.sstm@gmail.com |
-| [Daniel Ruiz](https://www.linkedin.com/in/luisdanielruiz-in) | TPC Member | U, [Qnow](https://qnow.tech) Founder | daniel@qnow.tech |
+| [Daniel Ruiz](https://www.linkedin.com/in/luisdanielruiz-in) | TPC Member | [Qnow](https://qnow.tech) Quantum AI Business Founder | daniel@qnow.tech |
 | [Ran-Yu Chang](https://www.linkedin.com/in/ran-yu-chang-72a1041b6/) | Collaborator | EntangleTech Founder | - |
 | [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941) | Collaborator | NTU Quantum ML Researcher | - |
 | [Ryan Landay](https://www.linkedin.com/in/rlanday/) | Collaborator | Ex-Googler and ML Engineer | - |
