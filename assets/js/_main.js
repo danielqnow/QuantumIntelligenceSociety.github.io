@@ -3,23 +3,21 @@
    ========================================================================== */
 
 $(document).ready(function () {
-  // detect OS/browser preference
-  const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches
-    ? 'dark'
-    : 'light';
+  // ALWAYS default to light theme
+  const browserPref = 'light';
 
   // Set the theme on page load or when explicitly called
   var setTheme = function (theme) {
     const use_theme =
       theme ||
       localStorage.getItem("theme") ||
-      $("html").attr("data-theme") ||
-      browserPref;
+      'light';  // Default to light theme ALWAYS
 
     if (use_theme === "dark") {
       $("html").attr("data-theme", "dark");
       $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
-    } else if (use_theme === "light") {
+    } else {
+      // Default is light
       $("html").removeAttr("data-theme");
       $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
     }
@@ -27,14 +25,14 @@ $(document).ready(function () {
 
   setTheme();
 
-  // if user hasn't chosen a theme, follow OS changes
-  window
-    .matchMedia('(prefers-color-scheme: dark)')
-    .addEventListener("change", (e) => {
-      if (!localStorage.getItem("theme")) {
-        setTheme(e.matches ? "dark" : "light");
-      }
-    });
+  // REMOVE automatic OS theme detection - user must explicitly choose dark mode
+  // window
+  //   .matchMedia('(prefers-color-scheme: dark)')
+  //   .addEventListener("change", (e) => {
+  //     if (!localStorage.getItem("theme")) {
+  //       setTheme(e.matches ? "dark" : "light");
+  //     }
+  //   });
 
   // Toggle the theme manually
   var toggleTheme = function () {
@@ -84,10 +82,10 @@ $(document).ready(function () {
   });
 
   // init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({ 
+  $("a").smoothScroll({
     offset: -75, // needs to match $masthead-height
     preventDefault: false,
-  }); 
+  });
 
   // add lightbox class to all image links
   // Add "image-popup" to links ending in image extensions,
