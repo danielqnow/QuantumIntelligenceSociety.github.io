@@ -18,7 +18,7 @@ The success of the **Symposium for Quantum AI (SQAI)** depends on the dedication
 | *To be determined* | **Poster & Demos Chair** | - | |
 | *To be determined* | **Publications Chair** | - | |
 | *To be determined* | **Finance Chair** | - | info@sqai.org |
-| *To be determined* | **Publicity Chair** | - | |
+| Tzu-Yin Chen | **Publicity Chair** | NTU LIS PhD Student | d12126008@g.ntu.edu.tw |
 | Bernadette Harding | OC Member |  | info@sqai.org |
 | [Mark Chen](https://www.linkedin.com/in/mark-chen-next/) | TPC Member | UoL QAI Researcher, [Mindify AI](https://www.mindifyai.dev/) Co-Founder | mark.chen.sstm@gmail.com |
 | [Daniel Ruiz](https://www.linkedin.com/in/luisdanielruiz-in) | TPC Member | [Qnow](https://qnow.tech) Quantum AI Business Founder | daniel@qnow.tech |
