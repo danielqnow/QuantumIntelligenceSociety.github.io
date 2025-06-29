@@ -247,20 +247,6 @@ author_profile: true
   <div class="conference-overview">
     <strong>Overview:</strong> SQAI 2023 was a 7-week series of hands-on workshops and lectures focused on quantum computing fundamentals and applications. We explored everything from Qiskit to Grover's Algorithm, with participation from both newcomers and experienced practitioners. Each weekly session was conducted online, providing participants with both theoretical knowledge and practical experience.
   </div>
-
-  <h3>Featured Workshop Videos</h3>
-  
-  <div class="video-container">
-    <div class="video-wrapper">
-      <iframe class="video-frame" src="https://www.youtube.com/embed/blXwKoXOlXw?rel=0" title="Introduction to Qiskit Workshop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div class="video-caption">Quantum Computing Applications and Introduction to Qiskit</div>
-    </div>
-    
-    <div class="video-wrapper">
-      <iframe class="video-frame" src="https://www.youtube.com/embed/DVVrfbXbJDY?rel=0" title="Quantum ML Workshop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div class="video-caption">Quantum Deep Learning: Challenges and Prospects</div>
-    </div>
-  </div>
   
   <h3>Workshop Series Schedule</h3>
   
