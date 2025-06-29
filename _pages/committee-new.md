@@ -70,7 +70,7 @@ author_profile: true
 }
 
 .member-name {
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-weight: bold;
   margin: 0;
   color: #333;
@@ -172,7 +172,7 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/austin-hua/" target="_blank">Austin Hua</a></h3>
         <div class="member-title">Conference Chair</div>
-        <div class="member-affiliation">Founder of SQAI and Tokai.app</div>
+        <div class="member-affiliation">SQAI Founder</div>
         <div class="member-contact">r11922203@csie.ntu.edu.tw</div>
       </div>
     </div>
@@ -181,9 +181,9 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
     <div class="member-card oc-member">
       <div class="member-photo" style="background-image: url('/images/chichuanhwang.jpeg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">Chi-Chuan Hwang<br>黃吉川</a></h3>
+        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">Chi-Chuan Hwang</a></h3>
         <div class="member-title">TPC Chair</div>
-        <div class="member-affiliation">NCKU Engineering Science Professor</div>
+        <div class="member-affiliation">NCKU ES Professor</div>
         <div class="member-contact">chchwang@mail.ncku.edu.tw</div>
       </div>
     </div>
@@ -198,12 +198,22 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
         <div class="member-contact">d12126008@g.ntu.edu.tw</div>
       </div>
     </div>
+
+    <div class="member-card oc-member">
+      <div class="member-photo" style="background-image: url('/images/farley.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">Farley Warner</a></h3>
+        <div class="member-title">Finance Chair</div>
+        <div class="member-affiliation">DOD Contractor</div>
+        <div class="member-contact">cw_netguru@yahoo.com</div>
+      </div>
+    </div>
     
     <!-- Bernadette Harding -->
     <div class="member-card oc-member">
       <div class="member-photo" style="background-image: url('/images/members/default.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name">Bernadette Harding</h3>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/bernadette-harding-8769025/" target="_blank">Bernadette Harding</a></h3>
         <div class="member-title">OC Member</div>
         <div class="member-affiliation"></div>
         <div class="member-contact">info@sqai.org</div>
@@ -226,7 +236,7 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.facebook.com/profile.php?id=100001078614941" target="_blank">Jonas Yen</a></h3>
         <div class="member-title">Collaborator</div>
-        <div class="member-affiliation">NTU Quantum ML Researcher</div>
+        <div class="member-affiliation">NTU QML Researcher</div>
       </div>
     </div>
     
@@ -236,7 +246,7 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/rlanday/" target="_blank">Ryan Landay</a></h3>
         <div class="member-title">Collaborator</div>
-        <div class="member-affiliation">Ex-Googler and ML Engineer</div>
+        <div class="member-affiliation">Founder, ML Engineer</div>
       </div>
     </div>
     
@@ -281,16 +291,6 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
         <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
       </div>
     </div>
-    
-    <div class="member-card oc-member">
-      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
-      <div class="member-info">
-        <h3 class="member-name">Open Position</h3>
-        <div class="member-title">Finance Chair</div>
-        <div class="member-affiliation">To be determined</div>
-        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -306,9 +306,9 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
     <div class="member-card tpc-member">
       <div class="member-photo" style="background-image: url('/images/chichuanhwang.jpeg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">Chi-Chuan Hwang<br>黃吉川</a></h3>
+        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">Chi-Chuan Hwang</a></h3>
         <div class="member-title">TPC Chair</div>
-        <div class="member-affiliation">NCKU Engineering Science Professor</div>
+        <div class="member-affiliation">NCKU ES Professor</div>
         <div class="member-contact">chchwang@mail.ncku.edu.tw</div>
       </div>
     </div>
@@ -319,7 +319,7 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/mark-chen-next/" target="_blank">Mark Chen</a></h3>
         <div class="member-title">TPC Member</div>
-        <div class="member-affiliation">UoL QAI Researcher, Mindify AI Co-Founder</div>
+        <div class="member-affiliation">Mindify AI Founder</div>
         <div class="member-contact">mark.chen.sstm@gmail.com</div>
       </div>
     </div>
@@ -330,7 +330,7 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/luisdanielruiz-in" target="_blank">Daniel Ruiz</a></h3>
         <div class="member-title">TPC Member</div>
-        <div class="member-affiliation">Qnow Quantum AI Business Founder</div>
+        <div class="member-affiliation">Qnow.tech Founder</div>
         <div class="member-contact">daniel@qnow.tech</div>
       </div>
     </div>
@@ -347,11 +347,11 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
   <div class="committee-members">
     <!-- Lawrence Gasman -->
     <div class="member-card advisory-member">
-      <div class="member-photo" style="background-image: url('/images/members/lawrence-gasman.jpg')"></div>
+      <div class="member-photo" style="background-image: url('/images/members/lawrencegasman.jpeg')"></div>
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/lawrence-gasman-7480511/" target="_blank">Lawrence Gasman</a></h3>
         <div class="member-title">Advisor</div>
-        <div class="member-affiliation">President, IQT Research and Q+AI Organizer</div>
+        <div class="member-affiliation">President, IQT Research</div>
         <div class="member-contact">lawrence@insidequantumtechnology.com</div>
       </div>
     </div>
@@ -362,7 +362,7 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       <div class="member-info">
         <h3 class="member-name"><a href="https://ieeexplore.ieee.org/author/37086846354" target="_blank">Shih-Wei Liao</a></h3>
         <div class="member-title">Advisor</div>
-        <div class="member-affiliation">NTU Computer Science Professor</div>
+        <div class="member-affiliation">NTU CS Professor</div>
         <div class="member-contact">liao@csie.ntu.edu.tw</div>
       </div>
     </div>

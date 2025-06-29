@@ -130,16 +130,16 @@ The Organizing Committee coordinates the conference logistics, communications, a
 
 | Name | Role | Info | Contact |
 |:-----|:-----|:-----|:--------|
-| [Austin Hua](https://www.linkedin.com/in/austin-hua/) | **Conference Chair** | Founder of SQAI and [Tokai.app](https://tokai.app) | r11922203@csie.ntu.edu.tw |
+| [Austin Hua](https://www.linkedin.com/in/austin-hua/) | **Conference Chair** | SQAI Founder | r11922203@csie.ntu.edu.tw |
 | [Chi-Chuan Hwang<br>黃吉川](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang) | **TPC Chair** | NCKU Engineering Science Professor | chchwang@mail.ncku.edu.tw |
 | *To be determined* | **Poster & Demos Chair** | - | |
 | *To be determined* | **Publications Chair** | - | |
-| *To be determined* | **Finance Chair** | - | info@sqai.org |
+| [Farley Warner](https://www.linkedin.com/in/farley-warner-669054a/) | **Finance Chair** | DOD Contractor | cw_netguru@yahoo.com |
 | [Tzu-Yin Chen](https://www.linkedin.com/in/tzuyin-chen/) | **Publicity Chair** | NTU LIS PhD Student | d12126008@g.ntu.edu.tw |
-| Bernadette Harding | OC Member |  | info@sqai.org |
+| [Bernadette Harding](https://www.linkedin.com/in/bernadette-harding-8769025/) | OC Member |  | info@sqai.org |
 | [Ran-Yu Chang](https://www.linkedin.com/in/ran-yu-chang-72a1041b6/) | Collaborator | EntangleTech Founder | - |
-| [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941) | Collaborator | NTU Quantum ML Researcher | - |
-| [Ryan Landay](https://www.linkedin.com/in/rlanday/) | Collaborator | Ex-Googler and ML Engineer | - |
+| [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941) | Collaborator | NTU QML Researcher | - |
+| [Ryan Landay](https://www.linkedin.com/in/rlanday/) | Collaborator | Founder, ML Engineer | - |
 | [Stathes Paganis](https://www.phys.ntu.edu.tw/enphysics/paganis.html) | Collaborator | NTU Physics Professor | paganis@phys.ntu.edu.tw |
 | [Alexander Frankish](https://www.linkedin.com/in/alexander-frankish/) | Collaborator | A Pro Solutions Founder | - |
 
@@ -155,9 +155,9 @@ The Technical Program Committee (TPC) is responsible for evaluating submissions,
 
 | Name | Role | Info | Contact |
 |:-----|:-----|:-----|:--------|
-| [Chi-Chuan Hwang<br>黃吉川](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang) | **TPC Chair** | NCKU Engineering Science Professor | chchwang@mail.ncku.edu.tw |
-| [Mark Chen](https://www.linkedin.com/in/mark-chen-next/) | TPC Member | UoL QAI Researcher, [Mindify AI](https://www.mindifyai.dev/) Co-Founder | mark.chen.sstm@gmail.com |
-| [Daniel Ruiz](https://www.linkedin.com/in/luisdanielruiz-in) | TPC Member | [Qnow](https://qnow.tech) Quantum AI Business Founder | daniel@qnow.tech |
+| [Chi-Chuan Hwang<br>黃吉川](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang) | **TPC Chair** | NCKU ES Professor | chchwang@mail.ncku.edu.tw |
+| [Mark Chen](https://www.linkedin.com/in/mark-chen-next/) | TPC Member | Mindify AI Founder | mark.chen.sstm@gmail.com |
+| [Daniel Ruiz](https://www.linkedin.com/in/luisdanielruiz-in) | TPC Member | Qnow.tech Founder | daniel@qnow.tech |
 
 </div>
 
