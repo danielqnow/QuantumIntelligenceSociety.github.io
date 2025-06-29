@@ -215,7 +215,7 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/bernadette-harding-8769025/" target="_blank">Bernadette Harding</a></h3>
         <div class="member-title">Logistics Chair</div>
-        <div class="member-affiliation"></div>
+        <div class="member-affiliation">Startup Founder</div>
         <div class="member-contact">info@sqai.org</div>
       </div>
     </div>

@@ -136,7 +136,7 @@ The Organizing Committee coordinates the conference logistics, communications, a
 | *To be determined* | **Publications Chair** | - | |
 | [Farley Warner](https://www.linkedin.com/in/farley-warner-669054a/) | **Finance Chair** | DOD Contractor | cw_netguru@yahoo.com |
 | [Tzu-Yin Chen](https://www.linkedin.com/in/tzuyin-chen/) | **Publicity Chair** | NTU LIS PhD Student | d12126008@g.ntu.edu.tw |
-| [Bernadette Harding](https://www.linkedin.com/in/bernadette-harding-8769025/) | OC Member |  | info@sqai.org |
+| [Bernadette Harding](https://www.linkedin.com/in/bernadette-harding-8769025/) | Logistics Chair | Startup Founder | info@sqai.org |
 | [Ran-Yu Chang](https://www.linkedin.com/in/ran-yu-chang-72a1041b6/) | Collaborator | EntangleTech Founder | - |
 | [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941) | Collaborator | NTU QML Researcher | - |
 | [Ryan Landay](https://www.linkedin.com/in/rlanday/) | Collaborator | Founder, ML Engineer | - |
