@@ -198,6 +198,17 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
         <div class="member-contact">d12126008@g.ntu.edu.tw</div>
       </div>
     </div>
+    
+    <!-- Yen-Chi Chen -->
+    <div class="member-card oc-member">
+      <div class="member-photo" style="background-image: url('/images/members/Yen-Chi.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/samuel-yen-chi-chen/" target="_blank">Yen-Chi Chen</a></h3>
+        <div class="member-title">Publications Chair</div>
+        <div class="member-affiliation">Lead Research Scientist</div>
+        <div class="member-contact">ycchen1989@ieee.org</div>
+      </div>
+    </div>
 
     <div class="member-card oc-member">
       <div class="member-photo" style="background-image: url('/images/farley.jpg')"></div>
@@ -282,15 +293,6 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       </div>
     </div>
     
-    <div class="member-card oc-member">
-      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
-      <div class="member-info">
-        <h3 class="member-name">Open Position</h3>
-        <div class="member-title">Publications Chair</div>
-        <div class="member-affiliation">To be determined</div>
-        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -332,6 +334,17 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
         <div class="member-title">TPC Member</div>
         <div class="member-affiliation">Qnow.tech Founder</div>
         <div class="member-contact">daniel@qnow.tech</div>
+      </div>
+    </div>
+    
+    <!-- Yen-Chi Chen -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/Yen-Chi.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/samuel-yen-chi-chen/" target="_blank">Yen-Chi Chen</a></h3>
+        <div class="member-title">Area Chair: QML</div>
+        <div class="member-affiliation">Lead Research Scientist</div>
+        <div class="member-contact">ycchen1989@ieee.org</div>
       </div>
     </div>
   </div>
