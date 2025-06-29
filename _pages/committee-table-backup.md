@@ -1,14 +1,11 @@
 ---
 permalink: 
-title: "Committee - SQAI 2026 (Old Backup)"
+title: "Committee - SQAI 2026 (Table Backup)"
 author_profile: true
 sitemap: false
 ---
 
-> 此页面为旧版备份，不再使用。当前活跃版本请访问 [Committee](/committee/)ermalink: /committee-backup/
-title: "Committee (Backup) - SQAI 2026"
-author_profile: true
----
+> 此页面为表格版本的备份，不再使用。当前活跃版本请访问 [Committee](/committee/)
 
 <style>
 /* 美化委员会表格的样式 */
@@ -136,16 +133,16 @@ The Organizing Committee coordinates the conference logistics, communications, a
 
 | Name | Role | Info | Contact |
 |:-----|:-----|:-----|:--------|
-| [Austin Hua](https://www.linkedin.com/in/austin-hua/) | **Conference Chair** | Founder of SQAI and [Tokai.app](https://tokai.app) | r11922203@csie.ntu.edu.tw |
+| [Austin Hua](https://www.linkedin.com/in/austin-hua/) | **Conference Chair** | SQAI Founder | r11922203@csie.ntu.edu.tw |
 | [Chi-Chuan Hwang<br>黃吉川](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang) | **TPC Chair** | NCKU Engineering Science Professor | chchwang@mail.ncku.edu.tw |
 | *To be determined* | **Poster & Demos Chair** | - | |
 | *To be determined* | **Publications Chair** | - | |
-| *To be determined* | **Finance Chair** | - | info@sqai.org |
+| [Farley Warner](https://www.linkedin.com/in/farley-warner-669054a/) | **Finance Chair** | DOD Contractor | cw_netguru@yahoo.com |
 | [Tzu-Yin Chen](https://www.linkedin.com/in/tzuyin-chen/) | **Publicity Chair** | NTU LIS PhD Student | d12126008@g.ntu.edu.tw |
-| Bernadette Harding | OC Member |  | info@sqai.org |
+| [Bernadette Harding](https://www.linkedin.com/in/bernadette-harding-8769025/) | Logistics Chair | Startup Founder | info@sqai.org |
 | [Ran-Yu Chang](https://www.linkedin.com/in/ran-yu-chang-72a1041b6/) | Collaborator | EntangleTech Founder | - |
-| [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941) | Collaborator | NTU Quantum ML Researcher | - |
-| [Ryan Landay](https://www.linkedin.com/in/rlanday/) | Collaborator | Ex-Googler and ML Engineer | - |
+| [Jonas Yen](https://www.facebook.com/profile.php?id=100001078614941) | Collaborator | NTU QML Researcher | - |
+| [Ryan Landay](https://www.linkedin.com/in/rlanday/) | Collaborator | Founder, ML Engineer | - |
 | [Stathes Paganis](https://www.phys.ntu.edu.tw/enphysics/paganis.html) | Collaborator | NTU Physics Professor | paganis@phys.ntu.edu.tw |
 | [Alexander Frankish](https://www.linkedin.com/in/alexander-frankish/) | Collaborator | A Pro Solutions Founder | - |
 
@@ -161,9 +158,9 @@ The Technical Program Committee (TPC) is responsible for evaluating submissions,
 
 | Name | Role | Info | Contact |
 |:-----|:-----|:-----|:--------|
-| [Chi-Chuan Hwang<br>黃吉川](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang) | **TPC Chair** | NCKU Engineering Science Professor | chchwang@mail.ncku.edu.tw |
-| [Mark Chen](https://www.linkedin.com/in/mark-chen-next/) | TPC Member | UoL QAI Researcher, [Mindify AI](https://www.mindifyai.dev/) Co-Founder | mark.chen.sstm@gmail.com |
-| [Daniel Ruiz](https://www.linkedin.com/in/luisdanielruiz-in) | TPC Member | [Qnow](https://qnow.tech) Quantum AI Business Founder | daniel@qnow.tech |
+| [Chi-Chuan Hwang<br>黃吉川](https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang) | **TPC Chair** | NCKU ES Professor | chchwang@mail.ncku.edu.tw |
+| [Mark Chen](https://www.linkedin.com/in/mark-chen-next/) | TPC Member | Mindify AI Founder | mark.chen.sstm@gmail.com |
+| [Daniel Ruiz](https://www.linkedin.com/in/luisdanielruiz-in) | TPC Member | Qnow.tech Founder | daniel@qnow.tech |
 
 </div>
 
@@ -189,11 +186,11 @@ Our Advisory Board consists of industry leaders and academic experts who provide
 
 ## Want to Contribute?
 
-We're actively recruiting contributors for both the OC and TPC.
+We’re actively recruiting contributors for both the OC and TPC.
 
 Reach out via email: [info@sqai.org](mailto:info@sqai.org)  
 
-Whether you're interested in helping with logistics or reviewing papers, this is a great chance to be involved from the ground up in a rapidly growing field.
+Whether you’re interested in helping with logistics or reviewing papers, this is a great chance to be involved from the ground up in a rapidly growing field.
 
 ---
 
@@ -207,7 +204,7 @@ The **Organizing Committee (OC)** oversees the overall planning and execution of
 - Platform and registration support
 - On-site event coordination
 
-If you have skills in project coordination, event planning, community building, or media outreach, we'd love to have you on the OC.
+If you have skills in project coordination, event planning, community building, or media outreach, we’d love to have you on the OC.
 
 ### About the Publication Chair (OC)
 The Publication Chair oversees the preparation, formatting, and dissemination of the conference proceedings and accepted papers. This includes coordinating with authors, managing the submission of camera-ready versions, ensuring proper formatting, and working with publishers or online platforms to make the research accessible to the community.

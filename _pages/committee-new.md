@@ -1,8 +1,12 @@
 ---
-permalink: /committee-new/
-title: "Committee - SQAI 2026"
+permalink: /committee-new-backup/
+title: "Committee - SQAI 2026 (Backup)"
 author_profile: true
+sitemap: false
 ---
+
+> 此页面为备份版本，当前活跃版本请访问 [Committee](/committee/)
+
 
 <style>
 /* 主要样式 */
