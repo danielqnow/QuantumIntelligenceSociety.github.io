@@ -129,7 +129,7 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
 <!-- 图片轮播 -->
 <div class="taipei-carousel-section">
   <div class="carousel-container">
-    <div class="carousel-slides">
+    <div class="carousel-slides" id="carouselSlidesContainer">
       <div class="carousel-slide fade">
         <img src="/images/taipei1.jpg" alt="Taipei Cityscape">
       </div>
@@ -203,6 +203,11 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
     width: 100%;
   }
   
+  /* Make first slide visible by default */
+  .carousel-slide:first-child {
+    display: block;
+  }
+  
   .carousel-slide img {
     width: 100%;
     height: 400px;
@@ -268,7 +273,13 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  // Make sure the carousel initializes after the page loads
+  window.addEventListener('load', function() {
+    // Initialize carousel with a slight delay to ensure DOM is fully processed
+    setTimeout(initCarousel, 100);
+  });
+  
+  function initCarousel() {
     let slideIndex = 0;
     showSlides();
     
@@ -277,49 +288,55 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
       let slides = document.getElementsByClassName("carousel-slide");
       let dots = document.getElementsByClassName("dot");
       
-      // 隐藏所有幻灯片
+      if (!slides.length || !dots.length) {
+        console.log("Carousel elements not found, retrying...");
+        setTimeout(initCarousel, 500);
+        return;
+      }
+      
+      // Hide all slides
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
       }
       
-      // 增加索引并循环
+      // Increment index and loop around if needed
       slideIndex++;
       if (slideIndex > slides.length) {slideIndex = 1}
       
-      // 移除所有点的active状态
+      // Remove active state from all dots
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
       
-      // 显示当前幻灯片和激活对应的点
+      // Show current slide and activate corresponding dot
       slides[slideIndex-1].style.display = "block";  
       dots[slideIndex-1].className += " active";
       
-      // 每5秒切换一次
+      // Change slide every 5 seconds
       setTimeout(showSlides, 5000);
     }
     
-    // 设置可以通过点击导航点切换到特定幻灯片
+    // Function to handle manual slide navigation
     window.currentSlide = function(n) {
       slideIndex = n - 1;
       let slides = document.getElementsByClassName("carousel-slide");
       let dots = document.getElementsByClassName("dot");
       
-      // 隐藏所有幻灯片
+      // Hide all slides
       for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
       }
       
-      // 移除所有点的active状态
+      // Remove active state from all dots
       for (let i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
       
-      // 显示指定幻灯片和激活对应的点
+      // Show selected slide and activate corresponding dot
       slides[slideIndex].style.display = "block";
       dots[slideIndex].className += " active";
     }
-  });
+  }
 </script>
 
-# test
+<!-- End of content -->
