@@ -5,75 +5,97 @@ author_profile: true
 ---
 
 <style>
-/* 导航菜单样式 */
-.committees-nav {
-  margin: 1rem 0 2rem;
-  border-radius: 8px;
-  background-color: #f8f9fa;
-  padding: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+/* New Navigation Menu */
+.committee-nav-container {
+  margin: 2.5rem 0;
 }
 
-.committees-nav-container {
+.committee-nav {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.nav-header {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  color: #333;
+  position: relative;
+  padding-bottom: 0.8rem;
+  display: inline-block;
+}
+
+.nav-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #28a745, #0366d6, #fd7e14, #6610f2);
+  border-radius: 3px;
+}
+
+.nav-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
 }
 
-.committees-nav-item {
-  padding: 8px 16px;
-  border-radius: 5px;
+.nav-button {
+  padding: 10px 16px;
+  border-radius: 8px;
   font-weight: 500;
   text-decoration: none;
-  transition: all 0.2s ease;
-  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+  color: white;
+  text-align: center;
+  min-width: 160px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.committees-nav-item:hover {
-  background-color: rgba(0,0,0,0.03);
-  transform: translateY(-2px);
+.nav-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.oc-nav {
-  color: #28a745;
-  border-color: #28a745;
+.oc-button {
+  background-color: #28a745;
 }
 
-.tpc-nav {
-  color: #0366d6;
-  border-color: #0366d6;
+.tpc-button {
+  background-color: #0366d6;
 }
 
-.steering-nav {
-  color: #fd7e14;
-  border-color: #fd7e14;
+.sc-button {
+  background-color: #fd7e14;
 }
 
-.advisory-nav {
-  color: #6610f2;
-  border-color: #6610f2;
+.ab-button {
+  background-color: #6610f2;
 }
 
-.about-nav {
-  color: #17a2b8;
-  border-color: #17a2b8;
+.contribute-button {
+  background-color: #20c997;
 }
 
-.contribute-nav {
-  color: #20c997;
-  border-color: #20c997;
+.about-button {
+  background-color: #17a2b8;
 }
 
-@media (max-width: 768px) {
-  .committees-nav-container {
+@media (max-width: 992px) {
+  .nav-links {
     flex-direction: column;
     align-items: center;
   }
   
-  .committees-nav-item {
+  .nav-button {
     width: 100%;
-    text-align: center;
+    max-width: 300px;
   }
 }
 
@@ -422,6 +444,19 @@ author_profile: true
 ![SQAI 2023 Committee](/images/sqaicommittee.jpg)
 *SQAI 2023 Committee at National Taiwan University - including TAIA Joannie Hsieh, TAIA Jeff Peng, NTUAI President Steven Lu, and SQAI founder Austin Hua*
 
+<div class="committee-nav-container">
+  <div class="committee-nav">
+    <h3 class="nav-header">Quick Navigation</h3>
+    <div class="nav-links">
+      <a href="#organizing-committee" class="nav-button oc-button">Organizing Committee</a>
+      <a href="#technical-program-committee" class="nav-button tpc-button">Technical Program Committee</a>
+      <a href="#steering-committee" class="nav-button sc-button">Steering Committee</a>
+      <a href="#advisory-board" class="nav-button ab-button">Advisory Board</a>
+      <a href="#contribute" class="nav-button contribute-button">Join Us</a>
+      <a href="#about-committees" class="nav-button about-button">About Roles</a>
+    </div>
+  </div>
+</div>
 
 <div id="organizing-committee" class="committee-container">
   <h2 class="committee-header oc-header">Organizing Committee (OC)</h2>
