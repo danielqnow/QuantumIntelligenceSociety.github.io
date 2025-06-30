@@ -162,16 +162,16 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
         <img src="/images/dc2.jpg" alt="Washington DC">
       </div>
       
-      <!-- 导航点 -->
+      <!-- Navigation dots -->
       <div class="carousel-dots">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-        <span class="dot" onclick="currentSlide(8)"></span>
+        <button class="dot" onclick="currentSlide(1)" aria-label="Slide 1"></button>
+        <button class="dot" onclick="currentSlide(2)" aria-label="Slide 2"></button>
+        <button class="dot" onclick="currentSlide(3)" aria-label="Slide 3"></button>
+        <button class="dot" onclick="currentSlide(4)" aria-label="Slide 4"></button>
+        <button class="dot" onclick="currentSlide(5)" aria-label="Slide 5"></button>
+        <button class="dot" onclick="currentSlide(6)" aria-label="Slide 6"></button>
+        <button class="dot" onclick="currentSlide(7)" aria-label="Slide 7"></button>
+        <button class="dot" onclick="currentSlide(8)" aria-label="Slide 8"></button>
       </div>
     </div>
   </div>
@@ -273,69 +273,90 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
 </style>
 
 <script>
-  // Make sure the carousel initializes after the page loads
+  // 全局变量，使轮播索引在各个函数间共享
+  let carouselSlideIndex = 0;
+  let carouselTimer;
+
+  // 页面加载完成后初始化轮播
   window.addEventListener('load', function() {
-    // Initialize carousel with a slight delay to ensure DOM is fully processed
-    setTimeout(initCarousel, 100);
+    initCarousel();
   });
   
+  // 初始化轮播
   function initCarousel() {
-    let slideIndex = 0;
-    showSlides();
+    let slides = document.getElementsByClassName("carousel-slide");
+    let dots = document.getElementsByClassName("dot");
     
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("carousel-slide");
-      let dots = document.getElementsByClassName("dot");
-      
-      if (!slides.length || !dots.length) {
-        console.log("Carousel elements not found, retrying...");
-        setTimeout(initCarousel, 500);
-        return;
-      }
-      
-      // Hide all slides
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      
-      // Increment index and loop around if needed
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      
-      // Remove active state from all dots
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      
-      // Show current slide and activate corresponding dot
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-      
-      // Change slide every 5 seconds
-      setTimeout(showSlides, 5000);
+    if (!slides.length || !dots.length) {
+      console.log("轮播元素未找到，500毫秒后重试...");
+      setTimeout(initCarousel, 500);
+      return;
     }
     
-    // Function to handle manual slide navigation
-    window.currentSlide = function(n) {
-      slideIndex = n - 1;
-      let slides = document.getElementsByClassName("carousel-slide");
-      let dots = document.getElementsByClassName("dot");
-      
-      // Hide all slides
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      
-      // Remove active state from all dots
-      for (let i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      
-      // Show selected slide and activate corresponding dot
-      slides[slideIndex].style.display = "block";
-      dots[slideIndex].className += " active";
+    // 为第一个轮播点添加active类
+    dots[0].className += " active";
+    
+    // 显示第一张幻灯片
+    slides[0].style.display = "block";
+    
+    // 开始自动播放
+    startCarouselAutoplay();
+  }
+  
+  // 自动播放功能
+  function startCarouselAutoplay() {
+    // 清除任何现有的定时器
+    if (carouselTimer) {
+      clearTimeout(carouselTimer);
     }
+    
+    // 设置新的定时器，每5秒切换一次
+    carouselTimer = setTimeout(function() {
+      showSlides(carouselSlideIndex + 1);
+    }, 5000);
+  }
+  
+  // 手动显示特定幻灯片的公共函数
+  function currentSlide(n) {
+    showSlides(n - 1); // 转换为从0开始的索引
+  }
+  
+  // 显示指定幻灯片
+  function showSlides(n) {
+    let slides = document.getElementsByClassName("carousel-slide");
+    let dots = document.getElementsByClassName("dot");
+    
+    if (!slides.length || !dots.length) {
+      return;
+    }
+    
+    // 边界检查
+    if (n >= slides.length) {
+      n = 0;
+    }
+    if (n < 0) {
+      n = slides.length - 1;
+    }
+    
+    // 更新全局索引
+    carouselSlideIndex = n;
+    
+    // 隐藏所有幻灯片
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    
+    // 移除所有点的active状态
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    
+    // 显示当前幻灯片并激活对应的点
+    slides[carouselSlideIndex].style.display = "block";
+    dots[carouselSlideIndex].className += " active";
+    
+    // 重新开始自动播放
+    startCarouselAutoplay();
   }
 </script>
 
