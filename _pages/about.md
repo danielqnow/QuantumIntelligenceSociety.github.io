@@ -125,3 +125,199 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
     </div>
   </div>
 </div>
+
+<!-- 图片轮播 -->
+<div class="taipei-carousel-section">
+  <div class="carousel-container">
+    <div class="carousel-slides">
+      <div class="carousel-slide fade">
+        <img src="/images/taipei1.jpg" alt="Taipei Cityscape">
+      </div>
+      
+      <div class="carousel-slide fade">
+        <img src="/images/dc1.jpg" alt="Washington DC">
+      </div>
+      
+      <div class="carousel-slide fade">
+        <img src="/images/taipei3.jpg" alt="Taipei 101">
+      </div>
+      
+      <div class="carousel-slide fade">
+        <img src="/images/dc4.jpg" alt="Washington DC">
+      </div>
+      
+      <div class="carousel-slide fade">
+        <img src="/images/taipei4.jpg" alt="Taipei Culture">
+      </div>
+      
+      <div class="carousel-slide fade">
+        <img src="/images/dc3.jpg" alt="Washington DC">
+      </div>
+      
+      <div class="carousel-slide fade">
+        <img src="/images/taipei2.jpg" alt="Taipei Night Scene">
+      </div>
+      
+      <div class="carousel-slide fade">
+        <img src="/images/dc2.jpg" alt="Washington DC">
+      </div>
+      
+      <!-- 导航点 -->
+      <div class="carousel-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* 轮播样式 */
+  .taipei-carousel-section {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .carousel-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-slides {
+    width: 100%;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    display: none;
+    width: 100%;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 8px;
+  }
+  
+  /* 移除了.caption样式，不再显示底部黑条和文字 */
+  
+  /* 淡入淡出动画 */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* 导航点样式 */
+  .carousel-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .active, .dot:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* 响应式设计 */
+  @media screen and (max-width: 768px) {
+    .carousel-slide img {
+      height: 300px;
+    }
+    
+    .carousel-dots {
+      bottom: 10px;
+    }
+    
+    .dot {
+      height: 10px;
+      width: 10px;
+      margin: 0 4px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("carousel-slide");
+      let dots = document.getElementsByClassName("dot");
+      
+      // 隐藏所有幻灯片
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      
+      // 增加索引并循环
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      
+      // 移除所有点的active状态
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      
+      // 显示当前幻灯片和激活对应的点
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      
+      // 每5秒切换一次
+      setTimeout(showSlides, 5000);
+    }
+    
+    // 设置可以通过点击导航点切换到特定幻灯片
+    window.currentSlide = function(n) {
+      slideIndex = n - 1;
+      let slides = document.getElementsByClassName("carousel-slide");
+      let dots = document.getElementsByClassName("dot");
+      
+      // 隐藏所有幻灯片
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      
+      // 移除所有点的active状态
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      
+      // 显示指定幻灯片和激活对应的点
+      slides[slideIndex].style.display = "block";
+      dots[slideIndex].className += " active";
+    }
+  });
+</script>
