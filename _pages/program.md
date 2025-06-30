@@ -58,9 +58,9 @@ author_profile: true
   border-radius: 0 8px 8px 0;
 }
 
-.taipei-event { border-color: #28a745; }
-.dc-event { border-color: #0366d6; }
-.virtual-event { border-color: #6610f2; }
+.taipei-event { border-color: #2596be; }
+.dc-event { border-color: #2596be; }
+.virtual-event { border-color: #2596be; }
 
 .event-details {
   flex-grow: 1;
@@ -75,9 +75,9 @@ author_profile: true
   margin-bottom: 0.5rem;
 }
 
-.location-taipei { background-color: #e7f5ea; color: #28a745; }
-.location-dc { background-color: #e1f0ff; color: #0366d6; }
-.location-virtual { background-color: #efe7ff; color: #6610f2; }
+.location-taipei { background-color: #e6f4f9; color: #2596be; }
+.location-dc { background-color: #e6f4f9; color: #2596be; }
+.location-virtual { background-color: #e6f4f9; color: #2596be; }
 
 .event-time {
   font-size: 0.9rem;
@@ -119,27 +119,31 @@ author_profile: true
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, #28a745, #0366d6, #6610f2, #fd7e14, #20c997);
+  background: #2596be;
   border-radius: 3px;
 }
 
 .nav-links {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .nav-button {
-  padding: 10px 16px;
+  padding: 10px 12px;
   border-radius: 8px;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
   color: white;
   text-align: center;
-  min-width: 160px;
+  font-size: 0.95rem;
+  min-width: 120px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  white-space: nowrap;
 }
 
 .nav-button:hover {
@@ -147,11 +151,27 @@ author_profile: true
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.overview-button { background-color: #0366d6; }
-.schedule-button { background-color: #28a745; }
-.taipei-button { background-color: #fd7e14; }
-.dc-button { background-color: #6610f2; }
-.virtual-button { background-color: #20c997; }
+/* Adjust button widths to fit on one line */
+.overview-button { 
+  background-color: #2596be; 
+  min-width: 100px;
+}
+.schedule-button { 
+  background-color: #2596be; 
+  min-width: 100px;
+}
+.taipei-button { 
+  background-color: #2596be; 
+  min-width: 130px;
+}
+.dc-button { 
+  background-color: #2596be; 
+  min-width: 110px;
+}
+.virtual-button { 
+  background-color: #2596be; 
+  min-width: 130px;
+}
 
 /* Program Sections */
 .program-section {
@@ -178,7 +198,7 @@ author_profile: true
   left: 0;
   width: 80px;
   height: 3px;
-  background-color: #0366d6;
+  background-color: #2596be;
   border-radius: 3px;
 }
 
@@ -201,13 +221,13 @@ author_profile: true
   width: 50px;
   height: 50px;
   margin-right: 1rem;
-  background: #f0f4f8;
+  background: #e6f4f9;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: #0366d6;
+  color: #2596be;
 }
 
 .feature-content {
@@ -235,12 +255,26 @@ author_profile: true
   vertical-align: middle;
 }
 
-.location-taipei-tag { background-color: #e7f5ea; color: #28a745; }
-.location-dc-tag { background-color: #e1f0ff; color: #0366d6; }
-.location-virtual-tag { background-color: #efe7ff; color: #6610f2; }
+.location-taipei-tag { background-color: #e6f4f9; color: #2596be; }
+.location-dc-tag { background-color: #e6f4f9; color: #2596be; }
+.location-virtual-tag { background-color: #e6f4f9; color: #2596be; }
 
 /* Responsive */
 @media (max-width: 992px) {
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .nav-button {
+    flex: 1;
+    min-width: 0;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
     align-items: center;
@@ -281,18 +315,18 @@ author_profile: true
     <div class="program-nav">
       <h4 class="nav-header">Navigate the Program</h4>
       <div class="nav-links">
-        <a href="#overview" class="nav-button overview-button">📅 Quick Overview</a>
-        <a href="#schedule" class="nav-button schedule-button">🗓️ Full Schedule</a>
-        <a href="#taipei" class="nav-button taipei-button">🇹🇼 Taipei Events</a>
-        <a href="#dc" class="nav-button dc-button">🇺🇸 DC Events</a>
-        <a href="#virtual" class="nav-button virtual-button">🌐 Virtual Events</a>
+        <a href="#overview" class="nav-button overview-button">📅 Overview</a>
+        <a href="#schedule" class="nav-button schedule-button">🗓️ Schedule</a>
+        <a href="#taipei" class="nav-button taipei-button">🇹🇼 Taipei</a>
+        <a href="#dc" class="nav-button dc-button">🇺🇸 DC</a>
+        <a href="#virtual" class="nav-button virtual-button">🌐 Virtual</a>
       </div>
     </div>
   </div>
 
   <!-- Program Overview Timeline -->
   <div id="overview" class="program-section">
-    <h2 class="section-title">Quick Overview</h2>
+    <h2 class="section-title">Overview</h2>
     <div class="timeline-container">
       <div class="event-card taipei-event">
         <div class="event-details">
@@ -322,7 +356,7 @@ author_profile: true
 
   <!-- Full Schedule -->
   <div id="schedule" class="program-section">
-    <h2 class="section-title">Live Program Schedule</h2>
+    <h2 class="section-title">Schedule</h2>
     <p>View our complete conference schedule for all events and sessions. This schedule is regularly updated.</p>
     <div class="schedule-iframe-container">
       <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?widget=true&amp;headers=false" width="100%" height="600" style="border:none;overflow:auto;"></iframe>
@@ -331,7 +365,7 @@ author_profile: true
 
   <!-- SQAI 2026 Composition -->
   <div id="taipei" class="program-section">
-    <h2 class="section-title">SQAI Taipei Events <span class="location-tag location-taipei-tag">Taipei</span></h2>
+    <h2 class="section-title">SQAI Taipei <span class="location-tag location-taipei-tag">Taipei</span></h2>
 
     <div class="program-feature">
       <div class="feature-icon">🎤</div>
@@ -395,7 +429,7 @@ author_profile: true
   </div>
 
   <div id="dc" class="program-section">
-    <h2 class="section-title">SQAI Washington, D.C. Events <span class="location-tag location-dc-tag">DC</span></h2>
+    <h2 class="section-title">SQAI DC <span class="location-tag location-dc-tag">DC</span></h2>
 
     <div class="program-feature">
       <div class="feature-icon">🎤</div>
@@ -449,7 +483,7 @@ author_profile: true
   </div>
 
   <div id="virtual" class="program-section">
-    <h2 class="section-title">SQAI Universal Events <span class="location-tag location-virtual-tag">Virtual</span></h2>
+    <h2 class="section-title">SQAI Virtual <span class="location-tag location-virtual-tag">Virtual</span></h2>
 
     <div class="program-feature">
       <div class="feature-icon">🏆</div>
