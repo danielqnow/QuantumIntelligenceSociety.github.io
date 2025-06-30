@@ -214,7 +214,7 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
       <div class="member-photo" style="background-image: url('/images/farley.jpg')"></div>
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">Farley Warner (Pending Confirmation)</a></h3>
-        <div class="member-title">Finance Chair</div>
+        <div class="member-title">Finance Co-Chair</div>
         <div class="member-affiliation">Contractor</div>
         <div class="member-contact">cw_netguru@yahoo.com</div>
       </div>
@@ -345,6 +345,93 @@ The success of the <strong>Symposium for Quantum AI (SQAI)</strong> depends on t
         <div class="member-title">Area Chair: QML</div>
         <div class="member-affiliation">Lead Research Scientist</div>
         <div class="member-contact">ycchen1989@ieee.org</div>
+      </div>
+    </div>
+    
+    <!-- Area Chair: QML (2 more) -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: QML</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: QML</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
+    <!-- Area Chair: QAI Hardware -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: QAI Hardware</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
+    <!-- Area Chair: Quantum Data Science -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Quantum Data Science</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
+    <!-- Area Chair: Hybrid Systems -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Hybrid Systems</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
+    <!-- Area Chair: Applications -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Applications</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
+    <!-- Area Chair: Benchmarking/Performance -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Benchmarking/Performance</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
+    <!-- Area Chair: Ethics/Society/Philosophy -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Ethics/Society/Philosophy</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
       </div>
     </div>
   </div>
