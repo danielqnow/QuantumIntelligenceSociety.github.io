@@ -297,6 +297,14 @@ author_profile: true
 .schedule-iframe-container {
   margin-top: 0.8rem;
 }
+
+/* Section Separator */
+.section-separator {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #2596be, transparent);
+  margin: 1.5rem 0;
+  border: none;
+}
 </style>
 
 <div class="program-container">
@@ -322,6 +330,8 @@ author_profile: true
       </div>
     </div>
   </div>
+
+  <hr class="section-separator">
 
   <!-- Program Overview Timeline -->
   <div id="overview" class="program-section">
@@ -353,6 +363,8 @@ author_profile: true
     </div>
   </div>
 
+  <hr class="section-separator">
+
   <!-- Full Schedule -->
   <div id="schedule" class="program-section">
     <h2 class="section-title">Schedule</h2>
@@ -361,6 +373,8 @@ author_profile: true
       <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?widget=true&amp;headers=false" width="100%" height="500" style="border:none;overflow:auto;"></iframe>
     </div>
   </div>
+
+  <hr class="section-separator">
 
   <!-- SQAI 2026 Composition -->
   <div id="taipei" class="program-section">
@@ -427,6 +441,8 @@ author_profile: true
     </div>
   </div>
 
+  <hr class="section-separator">
+
   <div id="dc" class="program-section">
     <h2 class="section-title">SQAI DC <span class="location-tag location-dc-tag">DC</span></h2>
 
@@ -480,6 +496,8 @@ author_profile: true
       </div>
     </div>
   </div>
+
+  <hr class="section-separator">
 
   <div id="virtual" class="program-section">
     <h2 class="section-title">SQAI Virtual <span class="location-tag location-virtual-tag">Virtual</span></h2>
