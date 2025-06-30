@@ -7,28 +7,28 @@ author_profile: true
 <style>
 /* Main Program Page Styles */
 .program-container {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .program-header-image {
   width: 100%;
   max-width: 100%;
-  border-radius: 12px;
-  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 0.3rem;
 }
 
 .image-caption {
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: #666;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .program-notice {
   background-color: transparent;
   border-left: 3px solid #2596be;
-  padding: 0.7rem 1rem;
-  margin: 1.2rem 0;
+  padding: 0.7rem;
+  margin: 0.8rem 0;
   border-radius: 0;
 }
 
@@ -36,25 +36,25 @@ author_profile: true
 .timeline-container {
   background: transparent;
   border-radius: 0;
-  padding: 0.8rem 0;
-  margin-bottom: 1.5rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
 }
 
 .timeline-header {
-  border-bottom: 2px solid #f0f0f0;
-  padding-bottom: 0.8rem;
-  margin-bottom: 1.2rem;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
   color: #333;
   font-weight: 600;
 }
 
 .event-card {
   display: flex;
-  border-left: 4px solid;
-  padding: 0.8rem 1rem;
-  margin-bottom: 1rem;
+  border-left: 3px solid;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.7rem;
   background: transparent;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 6px 6px 0;
 }
 
 .taipei-event { border-color: #2596be; }
@@ -67,11 +67,11 @@ author_profile: true
 
 .event-location {
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 0.25rem 0.75rem;
+  padding: 0.15rem 0.5rem;
   border-radius: 999px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .location-taipei { background-color: transparent; border: 1px solid #2596be; color: #2596be; }
@@ -79,7 +79,7 @@ author_profile: true
 .location-virtual { background-color: transparent; border: 1px solid #2596be; color: #2596be; }
 
 .event-time {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #555;
 }
 
@@ -90,23 +90,23 @@ author_profile: true
 
 /* Program Navigation */
 .program-nav-container {
-  margin: 1.8rem 0;
+  margin: 1rem 0;
 }
 
 .program-nav {
   background: transparent;
   border-radius: 0;
-  padding: 1rem 0;
+  padding: 0.7rem 0;
   text-align: center;
 }
 
 .nav-header {
   margin-top: 0;
-  margin-bottom: 1.2rem;
-  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
   color: #333;
   position: relative;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
   display: inline-block;
 }
 
@@ -131,14 +131,14 @@ author_profile: true
 }
 
 .nav-button {
-  padding: 10px 12px;
-  border-radius: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
   color: white;
   text-align: center;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   min-width: 120px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   white-space: nowrap;
@@ -173,17 +173,17 @@ author_profile: true
 
 /* Program Sections */
 .program-section {
-  margin: 2.5rem 0;
-  padding: 1rem 0;
+  margin: 1.5rem 0;
+  padding: 0.8rem 0;
   background: transparent;
   border-radius: 0;
 }
 
 .section-title {
   position: relative;
-  padding-bottom: 0.8rem;
-  margin-bottom: 1.2rem;
-  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #222;
 }
@@ -202,8 +202,8 @@ author_profile: true
 .program-feature {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid #f0f0f0;
 }
 
@@ -215,12 +215,12 @@ author_profile: true
 
 .feature-icon {
   flex-shrink: 0;
-  width: 45px;
-  height: 45px;
-  margin-right: 1rem;
+  width: 40px;
+  height: 40px;
+  margin-right: 0.8rem;
   background: transparent;
-  border: 2px solid #2596be;
-  border-radius: 10px;
+  border: 1px solid #2596be;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,23 +233,24 @@ author_profile: true
 }
 
 .feature-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
   color: #333;
 }
 
 .feature-description {
   color: #555;
-  line-height: 1.5;
+  line-height: 1.4;
+  font-size: 0.95rem;
 }
 
 .location-tag {
   display: inline-block;
-  padding: 0.25rem 0.75rem;
-  font-size: 0.8rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
   border-radius: 999px;
-  margin-left: 0.5rem;
+  margin-left: 0.4rem;
   vertical-align: middle;
 }
 
@@ -294,7 +295,7 @@ author_profile: true
 
 /* Add space above iframe */
 .schedule-iframe-container {
-  margin-top: 1.5rem;
+  margin-top: 0.8rem;
 }
 </style>
 
@@ -355,9 +356,9 @@ author_profile: true
   <!-- Full Schedule -->
   <div id="schedule" class="program-section">
     <h2 class="section-title">Schedule</h2>
-    <p>View our complete conference schedule for all events and sessions. This schedule is regularly updated.</p>
+    <p style="margin-bottom:0.6rem;">View our complete conference schedule for all events and sessions. This schedule is regularly updated.</p>
     <div class="schedule-iframe-container">
-      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?widget=true&amp;headers=false" width="100%" height="550" style="border:none;overflow:auto;"></iframe>
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?widget=true&amp;headers=false" width="100%" height="500" style="border:none;overflow:auto;"></iframe>
     </div>
   </div>
 
