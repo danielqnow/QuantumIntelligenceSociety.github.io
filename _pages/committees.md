@@ -422,16 +422,6 @@ author_profile: true
 ![SQAI 2023 Committee](/images/sqaicommittee.jpg)
 *SQAI 2023 Committee at National Taiwan University - including TAIA Joannie Hsieh, TAIA Jeff Peng, NTUAI President Steven Lu, and SQAI founder Austin Hua*
 
-<div class="committee-nav">
-  <div class="committee-nav-container">
-    <a href="#organizing-committee" class="committee-nav-item oc-nav">Organizing Committee</a>
-    <a href="#technical-program-committee" class="committee-nav-item tpc-nav">Technical Program Committee</a>
-    <a href="#steering-committee" class="committee-nav-item steering-nav">Steering Committee</a>
-    <a href="#advisory-board" class="committee-nav-item advisory-nav">Advisory Board</a>
-    <a href="#contribute" class="committee-nav-item contribute-nav">Contribute</a>
-    <a href="#about-committees" class="committee-nav-item about-nav">About Committees</a>
-  </div>
-</div>
 
 <div id="organizing-committee" class="committee-container">
   <h2 class="committee-header oc-header">Organizing Committee (OC)</h2>
@@ -446,7 +436,7 @@ author_profile: true
       <div class="member-photo" style="background-image: url('/images/austin_.png')"></div>
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/austin-hua/" target="_blank">Austin Hua</a></h3>
-        <div class="member-title">Conference Chair</div>
+        <div class="member-title">General Chair</div>
         <div class="member-affiliation">SQAI Founder</div>
         <div class="member-contact">r11922203@csie.ntu.edu.tw</div>
       </div>
@@ -842,8 +832,8 @@ author_profile: true
     
     <div class="role-descriptions">
       <div class="role-item">
-        <h4>Conference Chair</h4>
-        <p>The Conference Chair provides overall leadership for the symposium, setting the vision, coordinating all committees, and serving as the primary representative of SQAI to the broader community. This role involves strategic planning, stakeholder relationship management, and ensuring the event meets its academic and professional objectives.</p>
+        <h4>General Chair</h4>
+        <p>The General Chair provides overall leadership for the symposium, setting the vision, coordinating all committees, and serving as the primary representative of SQAI to the broader community. This role involves strategic planning, stakeholder relationship management, and ensuring the event meets its academic and professional objectives.</p>
       </div>
       
       <div class="role-item">
@@ -892,6 +882,11 @@ author_profile: true
       </div>
       
       <div class="role-item">
+        <h4>TPC Member</h4>
+        <p>TPC Members are experts in quantum computing, AI, or their intersection who evaluate submitted papers, provide detailed reviews, and contribute to the scientific quality of the conference. They assess technical merit, novelty, clarity, and relevance of submissions while participating in discussions to help reach consensus on acceptance decisions.</p>
+      </div>
+      
+      <div class="role-item">
         <h4>Area Chairs</h4>
         <p>Area Chairs are subject-matter experts who supervise the review process for submissions in their specific technical domains. They assign papers to appropriate reviewers, moderate discussions among reviewers, provide recommendations to the TPC Chair, and help shape the technical sessions within their area of expertise.</p>
         
@@ -925,6 +920,11 @@ author_profile: true
       <div class="role-item">
         <h4>SC Chair</h4>
         <p>The Steering Committee Chair leads the strategic oversight group for SQAI, ensuring continuity and vision across conference editions. This role involves facilitating long-term planning, maintaining relationships with key stakeholders in the field, and providing guidance to each year's organizing committee to preserve the conference's identity and standards.</p>
+      </div>
+      
+      <div class="role-item">
+        <h4>SC Member</h4>
+        <p>Steering Committee Members contribute to the long-term strategic development of SQAI. They help shape the conference's direction, identify emerging trends in quantum AI, establish connections with key communities and organizations, and ensure the event maintains its scientific quality and relevance across editions.</p>
       </div>
     </div>
   </div>
