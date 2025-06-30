@@ -7,7 +7,7 @@ author_profile: true
 <style>
 /* Main Program Page Styles */
 .program-container {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .program-header-image {
@@ -25,20 +25,19 @@ author_profile: true
 }
 
 .program-notice {
-  background-color: #f8f9fa;
-  border-left: 4px solid #0366d6;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  border-radius: 0 8px 8px 0;
+  background-color: transparent;
+  border-left: 3px solid #2596be;
+  padding: 0.7rem 1rem;
+  margin: 1.2rem 0;
+  border-radius: 0;
 }
 
 /* Timeline Design */
 .timeline-container {
-  background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  margin-bottom: 2rem;
+  background: transparent;
+  border-radius: 0;
+  padding: 0.8rem 0;
+  margin-bottom: 1.5rem;
 }
 
 .timeline-header {
@@ -54,7 +53,7 @@ author_profile: true
   border-left: 4px solid;
   padding: 0.8rem 1rem;
   margin-bottom: 1rem;
-  background: #fcfcfc;
+  background: transparent;
   border-radius: 0 8px 8px 0;
 }
 
@@ -75,9 +74,9 @@ author_profile: true
   margin-bottom: 0.5rem;
 }
 
-.location-taipei { background-color: #e6f4f9; color: #2596be; }
-.location-dc { background-color: #e6f4f9; color: #2596be; }
-.location-virtual { background-color: #e6f4f9; color: #2596be; }
+.location-taipei { background-color: transparent; border: 1px solid #2596be; color: #2596be; }
+.location-dc { background-color: transparent; border: 1px solid #2596be; color: #2596be; }
+.location-virtual { background-color: transparent; border: 1px solid #2596be; color: #2596be; }
 
 .event-time {
   font-size: 0.9rem;
@@ -91,14 +90,13 @@ author_profile: true
 
 /* Program Navigation */
 .program-nav-container {
-  margin: 2.5rem 0;
+  margin: 1.8rem 0;
 }
 
 .program-nav {
-  background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  background: transparent;
+  border-radius: 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -176,19 +174,18 @@ author_profile: true
 /* Program Sections */
 .program-section {
   margin: 2.5rem 0;
-  padding: 2rem;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 1rem 0;
+  background: transparent;
+  border-radius: 0;
 }
 
 .section-title {
   position: relative;
   padding-bottom: 0.8rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   font-size: 1.6rem;
-  font-weight: 600;
-  color: #333;
+  font-weight: 700;
+  color: #222;
 }
 
 .section-title:after {
@@ -196,7 +193,7 @@ author_profile: true
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 80px;
+  width: 100px;
   height: 3px;
   background-color: #2596be;
   border-radius: 3px;
@@ -218,15 +215,16 @@ author_profile: true
 
 .feature-icon {
   flex-shrink: 0;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   margin-right: 1rem;
-  background: #e6f4f9;
+  background: transparent;
+  border: 2px solid #2596be;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #2596be;
 }
 
@@ -255,9 +253,9 @@ author_profile: true
   vertical-align: middle;
 }
 
-.location-taipei-tag { background-color: #e6f4f9; color: #2596be; }
-.location-dc-tag { background-color: #e6f4f9; color: #2596be; }
-.location-virtual-tag { background-color: #e6f4f9; color: #2596be; }
+.location-taipei-tag { background-color: transparent; border: 1px solid #2596be; color: #2596be; }
+.location-dc-tag { background-color: transparent; border: 1px solid #2596be; color: #2596be; }
+.location-virtual-tag { background-color: transparent; border: 1px solid #2596be; color: #2596be; }
 
 /* Responsive */
 @media (max-width: 992px) {
@@ -359,7 +357,7 @@ author_profile: true
     <h2 class="section-title">Schedule</h2>
     <p>View our complete conference schedule for all events and sessions. This schedule is regularly updated.</p>
     <div class="schedule-iframe-container">
-      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?widget=true&amp;headers=false" width="100%" height="600" style="border:none;overflow:auto;"></iframe>
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?widget=true&amp;headers=false" width="100%" height="550" style="border:none;overflow:auto;"></iframe>
     </div>
   </div>
 
