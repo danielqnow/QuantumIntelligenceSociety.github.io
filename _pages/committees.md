@@ -6,7 +6,7 @@ author_profile: true
 
 <style>
 /* 导航菜单样式 */
-.committee-nav {
+.committees-nav {
   margin: 1rem 0 2rem;
   border-radius: 8px;
   background-color: #f8f9fa;
@@ -14,14 +14,14 @@ author_profile: true
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.committee-nav-container {
+.committees-nav-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
 
-.committee-nav-item {
+.committees-nav-item {
   padding: 8px 16px;
   border-radius: 5px;
   font-weight: 500;
@@ -30,7 +30,7 @@ author_profile: true
   border-left: 3px solid transparent;
 }
 
-.committee-nav-item:hover {
+.committees-nav-item:hover {
   background-color: rgba(0,0,0,0.03);
   transform: translateY(-2px);
 }
@@ -66,12 +66,12 @@ author_profile: true
 }
 
 @media (max-width: 768px) {
-  .committee-nav-container {
+  .committees-nav-container {
     flex-direction: column;
     align-items: center;
   }
   
-  .committee-nav-item {
+  .committees-nav-item {
     width: 100%;
     text-align: center;
   }
@@ -790,7 +790,7 @@ author_profile: true
 <hr>
 
 <div id="contribute" class="committee-container committee-contribute-section">
-  <h2 class="contribute-header">Join Our Committee</h2>
+  <h2 class="contribute-header">Join Our Committees</h2>
   
   <div class="contribute-content">
     <div class="contribute-text">

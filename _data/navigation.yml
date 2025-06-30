@@ -8,8 +8,8 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Committee"
-    url: /committee/
+  - title: "Committees"
+    url: /committees/
   - title: "Authors"
     url: /cfp/
   - title: "Program"

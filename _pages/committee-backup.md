@@ -5,7 +5,7 @@ author_profile: true
 sitemap: false
 ---
 
-> 此页面为旧版备份，不再使用。当前活跃版本请访问 [Committee](/committee/)ermalink: /committee-backup/
+> 此页面为旧版备份，不再使用。当前活跃版本请访问 [Committees](/committees/)ermalink: /committee-backup/
 title: "Committee (Backup) - SQAI 2026"
 author_profile: true
 ---

@@ -5,7 +5,7 @@ author_profile: true
 sitemap: false
 ---
 
-> 此页面为备份版本，当前活跃版本请访问 [Committee](/committee/)
+> 此页面为备份版本，当前活跃版本请访问 [Committees](/committees/)
 
 
 <style>
