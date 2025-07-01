@@ -318,7 +318,7 @@ author_profile: true
       <!-- APAC Blockchain Development Association -->
       <div class="sponsor-card">
         <div>
-          <img src="/images/sponsors/apbcd-logo.png" alt="APAC Blockchain Development Association" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
+          <img src="/images/sponsors/apbcd.png" alt="APAC Blockchain Development Association" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
           <h4 class="sponsor-name">APAC Blockchain Development Association</h4>
         </div>
         <div>
@@ -340,7 +340,7 @@ author_profile: true
       <!-- Smart Contract Research Forum -->
       <div class="sponsor-card">
         <div>
-          <img src="/images/sponsors/scrf-logo.png" alt="Smart Contract Research Forum" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
+          <img src="/images/sponsors/scrf.png" alt="Smart Contract Research Forum" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
           <h4 class="sponsor-name">Smart Contract Research Forum</h4>
         </div>
         <div>
