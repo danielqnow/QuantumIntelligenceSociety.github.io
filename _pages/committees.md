@@ -34,7 +34,7 @@ author_profile: true
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, #28a745, #0366d6, #fd7e14, #6610f2);
+  background: #0366d6;
   border-radius: 3px;
 }
 
@@ -62,28 +62,13 @@ author_profile: true
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.oc-button {
-  background-color: #28a745;
-}
-
-.tpc-button {
-  background-color: #0366d6;
-}
-
-.sc-button {
-  background-color: #fd7e14;
-}
-
-.ab-button {
-  background-color: #6610f2;
-}
-
-.contribute-button {
-  background-color: #20c997;
-}
-
+.oc-button,
+.tpc-button,
+.sc-button,
+.ab-button,
+.contribute-button,
 .about-button {
-  background-color: #17a2b8;
+  background-color: #0366d6;
 }
 
 @media (max-width: 992px) {
@@ -104,7 +89,13 @@ author_profile: true
   scroll-margin-top: 2rem; /* 为锚点链接添加顶部空间 */
 }
 
-.committee-header {
+.committee-header,
+.oc-header,
+.tpc-header,
+.sc-header,
+.ab-header,
+.about-header,
+.contribute-header {
   border-left: 4px solid #0366d6;
   padding-left: 1rem;
   margin-bottom: 1.5rem;
@@ -200,22 +191,21 @@ author_profile: true
   color: #888;
 }
 
-/* 委员会类型样式 */
-.oc-header { border-color: #28a745; }
-.oc-description { border-color: #28a745; }
-.oc-member .member-title { color: #28a745; }
+/* 委员会类型样式 - 统一为蓝色 */
+.oc-header,
+.tpc-header,
+.steering-header,
+.advisory-header { border-color: #0366d6; }
 
-.tpc-header { border-color: #0366d6; }
-.tpc-description { border-color: #0366d6; }
-.tpc-member .member-title { color: #0366d6; }
+.oc-description,
+.tpc-description,
+.steering-description,
+.advisory-description { border-color: #0366d6; }
 
-.steering-header { border-color: #fd7e14; }
-.steering-description { border-color: #fd7e14; }
-.steering-member .member-title { color: #fd7e14; }
-
-.advisory-header { border-color: #6610f2; }
-.advisory-description { border-color: #6610f2; }
-.advisory-member .member-title { color: #6610f2; }
+.oc-member .member-title,
+.tpc-member .member-title,
+.steering-member .member-title,
+.advisory-member .member-title { color: #0366d6; }
 
 /* 响应式设计 */
 @media (max-width: 768px) {
@@ -266,7 +256,7 @@ author_profile: true
 .about-header {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #333;
+  color: #0366d6;
   position: relative;
   padding-bottom: 0.5rem;
 }
@@ -279,7 +269,7 @@ author_profile: true
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background: linear-gradient(90deg, #28a745, #0366d6, #fd7e14, #6610f2);
+  background: #0366d6;
   border-radius: 3px;
 }
 
@@ -328,7 +318,7 @@ author_profile: true
 .contribute-header {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #20c997;
+  color: #0366d6;
   position: relative;
   padding-bottom: 0.5rem;
 }
@@ -341,7 +331,7 @@ author_profile: true
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background-color: #20c997;
+  background-color: #0366d6;
   border-radius: 3px;
 }
 
@@ -397,16 +387,10 @@ author_profile: true
   color: white;
 }
 
-.position-item:nth-child(1) .position-team {
-  background-color: #0366d6;
-}
-
-.position-item:nth-child(2) .position-team {
-  background-color: #28a745;
-}
-
+.position-item:nth-child(1) .position-team,
+.position-item:nth-child(2) .position-team,
 .position-item:nth-child(3) .position-team {
-  background-color: #fd7e14;
+  background-color: #0366d6;
 }
 
 .position-role {
@@ -419,13 +403,13 @@ author_profile: true
 }
 
 .contribute-email {
-  color: #20c997;
+  color: #0366d6;
   text-decoration: underline;
   transition: all 0.2s;
 }
 
 .contribute-email:hover {
-  color: #1ba17d;
+  color: #0056b3;
 }
 
 @media (max-width: 768px) {
