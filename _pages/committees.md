@@ -11,10 +11,9 @@ author_profile: true
 }
 
 .committee-nav {
-  background: white;
+  background: transparent;
   border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   text-align: center;
 }
 
