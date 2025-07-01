@@ -3,46 +3,9 @@
    ========================================================================== */
 
 $(document).ready(function () {
-  // ALWAYS default to light theme
-  const browserPref = 'light';
-
-  // Set the theme on page load or when explicitly called
-  var setTheme = function (theme) {
-    const use_theme =
-      theme ||
-      localStorage.getItem("theme") ||
-      'light';  // Default to light theme ALWAYS
-
-    if (use_theme === "dark") {
-      $("html").attr("data-theme", "dark");
-      $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
-    } else {
-      // Default is light
-      $("html").removeAttr("data-theme");
-      $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
-    }
-  };
-
-  setTheme();
-
-  // REMOVE automatic OS theme detection - user must explicitly choose dark mode
-  // window
-  //   .matchMedia('(prefers-color-scheme: dark)')
-  //   .addEventListener("change", (e) => {
-  //     if (!localStorage.getItem("theme")) {
-  //       setTheme(e.matches ? "dark" : "light");
-  //     }
-  //   });
-
-  // Toggle the theme manually
-  var toggleTheme = function () {
-    const current_theme = $("html").attr("data-theme");
-    const new_theme = current_theme === "dark" ? "light" : "dark";
-    localStorage.setItem("theme", new_theme);
-    setTheme(new_theme);
-  };
-
-  $('#theme-toggle').on('click', toggleTheme);
+  // Only light theme is supported - dark mode has been disabled
+  $("html").removeAttr("data-theme");
+  localStorage.setItem("theme", "light");
 
   // These should be the same as the settings in _variables.scss
   const scssLarge = 925; // pixels

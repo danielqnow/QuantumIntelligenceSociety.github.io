@@ -28,15 +28,7 @@
 <meta http-equiv="cleartype" content="on">
 
 <script>
-  // FORCE light theme as default - ALWAYS
+  // Always use light theme only - dark mode has been disabled
   document.documentElement.removeAttribute('data-theme');
-  
-  // Only use dark theme if user explicitly chose it previously
-  var savedTheme = localStorage.getItem('theme');
-  if (savedTheme === 'dark') {
-    document.documentElement.setAttribute('data-theme', 'dark');
-  } else {
-    // Ensure light theme is used, regardless of OS preference
-    localStorage.setItem('theme', 'light');
-  }
+  localStorage.setItem('theme', 'light');
 </script>

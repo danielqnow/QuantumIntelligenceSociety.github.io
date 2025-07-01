@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "light"
+site_theme               : "light" # Only light theme is supported
 title                    : "Symposium for Quantum AI"
 title_separator          : "-"
 name                     : &name "Symposium for Quantum AI (SQAI)"
