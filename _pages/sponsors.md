@@ -12,90 +12,36 @@ author_profile: true
 }
 
 .sponsor-section {
-  margin-bottom: 2rem;
-  background-color: #f0f2f5;
+  margin-bottom: 1rem;
+  background-color: transparent;
   border-radius: 8px;
-  padding: 1.5rem;
-  position: relati  </div>
-  
-  <div class="section-separator"></div>
-  
-  <div class="sponsor-section">
-    <h2 class="sponsor-header">Thank You to Our Past Sponsors</h2>
-    
-    <p>We're deeply grateful to the sponsors who supported our early efforts in building the Symposium for Quantum AI:</p>
-    
-    <div class="past-sponsors">
-      <!-- APAC Blockchain Development Association -->
-      <div class="sponsor-card">
-        <div>
-          <img src="/images/sponsors/apbcd-logo.png" alt="APAC Blockchain Development Association" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
-          <h4 class="sponsor-name">APAC Blockchain Development Association</h4>
-        </div>
-        <div>
-          <a href="https://apbcd.org/" target="_blank">Visit Website →</a>
-        </div>
-      </div>
-      
-      <!-- Reliance Biosciences -->
-      <div class="sponsor-card">
-        <div>
-          <img src="/images/sponsors/reliance-bio-logo.png" alt="Reliance Biosciences" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
-          <h4 class="sponsor-name">Reliance Biosciences</h4>
-        </div>
-        <div>
-          <a href="https://reliance-bio.com/en/" target="_blank">Visit Website →</a>
-        </div>
-      </div>
-      
-      <!-- Smart Contract Research Forum -->
-      <div class="sponsor-card">
-        <div>
-          <img src="/images/sponsors/scrf-logo.png" alt="Smart Contract Research Forum" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
-          <h4 class="sponsor-name">Smart Contract Research Forum</h4>
-        </div>
-        <div>
-          <a href="https://x.com/scrforum" target="_blank">Visit Website →</a>
-        </div>
-      </div>
-    </div>
-    
-    <p class="sponsor-thank-you">Your support made our virtual events possible and helped us reach hundreds of participants around the world.</p>
-    
-    <p>We warmly welcome future collaborations and outreach with these organizations to grow the quantum AI ecosystem together.</p>
-  </div>
-</div>on-separator {
-  height: 3px;
-  background: linear-gradient(90deg, #2596be, #46b3e6);
-  margin: 2rem 0;
-  border-radius: 3px;
+  padding: 0.8rem;
+  position: relative;
+}
+
+.section-separator {
+  height: 0;
+  margin: 1rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .sponsor-header {
   color: #333;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   position: relative;
   display: inline-block;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
 }
 
 .sponsor-header:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 60%;
-  height: 3px;
-  background-color: #2596be;
-  border-radius: 3px;
+  content: none;
 }
 
 .sponsor-notice {
-  background-color: rgba(37, 150, 190, 0.1);
-  border-left: 3px solid #2596be;
+  background-color: transparent;
   padding: 0.8rem 1rem;
-  margin: 1rem 0;
-  border-radius: 0 8px 8px 0;
+  margin: 0.5rem 0;
+  font-style: italic;
 }
 
 .sponsor-image {
@@ -103,22 +49,22 @@ author_profile: true
   max-width: 100%;
   border-radius: 8px;
   margin-bottom: 0.5rem;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
 }
 
 .image-caption {
   text-align: center;
   font-size: 0.85rem;
   color: #666;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Sponsorship Tiers Styling */
 .tier-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.2rem;
-  margin: 1.5rem 0;
+  gap: 0.8rem;
+  margin: 1rem 0;
 }
 
 @media (min-width: 768px) {
@@ -128,16 +74,16 @@ author_profile: true
 }
 
 .tier-card {
-  background: white;
+  background: transparent;
   border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: none;
+  transition: transform 0.2s;
 }
 
 .tier-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .tier-header {
@@ -156,7 +102,7 @@ author_profile: true
   margin: 0;
   font-size: 1.3rem;
   font-weight: 700;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-shadow: none;
 }
 
 .tier-price {
@@ -183,8 +129,8 @@ author_profile: true
 .past-sponsors {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.5rem;
-  margin: 1.5rem 0;
+  gap: 0.8rem;
+  margin: 1rem 0;
 }
 
 @media (min-width: 768px) {
@@ -194,12 +140,13 @@ author_profile: true
 }
 
 .sponsor-card {
-  background: white;
+  background: transparent;
   border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: none;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   transition: transform 0.2s;
   height: 100%;
   display: flex;
@@ -225,7 +172,7 @@ author_profile: true
 }
 
 .sponsor-card a {
-  color: #2596be;
+  color: #555;
   text-decoration: none;
   font-weight: 500;
 }
@@ -236,7 +183,7 @@ author_profile: true
 
 .sponsor-thank-you {
   font-style: italic;
-  margin: 2rem 0 1rem;
+  margin: 1rem 0 0.5rem;
   text-align: center;
   color: #555;
 }
@@ -358,18 +305,52 @@ author_profile: true
         </div>
       </div>
     </div>
-
-
----
-
-## Thank You to Our Past Sponsors
-
-We’re deeply grateful to the sponsors who supported our early efforts in building the Symposium for Quantum AI:
-
-- [**APAC Blockchain Development Association**](https://apbcd.org/)
-- [**Reliance Biosciences**](https://reliance-bio.com/en/)
-- [**Smart Contract Research Forum**](https://x.com/scrforum)
-
-Your support made our virtual events possible and helped us reach hundreds of participants around the world.
-
-We warmly welcome future collaborations and outreach with these organizations to grow the quantum AI ecosystem together.
+  </div>
+  
+  <div class="section-separator"></div>
+  
+  <div class="sponsor-section">
+    <h2 class="sponsor-header">Thank You to Our Past Sponsors</h2>
+    
+    <p>We're deeply grateful to the sponsors who supported our early efforts in building the Symposium for Quantum AI:</p>
+    
+    <div class="past-sponsors">
+      <!-- APAC Blockchain Development Association -->
+      <div class="sponsor-card">
+        <div>
+          <img src="/images/sponsors/apbcd-logo.png" alt="APAC Blockchain Development Association" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
+          <h4 class="sponsor-name">APAC Blockchain Development Association</h4>
+        </div>
+        <div>
+          <a href="https://apbcd.org/" target="_blank">Visit Website →</a>
+        </div>
+      </div>
+      
+      <!-- Reliance Biosciences -->
+      <div class="sponsor-card">
+        <div>
+          <img src="/images/sponsors/reliance-bio-logo.png" alt="Reliance Biosciences" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
+          <h4 class="sponsor-name">Reliance Biosciences</h4>
+        </div>
+        <div>
+          <a href="https://reliance-bio.com/en/" target="_blank">Visit Website →</a>
+        </div>
+      </div>
+      
+      <!-- Smart Contract Research Forum -->
+      <div class="sponsor-card">
+        <div>
+          <img src="/images/sponsors/scrf-logo.png" alt="Smart Contract Research Forum" onerror="this.src='/images/sponsors/placeholder.png'; this.onerror=null;">
+          <h4 class="sponsor-name">Smart Contract Research Forum</h4>
+        </div>
+        <div>
+          <a href="https://x.com/scrforum" target="_blank">Visit Website →</a>
+        </div>
+      </div>
+    </div>
+    
+    <p class="sponsor-thank-you">Your support made our virtual events possible and helped us reach hundreds of participants around the world.</p>
+    
+    <p>We warmly welcome future collaborations and outreach with these organizations to grow the quantum AI ecosystem together.</p>
+  </div>
+</div>
