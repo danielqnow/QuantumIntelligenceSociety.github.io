@@ -531,16 +531,6 @@ author_profile: true
       </div>
     </div>
     
-    <!-- Ran-Yu Chang -->
-    <div class="member-card oc-member">
-      <div class="member-photo" style="background-image: url('/images/members/ran-yu-chang.jpg')"></div>
-      <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/ran-yu-chang-72a1041b6/" target="_blank">Ran-Yu Chang</a></h3>
-        <div class="member-title">Collaborator</div>
-        <div class="member-affiliation">EntangleTech Founder</div>
-      </div>
-    </div>
-    
     <!-- Jonas Yen -->
     <div class="member-card oc-member">
       <div class="member-photo" style="background-image: url('/images/members/jonas-yen.jpg')"></div>
