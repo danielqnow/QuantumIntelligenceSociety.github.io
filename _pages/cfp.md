@@ -10,9 +10,8 @@ All submissions <strong>MUST</strong> follow the IEEE conference two-column form
 </div>
 
 <div style="background-color: #f5f5f5; padding: 10px; margin-bottom: 20px; text-align: center;">
-<strong>Quick Links:</strong> 
+<strong>Quick Links<br></strong> 
 <a href="#overview">Overview</a> | 
-<a href="#topics">Research Topics</a> | 
 <a href="#important-dates">Important Dates</a> | 
 <a href="#submission-guidelines">Submission Guidelines</a> | 
 <a href="#ieee-format-guidelines">IEEE Format Guidelines</a>

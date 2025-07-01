@@ -150,21 +150,17 @@ author_profile: true
 }
 
 /* Adjust button widths to fit on one line */
-.overview-button { 
-  background-color: #2596be; 
-  min-width: 100px;
-}
 .schedule-button { 
   background-color: #2596be; 
   min-width: 100px;
 }
 .taipei-button { 
   background-color: #2596be; 
-  min-width: 130px;
+  min-width: 150px;
 }
 .dc-button { 
   background-color: #2596be; 
-  min-width: 110px;
+  min-width: 140px;
 }
 .virtual-button { 
   background-color: #2596be; 
@@ -322,43 +318,10 @@ author_profile: true
     <div class="program-nav">
       <h4 class="nav-header">Navigate the Program</h4>
       <div class="nav-links">
-        <a href="#overview" class="nav-button overview-button">📅 Overview</a>
         <a href="#schedule" class="nav-button schedule-button">🗓️ Schedule</a>
-        <a href="#taipei" class="nav-button taipei-button">🇹🇼 Taipei</a>
-        <a href="#dc" class="nav-button dc-button">🇺🇸 DC</a>
+        <a href="#taipei" class="nav-button taipei-button">🇹🇼 SQAI Taipei</a>
+        <a href="#dc" class="nav-button dc-button">🇺🇸 SQAI DC</a>
         <a href="#virtual" class="nav-button virtual-button">🌐 Virtual</a>
-      </div>
-    </div>
-  </div>
-
-  <hr class="section-separator">
-
-  <!-- Program Overview Timeline -->
-  <div id="overview" class="program-section">
-    <h2 class="section-title">Overview</h2>
-    <div class="timeline-container">
-      <div class="event-card taipei-event">
-        <div class="event-details">
-          <span class="event-location location-taipei">Taipei, Taiwan</span>
-          <h4 class="event-name">SQAI Taipei</h4>
-          <p class="event-time">June 26–27, 2026</p>
-        </div>
-      </div>
-      
-      <div class="event-card dc-event">
-        <div class="event-details">
-          <span class="event-location location-dc">Washington, D.C.</span>
-          <h4 class="event-name">SQAI Washington, D.C.</h4>
-          <p class="event-time">June 27, 2026</p>
-        </div>
-      </div>
-      
-      <div class="event-card virtual-event">
-        <div class="event-details">
-          <span class="event-location location-virtual">Virtual (Both)</span>
-          <h4 class="event-name">Award Ceremony (Online)</h4>
-          <p class="event-time">June 28, 2026 @ 9:00 AM (Taipei)<br>June 27, 2026 @ 9:00 PM (DC)</p>
-        </div>
       </div>
     </div>
   </div>
