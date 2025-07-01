@@ -250,18 +250,17 @@ author_profile: true
 
 /* 美化About Committees部分 */
 .committee-about-section {
-  background-color: #f9f9f9;
+  background-color: transparent;
   border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+  padding: 1.5rem;
 }
 
 .committee-role-card {
-  background-color: white;
+  background-color: transparent;
   border-radius: 10px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .about-header {
@@ -294,7 +293,7 @@ author_profile: true
 .role-item {
   padding: 1rem;
   border-left: 3px solid #ddd;
-  background-color: #f9f9f9;
+  background-color: transparent;
   border-radius: 0 5px 5px 0;
 }
 
@@ -319,11 +318,11 @@ author_profile: true
 
 /* 美化Contribute部分 */
 .committee-contribute-section {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: transparent;
   border-radius: 12px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .contribute-header {
@@ -361,10 +360,10 @@ author_profile: true
 .contribute-highlight {
   flex: 2;
   min-width: 250px;
-  background-color: white;
+  background-color: transparent;
   border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  padding: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .contribute-highlight h3 {
@@ -384,9 +383,9 @@ author_profile: true
   display: flex;
   align-items: center;
   padding: 0.8rem;
-  background-color: #f8f9fa;
+  background-color: transparent;
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .position-team {
@@ -451,8 +450,8 @@ author_profile: true
       <a href="#technical-program-committee" class="nav-button tpc-button">Technical Program Committee</a>
       <a href="#steering-committee" class="nav-button sc-button">Steering Committee</a>
       <a href="#advisory-board" class="nav-button ab-button">Advisory Board</a>
-      <a href="#contribute" class="nav-button contribute-button">Join Us</a>
       <a href="#about-committees" class="nav-button about-button">About Roles</a>
+      <a href="#contribute" class="nav-button contribute-button">Join Us</a>
     </div>
   </div>
 </div>
@@ -803,42 +802,6 @@ author_profile: true
 
 <hr>
 
-<div id="contribute" class="committee-container committee-contribute-section">
-  <h2 class="contribute-header">Join Our Committees</h2>
-  
-  <div class="contribute-content">
-    <div class="contribute-text">
-      <p>We're actively recruiting passionate volunteers for all our committees. By joining SQAI, you'll:</p>
-      <ul>
-        <li>Connect with leading researchers and industry professionals in quantum AI</li>
-        <li>Shape the direction of this emerging and transformative field</li>
-        <li>Gain valuable experience in academic conference organization</li>
-        <li>Be at the forefront of quantum computing and AI integration</li>
-      </ul>
-      <p>Whether your strengths are in technical reviews, event coordination, communications, or strategic planning, there's a meaningful role for you in building SQAI 2026.</p>
-      <p class="contribute-action">Reach out via email: <a href="mailto:info@sqai.org" class="contribute-email">info@sqai.org</a></p>
-    </div>
-    
-    <div class="contribute-highlight">
-      <h3>Open Positions</h3>
-      <div class="open-positions">
-        <div class="position-item">
-          <span class="position-team">TPC</span>
-          <span class="position-role">Area Chairs (Multiple Areas)</span>
-        </div>
-        <div class="position-item">
-          <span class="position-team">OC</span>
-          <span class="position-role">Poster & Demos Chair</span>
-        </div>
-        <div class="position-item">
-          <span class="position-team">SC</span>
-          <span class="position-role">Steering Committee Members</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div id="about-committees" class="committee-container committee-about-section">
   <h2 class="about-header">About Our Committees</h2>
   
@@ -956,6 +919,42 @@ author_profile: true
   <div class="committee-role-card">
     <h3>Advisory Board</h3>
     <p>The <strong>Advisory Board</strong> consists of distinguished experts from industry and academia who provide strategic guidance, field expertise, and valuable connections to the conference. They help identify emerging trends, suggest keynote speakers, recommend program innovations, and enhance the symposium's reputation and impact in the quantum AI community.</p>
+  </div>
+</div>
+
+<div id="contribute" class="committee-container committee-contribute-section">
+  <h2 class="contribute-header">Join Our Committees</h2>
+  
+  <div class="contribute-content">
+    <div class="contribute-text">
+      <p>We're actively recruiting passionate volunteers for all our committees. By joining SQAI, you'll:</p>
+      <ul>
+        <li>Connect with leading researchers and industry professionals in quantum AI</li>
+        <li>Shape the direction of this emerging and transformative field</li>
+        <li>Gain valuable experience in academic conference organization</li>
+        <li>Be at the forefront of quantum computing and AI integration</li>
+      </ul>
+      <p>Whether your strengths are in technical reviews, event coordination, communications, or strategic planning, there's a meaningful role for you in building SQAI 2026.</p>
+      <p class="contribute-action">Reach out via email: <a href="mailto:info@sqai.org" class="contribute-email">info@sqai.org</a></p>
+    </div>
+    
+    <div class="contribute-highlight">
+      <h3>Open Positions</h3>
+      <div class="open-positions">
+        <div class="position-item">
+          <span class="position-team">TPC</span>
+          <span class="position-role">Area Chairs (Multiple Areas)</span>
+        </div>
+        <div class="position-item">
+          <span class="position-team">OC</span>
+          <span class="position-role">Poster & Demos Chair</span>
+        </div>
+        <div class="position-item">
+          <span class="position-team">SC</span>
+          <span class="position-role">Steering Committee Members</span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
