@@ -223,7 +223,7 @@ Whether you're working on fundamental theory, practical applications, or novel f
 - Papers **must** use the **IEEE conference two-column format** (submissions not in this format will be automatically rejected).
 - Authors should download and use the [IEEE Manuscript Templates for Conference Proceedings](https://www.ieee.org/conferences/publishing/templates) (Word or LaTeX).
 - Direct links to templates:
-  - [LaTeX Template](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template_10-17-19.zip)
+  - [LaTeX Template](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip)
   - [Microsoft Word Template](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx)
 - Submissions should be made via our [OpenReview portal](https://openreview.net/group?id=SQAI.org/2026/Symposium&referrer=%5BHomepage%5D(%2F)#tab-recent-activity).
 - All accepted contributions will be presented at the conference and included in the proceedings.

@@ -246,11 +246,17 @@ author_profile: true
 }
 
 .committee-role-card {
-  background-color: transparent;
+  background-color: #ffffff;
   border-radius: 10px;
-  padding: 1.2rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.committee-role-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 .about-header {
@@ -274,23 +280,33 @@ author_profile: true
 }
 
 .role-descriptions {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
+  gap: 1.8rem;
 }
 
 .role-item {
-  padding: 1rem;
-  border-left: 3px solid #ddd;
-  background-color: transparent;
-  border-radius: 0 5px 5px 0;
+  padding: 1.2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.role-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .role-item h4 {
   margin-top: 0;
   font-size: 1.1rem;
   color: #0366d6;
+  border-bottom: 2px solid #e8f0fe;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .role-item h5 {
@@ -300,10 +316,12 @@ author_profile: true
 
 .technical-areas {
   padding-left: 1.2rem;
+  margin-top: 10px;
 }
 
 .technical-areas li {
   margin-bottom: 0.7rem;
+  padding: 4px 0;
 }
 
 /* 美化Contribute部分 */
@@ -419,6 +437,15 @@ author_profile: true
   
   .role-descriptions {
     grid-template-columns: 1fr;
+    gap: 1.3rem;
+  }
+  
+  .role-item {
+    padding: 1rem;
+  }
+  
+  .role-item h4 {
+    font-size: 1rem;
   }
 }
 </style>
