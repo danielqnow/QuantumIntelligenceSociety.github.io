@@ -312,7 +312,7 @@ author_profile: true
   <div class="sponsor-section">
     <h2 class="sponsor-header">Thank You to Our Past Sponsors</h2>
     
-    <p>We're deeply grateful to the sponsors who supported our early efforts in building the Symposium for Quantum AI:</p>
+    <p>We're deeply grateful to the sponsors who supported our early efforts in building the Symposium on Quantum Artificial Intelligence:</p>
     
     <div class="past-sponsors">
       <!-- APAC Blockchain Development Association -->
