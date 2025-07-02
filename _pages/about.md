@@ -12,27 +12,29 @@ redirect_from:
 
 Welcome from the Chairs of SQAI 2026
 ===
-It is with great pleasure that we welcome you to the 3rd Symposium on Quantum Artificial Intelligence (SQAI), to be held on June 26-28, 2026, in two locations: Taipei and Washington D.C.
+It is with great pleasure that we welcome you to the <span style="white-space: nowrap;">**3rd Symposium on Quantum Artificial Intelligence (SQAI)**</span>, to be held on June 26-28, 2026, in two locations: Taipei and Washington D.C.
 
-| 📍 Event | 🗓️ Time |
-|--------------------------|-----------------------------|
-| SQAI Taipei              | 08:30-18:00, June 26-27, 2026 (UTC +8) |
-| SQAI D.C.    | 08:30-16:30, June 27, 2026 (UTC-4)          |
-| Award Ceremony (Virtual) | 21:00-22:00, June 28, 2026 (UTC+8) |
+| 📍 Event         | 🌐 Location            | 🗓️ Time                                 |
+|------------------|------------------------|------------------------------------------|
+| SQAI  | Taipei, Taiwan         | All day, June 26–27, 2026 (UTC+8)    |
+| SQAI Expo        | Taipei, Taiwan         | 10:00–18:00, June 28, 2026 (UTC+8)       |
+| SQAI Summit      | Washington, D.C., USA  | 08:30–16:30, June 27, 2026 (UTC−4)       |
+
+
 
 > Here is our vision.  
-SQAI is the world's premiere international **academic + business** conference in **quantum + AI**.  
+SQAI is the world's premiere international **academic + business + government** conference in **quantum + AI**.  
 We lead a future of universal quantum utility where AI runs natively on quantum hardware.  
 > (1) Merge quantum and AI.  
 > (2) Merge academia and industry.  
 > (3) Unite QAI research initiatives between the United States, Taiwan, and the world.
 
-As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique academic and business platform to explore breakthroughs at the intersection of these transformative technologies. The conference will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
+As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique academic, business, and government platform to explore breakthroughs at the intersection of these transformative technologies. The symposium will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
 
-SQAI 2026 will feature a rich lineup of keynote speeches, technical presentations, demos, poster sessions, and panel discussions.  
-We will also have a business exhibition.
+In Taipei, SQAI will feature a rich lineup of keynote speeches, technical presentations, demos, poster sessions, and a full-scale business expo.  
+In DC, SQAI will feature keynote speeches and government/industry discussion panels.
 
-We will offer researchers, engineers, and government a vibrant space to share insights, collaborate across domains, and chart new directions in quantum-enhanced AI research.
+We will offer researchers, engineers, and policy experts a vibrant space to share insights, collaborate across domains, and chart new directions in quantum, AI, and Quantum AI research and application.
 
 We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Taipei and DC. We look forward to your contributions and to advancing the frontier of Quantum AI - together.
 
