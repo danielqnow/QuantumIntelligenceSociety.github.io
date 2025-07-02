@@ -12,7 +12,8 @@ redirect_from:
 
 Welcome from the Chairs of SQAI 2026
 ===
-It is with great pleasure that we welcome you to the <span style="white-space: nowrap;">**3rd Symposium on Quantum Artificial Intelligence (SQAI)**</span>, to be held on June 26-28, 2026, in two locations: Taipei and Washington D.C.
+It is with great pleasure that we welcome you to the <span style="white-space: nowrap;">**3rd International Symposium on Quantum Artificial Intelligence (SQAI)**</span>, to be held on  
+June 26-28, 2026, in two locations: Taipei and Washington D.C.
 
 | 📍 Event         | 🌐 Location            | 🗓️ Time                                 |
 |------------------|------------------------|------------------------------------------|
