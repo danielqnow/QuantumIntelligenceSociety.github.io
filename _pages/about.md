@@ -33,7 +33,7 @@ We lead a future of universal quantum utility where AI runs natively on quantum 
 As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique academic, business, and government platform to explore breakthroughs at the intersection of these transformative technologies. The symposium will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
 
 In Taipei, SQAI will feature a rich lineup of keynote speeches, technical presentations, demos, poster sessions, and a full-scale business expo.  
-In DC, SQAI will feature keynote speeches and government/industry discussion panels.
+In DC, SQAI will feature keynote speeches and government-industry discussion panels.
 
 We will offer researchers, engineers, and policy experts a vibrant space to share insights, collaborate across domains, and chart new directions in quantum, AI, and Quantum AI research and application.
 
