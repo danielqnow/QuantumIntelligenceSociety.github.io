@@ -149,22 +149,26 @@ author_profile: true
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-/* Adjust button widths to fit on one line */
+/* Adjust button widths to make them all the same size */
 .schedule-button { 
   background-color: #0366d6; 
-  min-width: 100px;
+  min-width: 120px;
+  width: 120px;
 }
 .taipei-button { 
   background-color: #0366d6; 
-  min-width: 150px;
+  min-width: 120px;
+  width: 120px;
 }
 .dc-button { 
   background-color: #0366d6; 
-  min-width: 140px;
+  min-width: 120px;
+  width: 120px;
 }
 .virtual-button { 
   background-color: #0366d6; 
-  min-width: 130px;
+  min-width: 120px;
+  width: 120px;
 }
 
 /* Program Sections */
@@ -320,7 +324,7 @@ author_profile: true
       <div class="nav-links">
         <a href="#sqai-a" class="nav-button schedule-button">🎓 SQAI-A</a>
         <a href="#sqai-b" class="nav-button taipei-button">💼 SQAI-B</a>
-        <a href="#sqai-c" class="nav-button dc-button">�️ SQAI-C</a>
+        <a href="#sqai-c" class="nav-button dc-button">🏛️ SQAI-C</a>
         <a href="#sqai-d" class="nav-button virtual-button">🌐 SQAI-D</a>
       </div>
     </div>
@@ -344,7 +348,7 @@ author_profile: true
           View our complete academic conference schedule for all events and sessions. This schedule is regularly updated.
         </p>
         <div class="schedule-iframe-container">
-          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?widget=true&amp;headers=false" width="100%" height="500" style="border:none;overflow:auto;"></iframe>
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?gid=0&single=true" width="100%" height="500" style="border:none;overflow:auto;"></iframe>
         </div>
       </div>
     </div>
@@ -370,16 +374,6 @@ author_profile: true
     </div>
 
     <div class="program-feature">
-      <div class="feature-icon">🤝</div>
-      <div class="feature-content">
-        <h3 class="feature-title">"Quantum Meets AI" Networking Event</h3>
-        <p class="feature-description">
-          A dedicated networking session designed to foster collaborations between quantum computing experts and AI researchers. This event facilitates meaningful connections between academia, industry, and government representatives.
-        </p>
-      </div>
-    </div>
-
-    <div class="program-feature">
       <div class="feature-icon">📊</div>
       <div class="feature-content">
         <h3 class="feature-title">Poster Sessions</h3>
@@ -395,6 +389,17 @@ author_profile: true
         <h3 class="feature-title">Networking Breaks</h3>
         <p class="feature-description">
           Catered lunches and coffee breaks provide informal networking opportunities throughout the conference. These breaks are strategically scheduled to encourage discussions and collaborations among attendees.
+        </p>
+      </div>
+    </div>
+
+    <div class="program-feature">
+      <div class="feature-icon">🏆</div>
+      <div class="feature-content">
+        <h3 class="feature-title">Best Paper Award Ceremony</h3>
+        <p class="feature-description">
+          Our closing ceremony brings both communities together at the conclusion of SQAI-A.<br>
+          Winners will be honored and invited to give short remarks or lightning talks. The ceremony will recognize outstanding contributions to the field of quantum AI and celebrate the achievements of researchers from around the world. The ceremony will be held in person in Taipei and simultaneously streamed for virtual participants.
         </p>
       </div>
     </div>
@@ -450,6 +455,19 @@ author_profile: true
     <p style="margin-bottom:0.8rem;">
       The Capitol Summit will be held in Washington, D.C. on June 27, 2026 (UTC−4), 08:30-16:30, starting immediately after SQAI-A. SQAI-C will feature keynote speeches and discussion panels from civic and corporate leaders, along with a networking event.
     </p>
+    
+    <div class="program-feature">
+      <div class="feature-icon">🗓️</div>
+      <div class="feature-content">
+        <h3 class="feature-title">Capitol Summit Schedule</h3>
+        <p class="feature-description">
+          View the detailed schedule for the SQAI-C Capitol Summit in Washington, D.C.
+        </p>
+        <div class="schedule-iframe-container">
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?gid=1931629340&single=true" width="100%" height="500" style="border:none;overflow:auto;"></iframe>
+        </div>
+      </div>
+    </div>
 
     <div class="program-feature">
       <div class="feature-icon">🎤</div>
@@ -501,19 +519,6 @@ author_profile: true
     <p style="margin-bottom:0.8rem;">
       Digital Access will be provided for all registrants, including both Zoom sessions and recordings for SQAI-A, SQAI-B, and SQAI-C throughout the conference period.
     </p>
-
-    <div class="program-feature">
-      <div class="feature-icon">🏆</div>
-      <div class="feature-content">
-        <h3 class="feature-title">Best Paper Award Ceremony</h3>
-        <p class="feature-description">
-          Our closing ceremony brings both communities together:<br>
-          <strong>June 27, 2026 @ 9:00 PM (DC)</strong><br>
-          <strong>June 28, 2026 @ 9:00 AM (Taipei)</strong><br><br>
-          Winners will be honored and invited to give short remarks or lightning talks. The ceremony will recognize outstanding contributions to the field of quantum AI and celebrate the achievements of researchers from around the world.
-        </p>
-      </div>
-    </div>
 
     <div class="program-feature">
       <div class="feature-icon">🌐</div>
