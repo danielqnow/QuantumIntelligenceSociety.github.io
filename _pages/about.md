@@ -15,26 +15,29 @@ Welcome from the Chairs of SQAI 2026
 It is with great pleasure that we welcome you to the <span style="white-space: nowrap;">**3rd International Symposium on Quantum Artificial Intelligence (SQAI)**</span>, to be held on  
 June 26-28, 2026, in two locations: Taipei and Washington D.C.
 
-| 📍 Event         | 🌐 Location            | 🗓️ Time                                 |
+| 👥 Event         | 📍 Location            | 🗓️ Time                                 |
 |------------------|------------------------|------------------------------------------|
 | **SQAI-A** (**A**cademic Conference) | 🇹🇼 Taipei, Taiwan         | All day, June 26–27, 2026 (UTC+8)    |
 | **SQAI-B** (**B**usiness Expo)        | 🇹🇼 Taipei, Taiwan         | 10:00–18:00, June 28, 2026 (UTC+8)       |
 | **SQAI-C** (**C**apitol Summit)      | 🇺🇸 Washington, D.C., USA  | 08:30–16:30, June 27, 2026 (UTC−4)       |
-
-
+| **SQAI-D** (**D**igital Access)      | 🌐 Online / Hybrid  | Live Zoom sessions & recordings daily |
 
 > Here is our vision.  
 SQAI is the world's premiere international **academic + business + civic** conference in **quantum + AI**.  
-Leading a future of universal quantum utility where AI runs natively on quantum hardware.  
-> (1) **Interdisciplinary-QAI**. We merge **Q**uantum and **AI**.  
-> (2) **Intersectoral-ABC**: We bring together **A**cademicians, **B**usinesspeople, and **C**ivic Leaders.  
-> (3) **International-USTW**. We unite QAI research initiatives between the **U**nited **S**tates, **T**aiwan, and the **W**orld.
+> 1. **Interdisciplinary-QAI**: Merging **Q**uantum and **AI**.  
+> 2. **Intersectoral-ABC**: Bringing together **A**cademicians, **B**usinesspeople, and **C**ivic Leaders.  
+> 3. **International-USTW**: Uniting QAI research initiatives between the **U**nited **S**tates, **T**aiwan, and the **W**orld.  
 
-As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique academic, business, and government platform to explore breakthroughs at the intersection of these transformative technologies. The symposium will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
+☁️ Reach for the "SQAI" – Leading a future of universal quantum utility where AI runs natively on quantum hardware.
 
-**SQAI-A**, our academic conference, will be held in Taipei. Our 2026 goal is to publish 50 of the best research papers. We will feature a rich lineup of keynote speeches, technical presentations, demos, poster sessions.  
+---
+
+As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique academic, business, and civic platform to explore breakthroughs at the intersection of these transformative technologies. The symposium will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
+
+**SQAI-A**, our academic conference, will be held in Taipei. Our 2026 target is 50 outstanding research papers. We will feature a rich lineup of keynote speeches, technical presentations, demos, poster sessions.  
 **SQAI-B**, our business expo, will also be held in Taipei. SQAI's sponsors will be given access to a booth, and exhibitors will be allowed to roam around to talk to the company or institute of their choosing.  
-**SQAI-C**, our Capitol summit, will be held in D.C. SQAI-C will feature keynote speeches, government-industry discussion panels, and a networking event.
+**SQAI-C**, our Capitol summit, will be held in D.C. SQAI-C will feature keynote speeches, government-industry discussion panels, and a networking event.  
+**SQAI-D**, our digital access, will be provided for all registrants, including both Zoom sessions and recordings for SQAI-A, SQAI-B, and SQAI-C.
 
 We will offer researchers, engineers, and policy experts a vibrant space to share insights, collaborate across domains, and chart new directions in quantum, AI, and Quantum AI research and application.
 
