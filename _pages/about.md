@@ -34,12 +34,12 @@ SQAI is the world's premiere international **academic + business + civic** confe
 
 As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique academic, business, and civic platform to explore breakthroughs at the intersection of these transformative technologies. The symposium will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
 
-**SQAI-A**, our academic conference, will be held in Taipei. Our 2026 target is 50 outstanding research papers. We will feature a rich lineup of keynote speeches, technical presentations, demos, poster sessions.  
-**SQAI-B**, our business expo, will also be held in Taipei. SQAI's sponsors will be given access to a booth, and exhibitors will be allowed to roam around to talk to the company or institute of their choosing.  
-**SQAI-C**, our Capitol summit, will be held in D.C. SQAI-C will feature keynote speeches, government-industry discussion panels, and a networking event.  
-**SQAI-D**, our digital access, will be provided for all registrants, including both Zoom sessions and recordings for SQAI-A, SQAI-B, and SQAI-C.
+- **SQAI-A** - *Academic Conference* - will be held in Taipei. Our 2026 target is 50 outstanding research papers. We will feature a rich lineup of keynote speeches, technical presentations, demos, and poster sessions.  
+- **SQAI-B** - *Business Expo* - will also be held in Taipei, after SQAI-A. SQAI's sponsors will be given access to a booth, and exhibitors will be allowed to roam around to talk to the company or institute of their choosing.  
+- **SQAI-C** - *Capitol Summit* - will be held in D.C. and will start immediately after SQAI-A, on the other side of the world. SQAI-C will feature keynote speeches and discussion panels from civic and corporate leaders. SQAI-C will also have a networking event.
+- **SQAI-D** - *Digital Access* - will be provided for all registrants, including both Zoom sessions and recordings for SQAI-A, SQAI-B, and SQAI-C.
 
-We will offer researchers, engineers, and policy experts a vibrant space to share insights, collaborate across domains, and chart new directions in quantum, AI, and Quantum AI research and application.
+We will offer everyone from researchers and engineers to policy experts a vibrant space to share insights, collaborate across domains, and chart new directions in quantum, AI, and Quantum AI research and application.
 
 We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Taipei and DC. We look forward to your contributions and to advancing the frontier of Quantum AI - together.
 
