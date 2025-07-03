@@ -26,7 +26,7 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
 SQAI is the world's premiere international **academic + business + civic** conference in **quantum + AI**.  
 > 1. **Interdisciplinary-QAI**: Merging **Q**uantum and **AI**.  
 > 2. **Intersectoral-ABC**: Bringing together **A**cademicians, **B**usinesspeople, and **C**ivic Leaders.  
-> 3. **International-USTW**: Uniting QAI research initiatives between the **U**nited **S**tates, **T**aiwan, and the **W**orld.  
+> 3. **International-ATW**: Uniting QAI research initiatives between **A**merica, **T**aiwan, and the **W**orld.  
 
 ☁️ Reach for the "SQAI" – Leading a future of universal quantum utility where AI runs natively on quantum hardware.
 
