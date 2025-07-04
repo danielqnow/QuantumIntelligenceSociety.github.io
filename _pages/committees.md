@@ -592,6 +592,17 @@ author_profile: true
       </div>
     </div>
     
+    <!-- Sponsorship Chair Position -->
+    <div class="member-card oc-member">
+      <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Sponsorship Chair</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
   </div>
 </div>
 
@@ -858,6 +869,11 @@ author_profile: true
         <h4>Poster & Demos Chair</h4>
         <p>The Poster & Demos Chair organizes interactive sessions that showcase cutting-edge research and technology demonstrations. Responsibilities include managing the submission and selection process, coordinating display logistics, scheduling presentations, and creating an engaging environment for knowledge exchange and networking.</p>
       </div>
+      
+      <div class="role-item">
+        <h4>Sponsorship Chair</h4>
+        <p>The Sponsorship Chair develops and implements strategies to secure financial support for the conference. This role involves creating sponsorship packages, building relationships with potential sponsors from industry and academia, negotiating agreements, ensuring sponsor visibility, and managing sponsor relationships before, during, and after the event to ensure mutual value.</p>
+      </div>
     </div>
   </div>
   
@@ -959,6 +975,10 @@ author_profile: true
         <div class="position-item">
           <span class="position-team">OC</span>
           <span class="position-role">Poster & Demos Chair</span>
+        </div>
+        <div class="position-item">
+          <span class="position-team">OC</span>
+          <span class="position-role">Sponsorship Chair</span>
         </div>
         <div class="position-item">
           <span class="position-team">SC</span>
