@@ -208,7 +208,7 @@ Whether you're working on fundamental theory, practical applications, or novel f
 <li><strong>Initial Format Check</strong>: Immediately after submission</li>
 <li><strong>Peer Review Period</strong>: Feb 23 - Mar 25, 2026</li>
 <li><strong>Final Decision</strong>: Apr 3, 2026</li>
-<li><strong>Conference Date</strong>: June 26–27, 2026</li>
+<li><strong>Conference Date</strong>: June 26–28, 2026</li>
 </ul>
 </div>
 </div>

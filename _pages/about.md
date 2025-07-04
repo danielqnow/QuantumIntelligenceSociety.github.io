@@ -27,7 +27,6 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
 <div id="countdown-container" class="countdown-container">
   <h3 class="countdown-title">SQAI 2026 is Coming Soon</h3>
   <div class="countdown-event">
-    International Symposium on Quantum Artificial Intelligence
   </div>
   <div class="countdown-timer">
     <div class="countdown-block">
