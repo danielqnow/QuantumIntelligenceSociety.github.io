@@ -1,0 +1,157 @@
+/**
+ * SQAI 2026 Countdown Timer Styles
+ * 使用网站的颜色方案：#56a3b7, #98d4dc
+ */
+
+.countdown-container {
+  background: linear-gradient(135deg, #56a3b7, #98d4dc);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto 30px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  color: white;
+}
+
+.countdown-title {
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-event {
+  margin: 0 0 15px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.countdown-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 70px;
+}
+
+.countdown-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1) inset;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.countdown-animate {
+  animation: countdown-pulse 0.5s;
+}
+
+@keyframes countdown-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.countdown-location {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.countdown-location span {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.countdown-location i {
+  margin-right: 5px;
+}
+
+.countdown-ended {
+  padding: 20px;
+  text-align: center;
+}
+
+.countdown-ended h3 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+}
+
+/* 响应式调整 */
+@media (max-width: 767px) {
+  .countdown-timer {
+    gap: 10px;
+  }
+  
+  .countdown-block {
+    min-width: 60px;
+  }
+  
+  .countdown-value {
+    font-size: 2rem;
+    padding: 8px 0;
+  }
+  
+  .countdown-title {
+    font-size: 1.3rem;
+  }
+  
+  .countdown-event {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown-block {
+    min-width: 55px;
+  }
+  
+  .countdown-value {
+    font-size: 1.8rem;
+    padding: 6px 0;
+  }
+  
+  .countdown-location {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .countdown-location span {
+    margin: 2px 0;
+  }
+}

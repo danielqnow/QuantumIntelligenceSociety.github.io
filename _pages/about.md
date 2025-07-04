@@ -22,6 +22,35 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
 | **SQAI-C** (**C**apitol Summit)      | 🇺🇸 Washington, D.C., USA  | 08:30–16:30, June 27, 2026 (UTC−4)       |
 | **SQAI-D** (**D**igital Access)      | 🌐 Online / Hybrid  | Live Zoom sessions & recordings daily |
 
+<!-- Countdown Timer -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/countdown.css">
+<div id="countdown-container" class="countdown-container">
+  <h3 class="countdown-title">SQAI 2026 is Coming Soon</h3>
+  <div class="countdown-event">
+    International Symposium on Quantum Artificial Intelligence
+  </div>
+  <div class="countdown-timer">
+    <div class="countdown-block">
+      <div id="countdown-days" class="countdown-value">00</div>
+      <div class="countdown-label">DAYS</div>
+    </div>
+    <div class="countdown-block">
+      <div id="countdown-hours" class="countdown-value">00</div>
+      <div class="countdown-label">HOURS</div>
+    </div>
+    <div class="countdown-block">
+      <div id="countdown-minutes" class="countdown-value">00</div>
+      <div class="countdown-label">MINS</div>
+    </div>
+  </div>
+  <div class="countdown-location">
+    <span><i class="fas fa-map-marker-alt"></i> Taipei, Taiwan</span>
+    <span><i class="fas fa-map-marker-alt"></i> Washington, D.C., USA</span>
+    <span><i class="fas fa-calendar-alt"></i> June 26-28, 2026</span>
+  </div>
+</div>
+<script src="{{ site.baseurl }}/assets/js/countdown.js"></script>
+
 > Here is our vision.  
 SQAI is the world's premiere international **academic + business + civic** conference in **quantum + AI**.  
 > 1. **Interdisciplinary-QAI**: Merging **Q**uantum and **AI**.  
