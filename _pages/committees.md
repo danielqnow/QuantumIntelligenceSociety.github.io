@@ -286,12 +286,14 @@ author_profile: true
 
 .contribute-text {
   flex: 3;
-  min-width: 300px;
+  min-width: 250px;
+  max-width: 100%;
 }
 
 .contribute-highlight {
   flex: 2;
-  min-width: 250px;
+  min-width: 200px;
+  max-width: 100%;
   background-color: transparent;
   border-radius: 10px;
   padding: 1.2rem;

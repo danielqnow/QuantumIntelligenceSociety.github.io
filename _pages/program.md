@@ -238,8 +238,8 @@ author_profile: true
         <p class="feature-description">
           View our complete academic conference schedule for all events and sessions. This schedule is regularly updated.
         </p>
-        <div class="schedule-iframe-container">
-          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?gid=0&single=true" width="100%" height="500" style="border:none;overflow:auto;"></iframe>
+        <div class="schedule-iframe-container" style="overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%;">
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSokOukw8E-OhH-E1xESJ0ooLVc2bcdySVJRVE9f1knAyAXZ8CXudRQB1JZiKrf0l8PDHFSltB0zzya/pubhtml?gid=0&single=true&widget=true" width="100%" height="500" style="border:none;max-width:100%;display:block;"></iframe>
         </div>
       </div>
     </div>
