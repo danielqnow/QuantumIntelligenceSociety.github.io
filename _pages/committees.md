@@ -5,83 +5,7 @@ author_profile: true
 ---
 
 <style>
-/* New Navigation Menu */
-.committee-nav-container {
-  margin: 2.5rem 0;
-}
-
-.committee-nav {
-  background: transparent;
-  border-radius: 12px;
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.nav-header {
-  margin-top: 0;
-  margin-bottom: 1.2rem;
-  font-size: 1.4rem;
-  color: #333;
-  position: relative;
-  padding-bottom: 0.8rem;
-  display: inline-block;
-}
-
-.nav-header:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: #0366d6;
-  border-radius: 3px;
-}
-
-.nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-}
-
-.nav-button {
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  color: white;
-  text-align: center;
-  min-width: 160px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.nav-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.oc-button,
-.tpc-button,
-.sc-button,
-.ab-button,
-.contribute-button,
-.about-button {
-  background-color: #0366d6;
-}
-
-@media (max-width: 992px) {
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .nav-button {
-    width: 100%;
-    max-width: 300px;
-  }
-}
+/* Removed navigation button styles in favor of text links */
 
 /* 主要样式 */
 .committee-container {
@@ -96,7 +20,7 @@ author_profile: true
 .ab-header,
 .about-header,
 .contribute-header {
-  border-left: 4px solid #0366d6;
+  border-left: 4px solid #98d4dc;
   padding-left: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -453,17 +377,92 @@ author_profile: true
 ![SQAI 2023 Committee](/images/sqaicommittee.jpg)
 *SQAI 2023 Committee at National Taiwan University - including TAIA Joannie Hsieh, TAIA Jeff Peng, NTUAI President Steven Lu, and SQAI founder Austin Hua*
 
-<div class="committee-nav-container">
-  <div class="committee-nav">
-    <h3 class="nav-header">Quick Navigation</h3>
-    <div class="nav-links">
-      <a href="#organizing-committee" class="nav-button oc-button">Organizing Committee</a>
-      <a href="#technical-program-committee" class="nav-button tpc-button">Technical Program Committee</a>
-      <a href="#steering-committee" class="nav-button sc-button">Steering Committee</a>
-      <a href="#advisory-board" class="nav-button ab-button">Advisory Board</a>
-      <a href="#about-committees" class="nav-button about-button">About Roles</a>
-      <a href="#contribute" class="nav-button contribute-button">Join Us</a>
-    </div>
+<style>
+.quick-nav-container {
+  background-color: #f5f5f5; 
+  padding: 15px; 
+  margin-bottom: 20px; 
+  text-align: center;
+  border-radius: 6px;
+}
+
+.quick-nav-title {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #444;
+}
+
+.committees-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 8px 16px;
+}
+
+.info-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  margin-top: 4px;
+  gap: 24px;
+}
+
+.nav-link {
+  color: #56a3b7;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #3a7f93;
+  text-decoration: underline;
+  background-color: rgba(86, 163, 183, 0.05);
+}
+
+.info-link {
+  color: #56a3b7;
+  font-size: 0.95em;
+  opacity: 0.9;
+}
+
+.info-link:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .committees-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .info-nav {
+    gap: 16px;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 6px 8px;
+  }
+}
+</style>
+
+<div class="quick-nav-container">
+  <div class="quick-nav-title">Quick Navigation</div>
+  <div class="committees-nav">
+    <a href="#organizing-committee" class="nav-link">Organizing Committee</a>
+    <a href="#technical-program-committee" class="nav-link">Technical Program Committee</a>
+    <a href="#steering-committee" class="nav-link">Steering Committee</a>
+    <a href="#advisory-board" class="nav-link">Advisory Board</a>
+  </div>
+  <div class="info-nav">
+    <a href="#about-committees" class="nav-link info-link">About Roles</a>
+    <a href="#contribute" class="nav-link info-link">Join Us</a>
   </div>
 </div>
 

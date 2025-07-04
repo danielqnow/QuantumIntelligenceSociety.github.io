@@ -26,7 +26,7 @@ author_profile: true
 
 .program-notice {
   background-color: transparent;
-  border-left: 3px solid #0366d6;
+  border-left: 3px solid #98d4dc;
   padding: 0.7rem;
   margin: 0.8rem 0;
   border-radius: 0;
@@ -57,9 +57,9 @@ author_profile: true
   border-radius: 0 6px 6px 0;
 }
 
-.taipei-event { border-color: #0366d6; }
-.dc-event { border-color: #0366d6; }
-.virtual-event { border-color: #0366d6; }
+.taipei-event { border-color: #98d4dc; }
+.dc-event { border-color: #98d4dc; }
+.virtual-event { border-color: #98d4dc; }
 
 .event-details {
   flex-grow: 1;
@@ -74,9 +74,9 @@ author_profile: true
   margin-bottom: 0.3rem;
 }
 
-.location-taipei { background-color: transparent; border: 1px solid #0366d6; color: #0366d6; }
-.location-dc { background-color: transparent; border: 1px solid #0366d6; color: #0366d6; }
-.location-virtual { background-color: transparent; border: 1px solid #0366d6; color: #0366d6; }
+.location-taipei { background-color: transparent; border: 1px solid #98d4dc; color: #98d4dc; }
+.location-dc { background-color: transparent; border: 1px solid #98d4dc; color: #98d4dc; }
+.location-virtual { background-color: transparent; border: 1px solid #98d4dc; color: #98d4dc; }
 
 .event-time {
   font-size: 0.85rem;
@@ -88,88 +88,7 @@ author_profile: true
   margin-bottom: 0.2rem;
 }
 
-/* Program Navigation */
-.program-nav-container {
-  margin: 1rem 0;
-}
-
-.program-nav {
-  background: transparent;
-  border-radius: 0;
-  padding: 0.7rem 0;
-  text-align: center;
-}
-
-.nav-header {
-  margin-top: 0;
-  margin-bottom: 0.8rem;
-  font-size: 1.2rem;
-  color: #333;
-  position: relative;
-  padding-bottom: 0.5rem;
-  display: inline-block;
-}
-
-.nav-header:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: #0366d6;
-  border-radius: 3px;
-}
-
-.nav-links {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 10px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.nav-button {
-  padding: 8px 10px;
-  border-radius: 6px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  color: white;
-  text-align: center;
-  font-size: 0.9rem;
-  min-width: 120px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  white-space: nowrap;
-}
-
-.nav-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-/* Adjust button widths to make them all the same size */
-.schedule-button { 
-  background-color: #0366d6; 
-  min-width: 120px;
-  width: 120px;
-}
-.taipei-button { 
-  background-color: #0366d6; 
-  min-width: 120px;
-  width: 120px;
-}
-.dc-button { 
-  background-color: #0366d6; 
-  min-width: 120px;
-  width: 120px;
-}
-.virtual-button { 
-  background-color: #0366d6; 
-  min-width: 120px;
-  width: 120px;
-}
+/* Removed navigation button styles in favor of text links */
 
 /* Program Sections */
 .program-section {
@@ -195,7 +114,7 @@ author_profile: true
   left: 0;
   width: 100px;
   height: 3px;
-  background-color: #0366d6;
+  background-color: #98d4dc;
   border-radius: 3px;
 }
 
@@ -219,13 +138,13 @@ author_profile: true
   height: 40px;
   margin-right: 0.8rem;
   background: transparent;
-  border: 1px solid #0366d6;
+  border: 1px solid #98d4dc;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
-  color: #0366d6;
+  color: #98d4dc;
 }
 
 .feature-content {
@@ -254,36 +173,12 @@ author_profile: true
   vertical-align: middle;
 }
 
-.location-taipei-tag { background-color: transparent; border: 1px solid #0366d6; color: #0366d6; }
-.location-dc-tag { background-color: transparent; border: 1px solid #0366d6; color: #0366d6; }
-.location-virtual-tag { background-color: transparent; border: 1px solid #0366d6; color: #0366d6; }
+.location-taipei-tag { background-color: transparent; border: 1px solid #98d4dc; color: #98d4dc; }
+.location-dc-tag { background-color: transparent; border: 1px solid #98d4dc; color: #98d4dc; }
+.location-virtual-tag { background-color: transparent; border: 1px solid #98d4dc; color: #98d4dc; }
 
 /* Responsive */
-@media (max-width: 992px) {
-  .nav-links {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  
-  .nav-button {
-    flex: 1;
-    min-width: 0;
-    padding: 8px 12px;
-    font-size: 0.9rem;
-  }
-}
-
 @media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .nav-button {
-    width: 100%;
-    max-width: 300px;
-  }
-  
   .program-feature {
     flex-direction: column;
   }
@@ -301,7 +196,7 @@ author_profile: true
 /* Section Separator */
 .section-separator {
   height: 1px;
-  background: linear-gradient(to right, transparent, #0366d6, transparent);
+  background: linear-gradient(to right, transparent, #98d4dc, transparent);
   margin: 1.5rem 0;
   border: none;
 }
@@ -318,16 +213,12 @@ author_profile: true
   </div>
 
   <!-- Program Navigation -->
-  <div class="program-nav-container">
-    <div class="program-nav">
-      <h4 class="nav-header">Navigate the Program</h4>
-      <div class="nav-links">
-        <a href="#sqai-a" class="nav-button schedule-button">🎓 SQAI-A</a>
-        <a href="#sqai-b" class="nav-button taipei-button">💼 SQAI-B</a>
-        <a href="#sqai-c" class="nav-button dc-button">🏛️ SQAI-C</a>
-        <a href="#sqai-d" class="nav-button virtual-button">🌐 SQAI-D</a>
-      </div>
-    </div>
+  <div style="background-color: #f5f5f5; padding: 10px; margin-bottom: 20px; text-align: center;">
+    <strong>Navigate the Program<br></strong> 
+    <a href="#sqai-a">🎓 SQAI-A</a> | 
+    <a href="#sqai-b">💼 SQAI-B</a> | 
+    <a href="#sqai-c">🏛️ SQAI-C</a> | 
+    <a href="#sqai-d">🌐 SQAI-D</a>
   </div>
 
   <hr class="section-separator">
