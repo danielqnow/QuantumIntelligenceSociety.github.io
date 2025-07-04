@@ -647,6 +647,17 @@ author_profile: true
         <div class="member-contact">daniel@qnow.tech</div>
       </div>
     </div>
+
+    <!-- Yash Gaur -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/yash.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/yash-gaur-b761b824b/" target="_blank">Yash Gaur</a></h3>
+        <div class="member-title">TPC Member</div>
+        <div class="member-affiliation">Quantum AI Researcher</div>
+        <div class="member-contact">yashgaur3000@gmail.com</div>
+      </div>
+    </div>
     
     <!-- Yen-Chi Chen -->
     <div class="member-card tpc-member">
