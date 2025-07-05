@@ -183,21 +183,21 @@
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 
-/* SQAI Event Tag Colors */
+/* SQAI Event Tag Colors - Matched with event table and feature cards */
 .sqai-a-mini {
   background: #2196f3; /* Academic Conference - Blue */
 }
 
 .sqai-b-mini {
-  background: #4caf50; /* Business Expo - Green */
+  background: #03a9f4; /* Business Expo - Light Blue */
 }
 
 .sqai-c-mini {
-  background: #9c27b0; /* Capitol Summit - Purple */
+  background: #00bcd4; /* Capitol Summit - Cyan */
 }
 
 .sqai-d-mini {
-  background: #ff9800; /* Digital Access - Orange */
+  background: #009688; /* Digital Access - Teal */
 }
 
 .date-value {
