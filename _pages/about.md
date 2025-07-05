@@ -263,8 +263,9 @@ It is with great pleasure that we welcome you to the <span style="white-space: n
 <!-- Countdown Timer -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/countdown.css">
 <div id="countdown-container" class="countdown-container">
-  <h3 class="countdown-title">SQAI 2026 is Coming Soon</h3>
+  <h3 class="countdown-title">SQAI 2026 Countdown</h3>
   <div class="countdown-event">
+    <div style="font-size: 0.9rem; color: #555; margin-top: -10px; margin-bottom: 10px; text-align: center;">June 26, 2026 at 9:00 AM Taipei Time</div>
   </div>
   <div class="countdown-timer">
     <div class="countdown-block">
@@ -279,11 +280,10 @@ It is with great pleasure that we welcome you to the <span style="white-space: n
       <div id="countdown-minutes" class="countdown-value">00</div>
       <div class="countdown-label">MINS</div>
     </div>
-  </div>
-  <div class="countdown-location">
-    <span><i class="fas fa-map-marker-alt"></i> Taipei, Taiwan</span>
-    <span><i class="fas fa-map-marker-alt"></i> Washington, D.C., USA</span>
-    <span><i class="fas fa-calendar-alt"></i> June 26-28, 2026</span>
+    <div class="countdown-block">
+      <div id="countdown-seconds" class="countdown-value">00</div>
+      <div class="countdown-label">SECS</div>
+    </div>
   </div>
 </div>
 <script src="{{ site.baseurl }}/assets/js/countdown.js"></script>
