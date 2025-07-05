@@ -557,8 +557,8 @@ author_profile: true
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/rlanday/" target="_blank">Ryan Landay</a></h3>
         <div class="member-title">Collaborator</div>
-        <div class="member-contact">rlanday@gmail.com</div>
         <div class="member-affiliation">Founder, ML Engineer</div>
+        <div class="member-contact">rlanday@gmail.com</div>
       </div>
     </div>
     

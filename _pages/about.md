@@ -48,16 +48,8 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
 }
 
 .event-table th i {
-  margin-right: 8px;
-  font-size: 1rem;
-  background: rgba(255,255,255,0.25);
-  width: 24px;
-  height: 24px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  margin-right: 6px;
+  font-size: 1.1rem;
 }
 
 .event-table td {
@@ -423,40 +415,33 @@ As the boundaries between quantum computing, artificial intelligence, and interd
 }
 
 .feature-title i {
-  margin-right: 12px;
-  font-size: 1.1rem;
-  width: 32px;
-  height: 32px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  width: 28px;
+  height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(3,102,214,0.08);
+  background-color: rgba(3,102,214,0.1);
   border-radius: 50%;
-  color: #0366d6;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  transition: all 0.3s ease;
-}
-
-.sqai-a .feature-title {
+  padding: 5px;
   color: #0366d6;
 }
 
-.sqai-b .feature-title {
-  color: #0288d1;
+.sqai-a .feature-title, .sqai-a .feature-title i {
+  color: #0366d6;
 }
 
-.sqai-c .feature-title {
-  color: #0097a7;
+.sqai-b .feature-title, .sqai-b .feature-title i {
+  color: #1a56b0;
 }
 
-.sqai-d .feature-title {
-  color: #00796b;
+.sqai-c .feature-title, .sqai-c .feature-title i {
+  color: #004ea8;
 }
 
-/* 悬停效果 */
-.feature-card:hover .feature-title i {
-  transform: scale(1.1);
-  background-color: rgba(3,102,214,0.12);
+.sqai-d .feature-title, .sqai-d .feature-title i {
+  color: #003c7e;
 }
 
 .feature-subtitle {
