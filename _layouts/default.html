@@ -12,18 +12,25 @@ layout: compress
     <link rel="stylesheet" href="/assets/css/dropdown-nav.css">
     <link rel="stylesheet" href="/assets/css/important-dates.css">
     <link rel="stylesheet" href="/assets/css/lang-switch.css">
+    <link rel="stylesheet" href="/assets/css/full-sidebar.css">
+    <link rel="stylesheet" href="/assets/css/dates-categories.css">
   </head>
 
   <body>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
-    {{ content }}
-
+    
     <div class="sqai-dates-fixed-sidebar">
       {% include sqai-dates-sidebar.html %}
     </div>
+    
+    <!-- Mobile toggle button for important dates -->
+    <div class="mobile-dates-toggle" style="display: none;">
+      <i class="fas fa-calendar-alt"></i>
+    </div>
+
+    {{ content }}
 
     <div class="page__footer">
       <footer>
@@ -33,6 +40,7 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+    <script src="/assets/js/sidebar-categories.js"></script>
 
   </body>
 </html>
