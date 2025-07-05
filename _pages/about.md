@@ -15,12 +15,251 @@ Welcome from the Chairs of SQAI 2026
 It is with great pleasure that we welcome you to the <span style="white-space: nowrap;">**3rd International Symposium on Quantum Artificial Intelligence (SQAI)**</span>, to be held on  
 June 26-28, 2026, in two locations: Taipei and Washington D.C.
 
-| 👥 Event         | 📍 Location            | 🗓️ Time                                 |
-|------------------|------------------------|------------------------------------------|
-| **SQAI-A** (**A**cademic Conference) | 🇹🇼 Taipei, Taiwan         | All day, June 26–27, 2026 (UTC+8)    |
-| **SQAI-B** (**B**usiness Expo)        | 🇹🇼 Taipei, Taiwan         | 10:00–18:00, June 28, 2026 (UTC+8)       |
-| **SQAI-C** (**C**apitol Summit)      | 🇺🇸 Washington, D.C., USA  | 08:30–16:30, June 27, 2026 (UTC−4)       |
-| **SQAI-D** (**D**igital Access)      | 🌐 Online / Hybrid  | Live Zoom sessions & recordings daily |
+<style>
+.event-table-container {
+  margin: 2rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  font-size: 0.95rem;
+}
+
+.event-table th {
+  background: linear-gradient(135deg, #98d4dc, #0366d6);
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: 600;
+  position: relative;
+}
+
+.event-table th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.event-table th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.event-table th i {
+  margin-right: 6px;
+  font-size: 1.1rem;
+}
+
+.event-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  vertical-align: middle;
+}
+
+.event-table tr:last-child td {
+  border-bottom: none;
+}
+
+.event-table tr:nth-child(even) {
+  background-color: #f8fbfe;
+}
+
+.event-table tr:hover {
+  background-color: #f0f7ff;
+}
+
+.event-name {
+  font-weight: 600;
+  color: #0366d6;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap; /* 防止换行 */
+  gap: 6px; /* 减少标签与文字之间的间距 */
+}
+
+.event-name div {
+  font-weight: 600;
+  font-size: 0.95rem;
+  white-space: nowrap; /* 确保文本不会换行 */
+  padding-left: 2px; /* 稍微添加一点内边距 */
+}
+
+.event-name span {
+  font-size: 0.8rem;
+  color: #555;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.event-location {
+  display: flex;
+  align-items: center;
+}
+
+.event-location .flag {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.event-time {
+  white-space: nowrap;
+  color: #444;
+}
+
+.sqai-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 8px;
+  border-radius: 5px;
+  color: white !important; /* 强制使用白色文本 */
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-right: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  text-transform: uppercase;
+  width: 70px;
+  height: 28px;
+  flex-shrink: 0;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+.sqai-a-tag {
+  background: #2196f3;
+}
+
+.sqai-b-tag {
+  background: #03a9f4;
+}
+
+.sqai-c-tag {
+  background: #00bcd4;
+}
+
+.sqai-d-tag {
+  background: #009688;
+}
+
+@media (max-width: 768px) {
+  .event-table {
+    font-size: 0.85rem;
+  }
+  
+  .event-table th, .event-table td {
+    padding: 10px;
+  }
+  
+  .event-name span {
+    display: block;
+    margin-top: 2px;
+  }
+  
+  .sqai-tag {
+    width: 65px;
+    min-width: 65px;
+    padding: 5px 6px;
+    font-size: 0.8rem;
+    letter-spacing: 0.2px;
+    margin-right: 6px;
+    color: white !important; /* 确保在移动设备上也强制使用白色 */
+  }
+  
+  .event-name {
+    gap: 4px; /* 在移动设备上进一步减少间距 */
+  }
+  
+  .event-name div {
+    font-size: 0.9rem; /* 移动设备上字体略小 */
+  }
+}
+
+@media (max-width: 500px) {
+  .event-table-container {
+    margin: 1rem -10px;
+    border-radius: 0;
+    max-width: calc(100% + 20px);
+    overflow-x: auto;
+  }
+  
+  .event-table {
+    min-width: 500px;
+  }
+}
+</style>
+
+<div class="event-table-container">
+  <table class="event-table">
+    <thead>
+      <tr>
+        <th><i class="fas fa-calendar-check"></i> Event</th>
+        <th><i class="fas fa-map-marker-alt"></i> Location</th>
+        <th><i class="fas fa-clock"></i> Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div class="event-name">
+            <span class="sqai-tag sqai-a-tag">SQAI-A</span>
+            <div>Academic Conference</div>
+          </div>
+        </td>
+        <td>
+          <div class="event-location">
+            <span class="flag">🇹🇼</span> Taipei, TW
+          </div>
+        </td>
+        <td class="event-time">All day, June 26–27, 2026 (UTC+8)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="event-name">
+            <span class="sqai-tag sqai-b-tag">SQAI-B</span>
+            <div>Business Expo</div>
+          </div>
+        </td>
+        <td>
+          <div class="event-location">
+            <span class="flag">🇹🇼</span> Taipei, TW
+          </div>
+        </td>
+        <td class="event-time">10:00–18:00, June 28, 2026 (UTC+8)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="event-name">
+            <span class="sqai-tag sqai-c-tag">SQAI-C</span>
+            <div>Capitol Summit</div>
+          </div>
+        </td>
+        <td>
+          <div class="event-location">
+            <span class="flag">🇺🇸</span> D.C., USA
+          </div>
+        </td>
+        <td class="event-time">08:30–16:30, June 27, 2026 (UTC−4)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="event-name">
+            <span class="sqai-tag sqai-d-tag">SQAI-D</span>
+            <div>Digital Access</div>
+          </div>
+        </td>
+        <td>
+          <div class="event-location">
+            <span class="flag">🌐</span> Online
+          </div>
+        </td>
+        <td class="event-time">Live Zoom sessions & recordings daily</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <!-- Countdown Timer -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/countdown.css">
@@ -121,31 +360,43 @@ As the boundaries between quantum computing, artificial intelligence, and interd
   position: absolute;
   top: 15px;
   right: 15px;
-  background: rgba(0,102,214,0.85);
-  color: white;
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  color: white !important; /* 强制使用白色文本 */
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  text-transform: uppercase;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  min-width: 70px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.25);
 }
 
 .sqai-a .feature-badge {
-  background: rgba(0,102,214,0.85);
+  background: #2196f3;
+  background: linear-gradient(135deg, #2196f3, #1976d2);
 }
 
 .sqai-b .feature-badge {
-  background: rgba(26,86,176,0.85);
+  background: #03a9f4;
+  background: linear-gradient(135deg, #03a9f4, #0288d1);
 }
 
 .sqai-c .feature-badge {
-  background: rgba(0,78,168,0.85);
+  background: #00bcd4;
+  background: linear-gradient(135deg, #00bcd4, #0097a7);
 }
 
 .sqai-d .feature-badge {
-  background: rgba(0,60,126,0.85);
+  background: #009688;
+  background: linear-gradient(135deg, #009688, #00796b);
 }
 
 .feature-header {
