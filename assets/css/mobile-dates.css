@@ -120,10 +120,11 @@
 
 /* 改进浮动按钮样式 */
 .mobile-dates-toggle {
-  display: flex !important; /* 覆盖原有的 display:none 和 display:block */
+  display: none !important; /* 默认隐藏，只在移动设备上显示 */
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: fixed; /* 确保定位属性 */
   bottom: 20px;
   right: 20px;
   width: 60px;
@@ -177,5 +178,10 @@
 @media (max-width: 1100px) {
   .mobile-dates-section {
     display: block;
+  }
+  
+  /* 只在移动设备上显示浮动按钮 */
+  .mobile-dates-toggle {
+    display: flex !important;
   }
 }

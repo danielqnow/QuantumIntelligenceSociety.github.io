@@ -20,6 +20,8 @@ main:
     url: /sponsors/
   - title: "Past Conferences"
     url: /past/
+  - title: "SQAI Newsletter"
+    url: "/#newsletter"
   # Dropdown menu for CFP saved below for future use:
   # children:
   #   - title: "For Authors"

@@ -841,4 +841,152 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
 
 <script src="/assets/js/carousel.js"></script>
 
+<hr style="margin: 2.5rem 0;">
+
+<h2 id="newsletter" style="text-align: center; margin-bottom: 1rem; font-size: 1.4em; scroll-margin-top: 70px;">Stay Connected with SQAI</h2>
+
+<!-- Newsletter Signup (Mailchimp) -->
+<div id="mc_embed_shell" style="margin: 0 auto; max-width: 600px; padding: 15px; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    #mc_embed_signup {
+      background: none !important;
+      clear: left;
+      font: 14px Helvetica,Arial,sans-serif;
+      width: 100%;
+      margin: 0 !important;
+      padding: 0;
+      display: block;
+      color: #000 !important;
+    }
+    #mc_embed_signup form {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 500px;
+      padding: 5px 0 !important;
+    }
+    #mc_embed_signup h2 {
+      font-size: 1.3em !important;
+      text-align: center;
+      color: #2196f3;
+      margin-bottom: 0.7em !important;
+      margin-top: 0.3em !important;
+    }
+    #mc_embed_signup .mc-field-group {
+      padding-bottom: 2% !important;
+      min-height: auto !important;
+    }
+    #mc_embed_signup .button {
+      background-color: #2196f3 !important;
+      transition: all 0.3s ease;
+      height: auto !important;
+      min-height: 32px !important;
+      line-height: 32px !important;
+      padding: 0 15px !important;
+    }
+    #mc_embed_signup .button:hover {
+      background-color: #1976d2 !important;
+    }
+    #mc_embed_signup .mc-field-group input {
+      border: 1px solid rgba(0,0,0,0.1) !important;
+      color: #000 !important;
+      padding: 8px !important;
+      height: auto !important;
+    }
+    #mc_embed_signup .asterisk {
+      color: #e85c41;
+    }
+    #mc_embed_signup label {
+      color: #000 !important;
+      padding-bottom: 3px !important;
+    }
+    #mc_embed_signup #mce-success-response {
+      color: #2196f3 !important;
+      font-weight: bold !important;
+    }
+    .newsletter-intro {
+      text-align: center;
+      margin-bottom: 12px;
+      color: #555;
+      font-size: 0.95em;
+    }
+    .indicates-required {
+      margin-bottom: 8px !important;
+      font-size: 0.85em !important;
+    }
+    /* 确保所有文本字段使用黑色文本 */
+    #mc_embed_signup input[type="email"],
+    #mc_embed_signup input[type="text"] {
+      color: #000 !important;
+    }
+    /* 减少底部间距 */
+    #mc_embed_signup .foot {
+      padding-top: 10px !important;
+    }
+    /* 缩小Mailchimp图标 */
+    #mc_embed_signup .foot img.refferal_badge {
+      width: 160px !important;
+      height: 30px !important;
+      opacity: 0.7;
+    }
+  </style>
+  
+  <p class="newsletter-intro">Subscribe to receive updates about SQAI conferences, call for papers, and quantum AI research news.</p>
+  
+  <div id="mc_embed_signup">
+    <form action="https://sqai.us1.list-manage.com/subscribe/post?u=575497683b4ff97fa73f1b50a&amp;id=3fdda4ba79&amp;f_id=007f2fe5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll"><h2>Subscribe to SQAI's Newsletter</h2>
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required></div>
+        <div id="mce-responses" class="clear foot">
+          <div class="response" id="mce-error-response" style="display: none;"></div>
+          <div class="response" id="mce-success-response" style="display: none;"></div>
+        </div>
+        <!-- 真实的人不应该填写这个字段，这是一个防机器人的陷阱 -->
+        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+          <input type="text" name="b_575497683b4ff97fa73f1b50a_3fdda4ba79" tabindex="-1" value="">
+        </div>
+        <div class="optionalParent">
+          <div class="clear foot">
+            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+            <p style="margin: 0px auto; text-align: center;"><a href="http://eepurl.com/jgABzM" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 160px; height: 30px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+  <script type="text/javascript">
+  (function($) {
+    window.fnames = new Array(); 
+    window.ftypes = new Array();
+    fnames[0]='EMAIL';
+    ftypes[0]='email';
+    fnames[1]='FNAME';
+    ftypes[1]='text';
+    fnames[2]='LNAME';
+    ftypes[2]='text';
+    fnames[3]='ADDRESS';
+    ftypes[3]='address';
+    fnames[4]='PHONE';
+    ftypes[4]='phone';
+    fnames[5]='BIRTHDAY';
+    ftypes[5]='birthday';
+    fnames[6]='COMPANY';
+    ftypes[6]='text';
+    
+    // 确保jQuery加载完成
+    $(document).ready(function() {
+      // 手动绑定表单提交事件
+      $('#mc-embedded-subscribe-form').on('submit', function(event) {
+        console.log('表单提交'); // 调试日志
+      });
+    });
+    
+  }(jQuery));
+  var $mcj = jQuery.noConflict(true);
+  </script>
+</div>
+<!-- End Newsletter Signup -->
+
 <!-- End of content -->

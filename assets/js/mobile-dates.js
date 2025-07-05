@@ -158,11 +158,8 @@ function handleResponsiveLayout() {
     }
     
     if (toggle) {
-      if (isMobile) {
-        toggle.style.display = 'flex';
-      } else {
-        toggle.style.display = 'none';
-      }
+      // 我们通过CSS来控制显示和隐藏，这里不需要额外的JS逻辑
+      // 让CSS的媒体查询处理这个问题
     }
   }
   
