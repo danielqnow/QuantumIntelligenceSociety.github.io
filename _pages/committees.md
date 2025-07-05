@@ -625,6 +625,17 @@ author_profile: true
         <div class="member-contact">chchwang@mail.ncku.edu.tw</div>
       </div>
     </div>
+
+    <!-- Yen-Chi Chen -->
+    <div class="member-card tpc-member">
+      <div class="member-photo" style="background-image: url('/images/members/Yen-Chi.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/samuel-yen-chi-chen/" target="_blank">Samuel Yen-Chi Chen</a></h3>
+        <div class="member-title">Area Chair: QML</div>
+        <div class="member-affiliation">Lead Research Scientist</div>
+        <div class="member-contact">ycchen1989@ieee.org</div>
+      </div>
+    </div>
     
     <!-- Mark Chen -->
     <div class="member-card tpc-member">
@@ -656,17 +667,6 @@ author_profile: true
         <div class="member-title">TPC Member</div>
         <div class="member-affiliation">Quantum AI Researcher</div>
         <div class="member-contact">yashgaur3000@gmail.com</div>
-      </div>
-    </div>
-    
-    <!-- Yen-Chi Chen -->
-    <div class="member-card tpc-member">
-      <div class="member-photo" style="background-image: url('/images/members/Yen-Chi.jpeg')"></div>
-      <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/samuel-yen-chi-chen/" target="_blank">Samuel Yen-Chi Chen</a></h3>
-        <div class="member-title">Area Chair: QML</div>
-        <div class="member-affiliation">Lead Research Scientist</div>
-        <div class="member-contact">ycchen1989@ieee.org</div>
       </div>
     </div>
     
