@@ -12,8 +12,7 @@ redirect_from:
 
 Welcome from the Chairs of SQAI 2026
 ===
-It is with great pleasure that we welcome you to the <span style="white-space: nowrap;">**3rd International Symposium on Quantum Artificial Intelligence (SQAI)**</span>, to be held on  
-June 26-28, 2026, in two locations: Taipei and Washington D.C.
+It is with great pleasure that we welcome you to the <span style="white-space: nowrap;">**3rd International Symposium on Quantum Artificial Intelligence (SQAI)**</span>, to be held on June 26-28, 2026, in two locations: Taipei and Washington D.C.
 
 <style>
 .event-table-container {
@@ -196,7 +195,7 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
     <thead>
       <tr>
         <th><i class="fas fa-calendar-check"></i> Event</th>
-        <th><i class="fas fa-map-marker-alt"></i> Location</th>
+        <th><i class="fas fa-map-marker-alt"></i> Loc.</th>
         <th><i class="fas fa-clock"></i> Time</th>
       </tr>
     </thead>
@@ -210,7 +209,7 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
         </td>
         <td>
           <div class="event-location">
-            <span class="flag">🇹🇼</span> Taipei, TW
+            <span class="flag">🇹🇼</span> Taipei
           </div>
         </td>
         <td class="event-time">All day, June 26–27, 2026 (UTC+8)</td>
@@ -224,7 +223,7 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
         </td>
         <td>
           <div class="event-location">
-            <span class="flag">🇹🇼</span> Taipei, TW
+            <span class="flag">🇹🇼</span> Taipei
           </div>
         </td>
         <td class="event-time">10:00–18:00, June 28, 2026 (UTC+8)</td>
@@ -238,7 +237,7 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
         </td>
         <td>
           <div class="event-location">
-            <span class="flag">🇺🇸</span> D.C., USA
+            <span class="flag">🇺🇸</span> D.C.
           </div>
         </td>
         <td class="event-time">08:30–16:30, June 27, 2026 (UTC−4)</td>
