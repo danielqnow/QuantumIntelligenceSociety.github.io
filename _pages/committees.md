@@ -329,13 +329,10 @@ author_profile: true
   font-size: 0.8rem;
   margin-right: 10px;
   color: white;
-}
-
-.position-item:nth-child(1) .position-team,
-.position-item:nth-child(2) .position-team,
-.position-item:nth-child(3) .position-team {
   background-color: #0366d6;
 }
+
+/* All position-team elements now have background color set in their main class */
 
 .position-role {
   font-size: 0.9rem;
