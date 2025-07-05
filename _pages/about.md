@@ -262,6 +262,8 @@ It is with great pleasure that we welcome you to the <span style="white-space: n
 
 <!-- Countdown Timer -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/countdown.css">
+<!-- Ensure countdown.js loads directly on this page for more reliable operation -->
+<script src="{{ site.baseurl }}/assets/js/countdown.js" async></script>
 <div id="countdown-container" class="countdown-container">
   <h3 class="countdown-title">SQAI 2026 Countdown</h3>
   <div class="countdown-event">
@@ -283,36 +285,32 @@ It is with great pleasure that we welcome you to the <span style="white-space: n
     <div class="countdown-block">
       <div id="countdown-seconds" class="countdown-value">00</div>
       <div class="countdown-label">SECS</div>
-      <script>
-        // 5秒后检查JS是否工作，如果秒数还是00，则添加CSS备用动画
-        setTimeout(function() {
-          var secondsEl = document.getElementById('countdown-seconds');
-          if (secondsEl && secondsEl.textContent === '00') {
-            secondsEl.classList.add('js-disabled');
-            console.log('JavaScript倒计时似乎未工作，启用CSS备用动画');
+      <noscript>
+        <!-- CSS fallback animation will be applied if JavaScript is disabled -->
+        <style>
+          #countdown-seconds { color: transparent; }
+          #countdown-seconds::before {
+            content: "00";
+            display: block;
+            animation: seconds-fallback 60s infinite linear;
+            color: #0366d6;
           }
-        }, 5000);
-      </script>
+        </style>
+      </noscript>
     </div>
   </div>
 </div>
 
-<!-- 确保倒计时正常初始化的内联脚本 -->
+<!-- Simple script to check for fallback CSS after a delay -->
 <script>
-  // 在页面加载后尝试初始化倒计时
-  document.addEventListener('DOMContentLoaded', function() {
-    // 延迟执行，确保其他脚本已加载
-    setTimeout(function() {
-      if (window.initSQAICountdown) {
-        window.initSQAICountdown();
-      }
-    }, 500);
-  });
-  
-  // 如果页面已经加载完成，立即尝试初始化
-  if (document.readyState === 'complete' && window.initSQAICountdown) {
-    window.initSQAICountdown();
-  }
+  // Check after 5 seconds if the countdown is working
+  setTimeout(function() {
+    var secondsEl = document.getElementById('countdown-seconds');
+    if (secondsEl && secondsEl.textContent === '00') {
+      secondsEl.classList.add('js-disabled');
+      console.log('Countdown not working, enabling CSS fallback animation');
+    }
+  }, 5000);
 </script>
 
 > Here is our vision.  
