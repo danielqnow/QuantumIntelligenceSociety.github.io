@@ -319,7 +319,169 @@ SQAI is the world's premiere international **academic + business + civic** confe
 > 2. **Intersectoral-ABC**: Bringing together **A**cademicians, **B**usinesspeople, and **C**ivic Leaders.  
 > 3. **International-ATW**: Uniting QAI research initiatives between **A**merica, **T**aiwan, and the **W**orld.  
 
-☁️ Reach for the "SQAI" – Leading a future of universal quantum utility where AI runs natively on quantum hardware.
+<div class="sqai-tagline-container">
+  <div class="sqai-tagline">
+    <div class="sqai-tagline-content">
+      <div class="sqai-tagline-icon">☁️</div>
+      <div class="sqai-tagline-text-container">
+        <div class="sqai-tagline-text">Reach for the <span class="sqai-text-wrapper"><span class="sqai-text">"SQAI"</span></span></div>
+        <div class="sqai-tagline-subtext">Leading a future of universal quantum utility where AI runs natively on quantum hardware</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.sqai-tagline-container {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.sqai-tagline {
+  display: inline-flex;
+  padding: 15px 20px;
+  max-width: 700px;
+  position: relative;
+}
+
+.sqai-tagline-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sqai-tagline-icon {
+  font-size: 2.2rem;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: #0366d6;
+}
+
+.sqai-tagline-text-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.sqai-tagline-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #0366d6;
+  line-height: 1.3;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+  margin: 0;
+}
+
+.sqai-text-wrapper {
+  display: inline-block;
+  position: relative;
+  padding: 0 2px;
+  margin: 0 1px;
+}
+
+.sqai-text-wrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background: linear-gradient(90deg, #0366d6, #2c8cd6);
+  border-radius: 2px;
+}
+
+.sqai-text {
+  font-weight: 800;
+  font-size: 1.15em;
+  background: linear-gradient(90deg, #0356b6, #2c8cd6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding: 0 1px;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+}
+
+.sqai-tagline-subtext {
+  font-size: 0.95rem;
+  font-weight: normal;
+  color: #444;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+/* Fallback for browsers that don't support background-clip */
+@supports not (background-clip: text) or not (-webkit-background-clip: text) {
+  .sqai-text {
+    background: transparent;
+    -webkit-text-fill-color: #0366d6;
+    color: #0366d6;
+    text-shadow: none;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 768px) {
+  .sqai-tagline {
+    padding: 10px;
+  }
+  
+  .sqai-tagline-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sqai-tagline-icon {
+    font-size: 1.8rem;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sqai-tagline-text-container {
+    text-align: center;
+  }
+  
+  .sqai-tagline-text {
+    font-size: 1.2rem;
+  }
+  
+  .sqai-tagline-subtext {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 4px;
+  }
+}
+
+/* 超小屏幕的额外适配 */
+@media (max-width: 480px) {
+  .sqai-tagline {
+    padding: 8px 5px;
+  }
+  
+  .sqai-tagline-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1.6rem;
+  }
+  
+  .sqai-tagline-text {
+    font-size: 1.1rem;
+  }
+  
+  .sqai-tagline-subtext {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+}
+</style>
 
 ---
 
