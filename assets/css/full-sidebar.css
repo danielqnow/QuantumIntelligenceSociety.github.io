@@ -133,27 +133,24 @@
   box-shadow: none;
 }
 
-/* 图标样式 - 匹配图片中的设计 */
+/* 图标样式 - 不使用背景色 */
 .date-icon {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+  width: 20px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 14px;
   flex-shrink: 0;
-  color: white;
-  font-size: 0.85em;
-  background: #4bb6ef; /* 统一使用亮蓝色背景 */
+  font-size: 1.1em;
 }
 
+/* 移除特定类型图标的背景色 */
 .submission .date-icon,
 .notification .date-icon,
 .camera-ready .date-icon,
 .conference .date-icon {
-  background: #4bb6ef;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* 不再使用背景色和阴影 */
 }
 
 /* 内容样式 - 匹配图片中的设计 */

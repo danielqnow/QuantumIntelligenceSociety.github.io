@@ -16,7 +16,7 @@
 }
 
 .date-icon i {
-  font-size: 1.1em;
+  font-size: 1.3em;
   transition: all 0.3s ease;
 }
 
@@ -34,21 +34,21 @@
   margin-bottom: 2px;
 }
 
-/* 圆形图标背景效果 */
+/* 各SQAI类别图标颜色 */
 .sqai-a-title + .important-dates-list .date-icon i {
-  text-shadow: 0 1px 2px rgba(33, 150, 243, 0.3);
+  color: #2196f3; /* 学术会议 - 蓝色 */
 }
 
 .sqai-b-title + .important-dates-list .date-icon i {
-  text-shadow: 0 1px 2px rgba(3, 169, 244, 0.3);
+  color: #03a9f4; /* 商业博览会 - 浅蓝色 */
 }
 
 .sqai-c-title + .important-dates-list .date-icon i {
-  text-shadow: 0 1px 2px rgba(0, 188, 212, 0.3);
+  color: #00bcd4; /* 国会峰会 - 青色 */
 }
 
 .sqai-d-title + .important-dates-list .date-icon i {
-  text-shadow: 0 1px 2px rgba(0, 150, 136, 0.3);
+  color: #009688; /* 数字访问 - 鸭绿色 */
 }
 
 /* 鼠标悬停效果 */
