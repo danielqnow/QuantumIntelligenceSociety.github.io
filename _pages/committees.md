@@ -523,9 +523,9 @@ author_profile: true
     <div class="member-card oc-member">
       <div class="member-photo" style="background-image: url('/images/farley.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">Farley Warner (Pending Confirmation)</a></h3>
-        <div class="member-title">Finance Co-Chair</div>
-        <div class="member-affiliation">Contractor</div>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">Farley Warner</a></h3>
+        <div class="member-title">Finance Chair</div>
+        <div class="member-affiliation">Government Contractor</div>
         <div class="member-contact">cw_netguru@yahoo.com</div>
       </div>
     </div>
