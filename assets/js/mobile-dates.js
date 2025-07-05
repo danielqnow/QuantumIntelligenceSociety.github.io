@@ -86,6 +86,15 @@ function createMobileDatesSection() {
     let found = false;
     dateCategories.forEach(cat => {
       if (cat.querySelector(`.${category.id}-title`)) {
+        // 为SQAI-C添加美国250周年纪念徽章
+        if (category.id === 'sqai-c') {
+          const america250Badge = document.createElement('div');
+          america250Badge.className = 'america250-badge';
+          america250Badge.style.cssText = 'margin: 5px 10px 10px;';
+          america250Badge.innerHTML = '<i class="fas fa-flag-usa"></i><span>America\'s 250th Anniversary</span>';
+          categoryContent.appendChild(america250Badge);
+        }
+        
         // 复制这个类别的日期列表
         const datesList = cat.querySelector('.important-dates-list').cloneNode(true);
         categoryContent.appendChild(datesList);

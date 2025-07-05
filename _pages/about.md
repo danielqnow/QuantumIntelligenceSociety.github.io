@@ -567,6 +567,13 @@ As the boundaries between quantum computing, artificial intelligence, and interd
       <div class="feature-info">
         Will feature keynote speeches and discussion panels from civic and corporate leaders. SQAI-C will also have a networking event.
       </div>
+      
+      <div class="america250-banner" style="margin: 10px 0; padding: 8px 12px; font-size: 0.9em;">
+        <i class="fas fa-flag-usa" style="margin-right: 5px;"></i> 
+        <strong>America's 250th Anniversary</strong>
+        <div style="margin-top: 3px; font-size: 0.9em;">Celebrating 250 years of American innovation - looking toward a quantum future</div>
+      </div>
+      
       <div class="feature-meta">
         <div class="feature-meta-item"><i class="fas fa-map-marker-alt"></i> D.C., United States</div>
         <div class="feature-meta-item"><i class="fas fa-calendar-alt"></i> June 27, 2026</div>
@@ -843,7 +850,7 @@ We are honored to host SQAI 2026 in the dynamic and culturally rich cities of Ta
 
 <hr style="margin: 2.5rem 0;">
 
-<h2 id="newsletter" style="text-align: center; margin-bottom: 1rem; font-size: 1.4em; scroll-margin-top: 70px;">Stay Connected with SQAI</h2>
+<h2 id="newsletter" style="text-align: center; margin-bottom: 1rem; font-size: 1.4em;">Stay Connected with SQAI</h2>
 
 <!-- Newsletter Signup (Mailchimp) -->
 <div id="mc_embed_shell" style="margin: 0 auto; max-width: 600px; padding: 15px; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">

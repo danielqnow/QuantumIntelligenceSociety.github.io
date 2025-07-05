@@ -367,6 +367,16 @@ author_profile: true
   <div id="sqai-c" class="program-section">
     <h2 class="section-title">SQAI-C (Capitol Summit) <span class="location-tag location-dc-tag">DC</span></h2>
     
+    <div class="america250-special">
+      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+        <i class="fas fa-flag-usa" style="font-size: 1.5em; margin-right: 10px;"></i>
+        <h3 style="margin: 0; font-size: 1.3em; font-weight: bold;">America's 250th Anniversary</h3>
+      </div>
+      <p style="margin: 0; line-height: 1.4;">
+        The 2026 Capitol Summit proudly coincides with America's semiquincentennial celebration. Join us in honoring 250 years of American innovation while shaping the next 250 years through the lens of quantum technology.
+      </p>
+    </div>
+    
     <p style="margin-bottom:0.8rem;">
       The Capitol Summit will be held in Washington, D.C. on June 27, 2026 (UTC−4), 08:30-16:30, starting immediately after SQAI-A. SQAI-C will feature keynote speeches and discussion panels from civic and corporate leaders, along with a networking event.
     </p>
