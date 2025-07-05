@@ -147,22 +147,5 @@
     display: none;
   }
   
-  /* Add a button to show the dates on mobile */
-  .mobile-dates-toggle {
-    display: block;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #2196f3;
-    color: white;
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 9000;
-    cursor: pointer;
-  }
+  /* 移除旧的移动按钮样式，改用mobile-dates.css中的样式 */
 }

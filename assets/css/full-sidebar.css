@@ -233,6 +233,11 @@
   .sqai-dates-fixed-sidebar {
     display: none;
   }
+  
+  /* 当点击按钮显示时覆盖上面的display:none */
+  .sqai-dates-fixed-sidebar.mobile-visible {
+    display: block;
+  }
 }
 
 /* 不调整主内容区域位置，让侧边栏覆盖但不重叠核心内容 */
