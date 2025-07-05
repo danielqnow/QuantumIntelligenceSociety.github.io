@@ -255,7 +255,7 @@ June 26-28, 2026, in two locations: Taipei and Washington D.C.
             <span class="flag">🌐</span> Online
           </div>
         </td>
-        <td class="event-time">Live Zoom sessions & recordings daily</td>
+        <td class="event-time">Live Zoom sessions & recordings</td>
       </tr>
     </tbody>
   </table>
