@@ -17,6 +17,97 @@ All submissions <strong>MUST</strong> follow the IEEE conference two-column form
 <a href="#ieee-format-guidelines">IEEE Format Guidelines</a>
 </div>
 
+<!-- Submit Paper Button - Prominent Call to Action -->
+<div style="text-align: center; margin: 25px auto 35px auto; max-width: 600px;">
+  <a id="submit-paper-btn" href="https://openreview.net/group?id=SQAI.org/2026/Symposium" class="submit-paper-button" style="display: inline-block; background: linear-gradient(135deg, #0366d6, #004494); color: white; font-weight: bold; font-size: 1.2em; padding: 15px 30px; text-decoration: none; border-radius: 6px; box-shadow: 0 4px 12px rgba(3, 102, 214, 0.3); transition: all 0.3s ease; border: 2px solid rgba(255,255,255,0.2);">
+    <i class="fas fa-paper-plane" style="margin-right: 10px;"></i> Submit Paper <span style="font-size: 0.85em; opacity: 0.9;">(Opens Sept 1)</span>
+  </a>
+  <p style="margin-top: 12px; color: #555; font-style: italic;">Submissions via OpenReview portal • See guidelines below</p>
+</div>
+
+<style>
+  .submit-paper-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(3, 102, 214, 0.4) !important;
+    background: linear-gradient(135deg, #0377f6, #0056b3) !important;
+  }
+  
+  .submit-paper-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 8px rgba(3, 102, 214, 0.3) !important;
+  }
+  
+  @media (max-width: 768px) {
+    .submit-paper-button {
+      padding: 12px 20px !important;
+      font-size: 1.1em !important;
+      width: 90% !important;
+      max-width: 300px !important;
+    }
+  }
+  
+  /* Notification styling */
+  .submission-notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    z-index: 9999;
+    max-width: 90%;
+    width: 400px;
+    text-align: center;
+    animation: slideDown 0.5s forwards;
+    border-left: 5px solid #0366d6;
+  }
+  
+  @keyframes slideDown {
+    from { top: -100px; opacity: 0; }
+    to { top: 20px; opacity: 1; }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const submitBtn = document.getElementById('submit-paper-btn');
+    if (submitBtn) {
+      submitBtn.addEventListener('click', function(e) {
+        // Check if current date is before Sept 1, 2025
+        const openingDate = new Date('2025-09-01T00:00:00');
+        const today = new Date();
+        
+        if (today < openingDate) {
+          e.preventDefault();
+          
+          // Create notification
+          const notification = document.createElement('div');
+          notification.className = 'submission-notification';
+          notification.innerHTML = `
+            <h4 style="margin-top: 0; color: #0366d6;">Submission Portal Not Open Yet</h4>
+            <p>The paper submission system will open on <strong>September 1, 2025</strong>.</p>
+            <p style="margin-bottom: 0;">Please check back later or sign up for our newsletter to receive a notification.</p>
+          `;
+          
+          // Add to body
+          document.body.appendChild(notification);
+          
+          // Remove after 7 seconds
+          setTimeout(function() {
+            notification.style.opacity = '0';
+            notification.style.transition = 'opacity 0.5s ease';
+            setTimeout(function() {
+              notification.remove();
+            }, 500);
+          }, 7000);
+        }
+      });
+    }
+  });
+</script>
+
 ![Quantum Computer](/images/quantumcomputer.jpg)
 *Source: [quantum.gov](https://www.quantum.gov/quantum-image-gallery/) – QSA researchers work on the E8 experiment using ultracold atoms to study novel quantum phases of matter.*
 
@@ -237,6 +328,14 @@ Whether you're working on fundamental theory, practical applications, or novel f
 **Note**: The page limits are strict and include all figures, tables, and appendices, but exclude references.
 
 We welcome theoretical, applied, and exploratory contributions. All submissions will undergo a rigorous double-blind peer review process.
+
+<div style="text-align: center; margin: 30px auto; padding: 20px; background-color: #f8fbff; border-radius: 8px; border: 1px solid rgba(3, 102, 214, 0.2);">
+  <h3 style="color: #0366d6; margin-top: 0;">Ready to Submit Your Paper?</h3>
+  <p>Please ensure your submission follows all the guidelines detailed above before submitting.</p>
+  <a href="https://openreview.net/group?id=SQAI.org/2026/Symposium" class="submit-paper-button" style="display: inline-block; background: linear-gradient(135deg, #0366d6, #004494); color: white; font-weight: bold; font-size: 1.1em; padding: 12px 25px; text-decoration: none; border-radius: 6px; box-shadow: 0 4px 12px rgba(3, 102, 214, 0.3); transition: all 0.3s ease; border: 2px solid rgba(255,255,255,0.2); margin-top: 10px;">
+    <i class="fas fa-paper-plane" style="margin-right: 10px;"></i> Submit via OpenReview <span style="font-size: 0.85em; opacity: 0.9;">(Opens Sept 1)</span>
+  </a>
+</div>
 
 ---
 
