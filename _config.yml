@@ -12,7 +12,7 @@ site_theme               : "light" # Only light theme is supported
 title                    : "Symposium on Quantum AI"
 title_separator          : "-"
 name                     : &name "Symposium on Quantum AI (SQAI)"
-description              : &description "International academic and business conference dedicated to the advancement of Quantum AI research and application."
+description              : &description "International academic, business, and government conference dedicated to the advancement of Quantum AI research and application."
 url                      : https://sqaiconference.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "S-Q-I/sqaiconference.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "SQAI"
   pronouns         : # example: "she/her"  
-  bio              : "Academic and business conference dedicated to the advancement of Quantum AI research and application."
+  bio              : "Academic, business, and government conference dedicated to the advancement of Quantum AI research and application."
   location         : "Washington D.C."
   employer         : # "National Taiwan University"
   uri              : # URL
