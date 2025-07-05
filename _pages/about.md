@@ -62,10 +62,291 @@ SQAI is the world's premiere international **academic + business + civic** confe
 
 As the boundaries between quantum computing, artificial intelligence, and interdisciplinary systems continue to blur, SQAI 2026 provides a unique academic, business, and civic platform to explore breakthroughs at the intersection of these transformative technologies. The symposium will spotlight the most pressing challenges and visionary advances shaping the future of computation and cognition.
 
-- **SQAI-A** - *Academic Conference* - will be held in Taipei. Our 2026 target is 50 outstanding research papers. We will feature a rich lineup of keynote speeches, technical presentations, demos, and poster sessions.  
-- **SQAI-B** - *Business Expo* - will also be held in Taipei, after SQAI-A. SQAI's sponsors will be given access to a booth, and exhibitors will be allowed to roam around to talk to the company or institute of their choosing.  
-- **SQAI-C** - *Capitol Summit* - will be held in D.C. and will start immediately after SQAI-A, on the other side of the world. SQAI-C will feature keynote speeches and discussion panels from civic and corporate leaders. SQAI-C will also have a networking event.
-- **SQAI-D** - *Digital Access* - will be provided for all registrants, including both Zoom sessions and recordings for SQAI-A, SQAI-B, and SQAI-C.
+<style>
+.sqai-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px 0;
+  justify-content: center;
+}
+
+.feature-card {
+  flex: 1 1 300px;
+  min-width: 300px;
+  max-width: 480px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.feature-img-container {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.feature-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.feature-card:hover .feature-img {
+  transform: scale(1.05);
+}
+
+.feature-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+  height: 60%;
+  pointer-events: none;
+}
+
+.feature-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(0,102,214,0.85);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.sqai-a .feature-badge {
+  background: rgba(0,102,214,0.85);
+}
+
+.sqai-b .feature-badge {
+  background: rgba(26,86,176,0.85);
+}
+
+.sqai-c .feature-badge {
+  background: rgba(0,78,168,0.85);
+}
+
+.sqai-d .feature-badge {
+  background: rgba(0,60,126,0.85);
+}
+
+.feature-header {
+  padding: 18px 20px 5px;
+  background: white;
+  color: #333;
+}
+
+.feature-title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0366d6;
+}
+
+.feature-title i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(3,102,214,0.1);
+  border-radius: 50%;
+  padding: 5px;
+  color: #0366d6;
+}
+
+.sqai-a .feature-title, .sqai-a .feature-title i {
+  color: #0366d6;
+}
+
+.sqai-b .feature-title, .sqai-b .feature-title i {
+  color: #1a56b0;
+}
+
+.sqai-c .feature-title, .sqai-c .feature-title i {
+  color: #004ea8;
+}
+
+.sqai-d .feature-title, .sqai-d .feature-title i {
+  color: #003c7e;
+}
+
+.feature-subtitle {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.7;
+  font-style: italic;
+  color: #555;
+}
+
+.feature-content {
+  padding: 5px 20px 20px;
+  color: #333;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-info {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.feature-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.feature-meta i {
+  margin-right: 6px;
+  color: #0366d6;
+}
+
+.feature-meta-item {
+  margin-right: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    min-width: 100%;
+  }
+  
+  .feature-img-container {
+    height: 160px;
+  }
+}
+</style>
+
+<div class="sqai-features">
+  <!-- SQAI-A Card -->
+  <div class="feature-card sqai-a">
+    <div class="feature-img-container">
+      <img src="/images/sqai-a.jpg" alt="SQAI Academic Conference" class="feature-img">
+      <div class="feature-overlay"></div>
+      <div class="feature-badge">SQAI-A</div>
+    </div>
+    <div class="feature-header">
+      <h3 class="feature-title">
+        <i class="fas fa-graduation-cap"></i> Academic Conference
+      </h3>
+      <div class="feature-subtitle">Research & Knowledge Exchange</div>
+    </div>
+    <div class="feature-content">
+      <div class="feature-info">
+        Our 2026 target is 50 outstanding research papers. We will feature a rich lineup of keynote speeches, technical presentations, demos, and poster sessions.
+      </div>
+      <div class="feature-meta">
+        <div class="feature-meta-item"><i class="fas fa-map-marker-alt"></i> Taipei, Taiwan</div>
+        <div class="feature-meta-item"><i class="fas fa-calendar-alt"></i> June 26-27, 2026</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- SQAI-B Card -->
+  <div class="feature-card sqai-b">
+    <div class="feature-img-container">
+      <img src="/images/sqai-b.jpg" alt="SQAI Business Expo" class="feature-img">
+      <div class="feature-overlay"></div>
+      <div class="feature-badge">SQAI-B</div>
+    </div>
+    <div class="feature-header">
+      <h3 class="feature-title">
+        <i class="fas fa-briefcase"></i> Business Expo
+      </h3>
+      <div class="feature-subtitle">Industry & Innovation</div>
+    </div>
+    <div class="feature-content">
+      <div class="feature-info">
+        SQAI's sponsors will be given access to a booth, and exhibitors will be allowed to roam around to talk to the company or institute of their choosing.
+      </div>
+      <div class="feature-meta">
+        <div class="feature-meta-item"><i class="fas fa-map-marker-alt"></i> Taipei, Taiwan</div>
+        <div class="feature-meta-item"><i class="fas fa-calendar-alt"></i> June 28, 2026</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SQAI-C Card -->
+  <div class="feature-card sqai-c">
+    <div class="feature-img-container">
+      <img src="/images/sqai-c.jpg" alt="SQAI Capitol Summit" class="feature-img">
+      <div class="feature-overlay"></div>
+      <div class="feature-badge">SQAI-C</div>
+    </div>
+    <div class="feature-header">
+      <h3 class="feature-title">
+        <i class="fas fa-landmark"></i> Capitol Summit
+      </h3>
+      <div class="feature-subtitle">Policy & Leadership</div>
+    </div>
+    <div class="feature-content">
+      <div class="feature-info">
+        Will feature keynote speeches and discussion panels from civic and corporate leaders. SQAI-C will also have a networking event.
+      </div>
+      <div class="feature-meta">
+        <div class="feature-meta-item"><i class="fas fa-map-marker-alt"></i> D.C., United States</div>
+        <div class="feature-meta-item"><i class="fas fa-calendar-alt"></i> June 27, 2026</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SQAI-D Card -->
+  <div class="feature-card sqai-d">
+    <div class="feature-img-container">
+      <img src="/images/sqai-d.jpg" alt="SQAI Digital Access" class="feature-img">
+      <div class="feature-overlay"></div>
+      <div class="feature-badge">SQAI-D</div>
+    </div>
+    <div class="feature-header">
+      <h3 class="feature-title">
+        <i class="fas fa-laptop"></i> Digital Access
+      </h3>
+      <div class="feature-subtitle">Global Participation</div>
+    </div>
+    <div class="feature-content">
+      <div class="feature-info">
+        Will be provided for all registrants, including both Zoom sessions and recordings for SQAI-A, SQAI-B, and SQAI-C.
+      </div>
+      <div class="feature-meta">
+        <div class="feature-meta-item"><i class="fas fa-globe"></i> Online / Hybrid</div>
+        <div class="feature-meta-item"><i class="fas fa-calendar-alt"></i> All Events</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 We will offer everyone from researchers and engineers to policy experts a vibrant space to share insights, collaborate across domains, and chart new directions in quantum, AI, and Quantum AI research and application.
 
