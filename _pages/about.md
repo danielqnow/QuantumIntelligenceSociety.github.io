@@ -335,6 +335,7 @@ SQAI is the world's premiere international **academic + business + civic** confe
 .sqai-tagline-container {
   margin: 30px auto;
   text-align: center;
+  width: 100%;
 }
 
 .sqai-tagline {
@@ -342,12 +343,14 @@ SQAI is the world's premiere international **academic + business + civic** confe
   padding: 15px 20px;
   max-width: 700px;
   position: relative;
+  width: auto;
 }
 
 .sqai-tagline-content {
   display: flex;
   align-items: center;
   gap: 15px;
+  width: 100%;
 }
 
 .sqai-tagline-icon {
@@ -360,6 +363,7 @@ SQAI is the world's premiere international **academic + business + civic** confe
   justify-content: center;
   margin: 0;
   color: #0366d6;
+  text-shadow: 0 2px 5px rgba(3, 102, 214, 0.2);
 }
 
 .sqai-tagline-text-container {
@@ -369,12 +373,13 @@ SQAI is the world's premiere international **academic + business + civic** confe
 }
 
 .sqai-tagline-text {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #0366d6;
   line-height: 1.3;
-  text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+  text-shadow: 0 1px 2px rgba(255,255,255,1);
   margin: 0;
+  letter-spacing: 0.2px;
 }
 
 .sqai-text-wrapper {
@@ -389,15 +394,16 @@ SQAI is the world's premiere international **academic + business + civic** confe
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -2px;
+  bottom: -3px;
   height: 2px;
   background: linear-gradient(90deg, #0366d6, #2c8cd6);
   border-radius: 2px;
+  opacity: 0.8;
 }
 
 .sqai-text {
   font-weight: 800;
-  font-size: 1.15em;
+  font-size: 1.2em;
   background: linear-gradient(90deg, #0356b6, #2c8cd6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -406,16 +412,17 @@ SQAI is the world's premiere international **academic + business + civic** confe
   display: inline-block;
   letter-spacing: 0.5px;
   position: relative;
-  padding: 0 1px;
-  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+  padding: 0 2px;
+  filter: drop-shadow(0 1px 1px rgba(255,255,255,0.9));
 }
 
 .sqai-tagline-subtext {
   font-size: 0.95rem;
   font-weight: normal;
   color: #444;
-  margin-top: 6px;
+  margin-top: 4px;
   line-height: 1.4;
+  max-width: 500px;
 }
 
 /* Fallback for browsers that don't support background-clip */
@@ -424,29 +431,46 @@ SQAI is the world's premiere international **academic + business + civic** confe
     background: transparent;
     -webkit-text-fill-color: #0366d6;
     color: #0366d6;
-    text-shadow: none;
-    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+    font-weight: 800;
+    position: relative;
+  }
+  
+  .sqai-text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background: #0366d6;
+    border-radius: 2px;
   }
 }
 
 @media (max-width: 768px) {
   .sqai-tagline {
     padding: 10px;
+    width: 100%;
   }
   
   .sqai-tagline-content {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
   
   .sqai-tagline-icon {
     font-size: 1.8rem;
     width: 40px;
     height: 40px;
+    flex-shrink: 0;
   }
   
   .sqai-tagline-text-container {
-    text-align: center;
+    text-align: left;
   }
   
   .sqai-tagline-text {
@@ -455,7 +479,7 @@ SQAI is the world's premiere international **academic + business + civic** confe
   
   .sqai-tagline-subtext {
     font-size: 0.9rem;
-    text-align: center;
+    text-align: left;
     margin-top: 4px;
   }
 }
@@ -464,6 +488,11 @@ SQAI is the world's premiere international **academic + business + civic** confe
 @media (max-width: 480px) {
   .sqai-tagline {
     padding: 8px 5px;
+  }
+  
+  .sqai-tagline-content {
+    flex-direction: row;
+    gap: 10px;
   }
   
   .sqai-tagline-icon {
