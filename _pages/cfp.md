@@ -430,8 +430,6 @@ A: Use the templates provided by IEEE and check against the following format ver
 
 <div style="text-align: center; margin: 30px 0;">
 <a href="https://www.ieee.org/conferences/publishing/templates" class="btn btn--primary" style="display: inline-block; background-color: #0366d6; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Download IEEE Templates</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://openreview.net/group?id=SQAI.org/2026/Symposium&referrer=%5BHomepage%5D(%2F)#tab-recent-activity" class="btn btn--success" style="display: inline-block; background-color: #2ea44f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Submit Your Paper</a>
 </div>
 
 <div style="text-align: center; font-style: italic; margin-top: 30px;">
