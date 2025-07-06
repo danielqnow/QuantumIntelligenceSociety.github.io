@@ -13,9 +13,9 @@ title                    : "Symposium on Quantum AI"
 title_separator          : "-"
 name                     : &name "Symposium on Quantum AI (SQAI)"
 description              : &description "International academic, business, and government conference dedicated to the advancement of Quantum AI research and application."
-url                      : https://sqaiconference.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://s-q-i.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "S-Q-I/sqaiconference.github.io"
+repository               : "S-Q-I/S-Q-I.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
