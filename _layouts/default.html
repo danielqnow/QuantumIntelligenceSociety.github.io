@@ -39,11 +39,13 @@ layout: compress
       </div>
     </div>
     
+    {% if page.title == "About" %}
     <!-- Mobile toggle button for important dates (only shown on mobile) -->
     <div class="mobile-dates-toggle">
       <i class="fas fa-calendar-alt"></i>
       <span class="mobile-dates-toggle-text">重要日期</span>
     </div>
+    {% endif %}
 
     {{ content }}
 
