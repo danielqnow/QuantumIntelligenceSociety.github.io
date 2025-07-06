@@ -6,11 +6,25 @@ document.addEventListener('DOMContentLoaded', function() {
   // 如果找不到日期容器，直接返回
   if (!datesContainer) return;
   
-  // 创建移动版日期部分
-  createMobileDatesSection();
-  
-  // 增强浮动按钮
-  enhanceMobileToggle();
+  // 检查当前是否为首页（About页面）
+  const isHomePage = window.location.pathname === '/' || 
+                    window.location.pathname === '/about/' || 
+                    window.location.pathname === '/about.html' ||
+                    window.location.pathname.endsWith('/index.html');
+                    
+  // 只在首页（About页面）显示移动版重要日期
+  if (isHomePage) {
+    // 创建移动版日期部分
+    createMobileDatesSection();
+    
+    // 增强浮动按钮
+    enhanceMobileToggle();
+  } else {
+    const mobileToggle = document.querySelector('.mobile-dates-toggle');
+    if (mobileToggle) {
+      mobileToggle.style.display = 'none';
+    }
+  }
   
   // 处理响应式布局切换
   handleResponsiveLayout();
@@ -29,7 +43,7 @@ function createMobileDatesSection() {
   // 创建头部
   const header = document.createElement('div');
   header.className = 'mobile-dates-header';
-  header.innerHTML = '<span>重要日期</span><i class="fas fa-chevron-up"></i>';
+  header.innerHTML = '<span>Important Dates</span><i class="fas fa-chevron-up"></i>';
   
   // 创建内容容器
   const content = document.createElement('div');
@@ -45,7 +59,7 @@ function createMobileDatesSection() {
     { id: 'sqai-b', name: 'SQAI-B', icon: 'fa-briefcase' },
     { id: 'sqai-c', name: 'SQAI-C', icon: 'fa-landmark' },
     { id: 'sqai-d', name: 'SQAI-D', icon: 'fa-laptop' },
-    { id: 'general', name: '通用', icon: 'fa-calendar-alt' }
+    { id: 'general', name: 'General', icon: 'fa-calendar-alt' }
   ];
   
   // 为每个类别创建一个Tab
@@ -144,12 +158,17 @@ function enhanceMobileToggle() {
   
   const text = document.createElement('span');
   text.className = 'mobile-dates-toggle-text';
-  text.textContent = '重要日期';
+  text.textContent = 'Important Dates';
   toggle.appendChild(text);
 }
 
 // 处理响应式布局切换
 function handleResponsiveLayout() {
+  const isHomePage = window.location.pathname === '/' || 
+                    window.location.pathname === '/about/' || 
+                    window.location.pathname === '/about.html' ||
+                    window.location.pathname.endsWith('/index.html');
+  
   // 根据窗口大小设置适当的显示内容
   function setResponsiveDisplay() {
     const isMobile = window.innerWidth <= 1100;
@@ -158,17 +177,19 @@ function handleResponsiveLayout() {
     const mobileSection = document.querySelector('.mobile-dates-section');
     const toggle = document.querySelector('.mobile-dates-toggle');
     
-    if (mobileSection) {
+    if (mobileSection && isHomePage) {
       if (isMobile) {
         mobileSection.style.display = 'block';
       } else {
         mobileSection.style.display = 'none';
       }
     }
-    
     if (toggle) {
-      // 我们通过CSS来控制显示和隐藏，这里不需要额外的JS逻辑
-      // 让CSS的媒体查询处理这个问题
+      if (isMobile && isHomePage) {
+        toggle.style.display = 'flex';
+      } else {
+        toggle.style.display = 'none';
+      }
     }
   }
   
