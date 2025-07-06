@@ -532,9 +532,19 @@ author_profile: true
       <div class="member-photo" style="background-image: url('/images/members/bernadette.jpg')"></div>
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/bernadette-harding-8769025/" target="_blank">Bernadette Harding</a></h3>
-        <div class="member-title">Logistics Chair</div>
+        <div class="member-title">Logistics Chair (US)</div>
         <div class="member-affiliation">Startup Founder</div>
         <div class="member-contact">info@sqai.org</div>
+      </div>
+    </div>
+
+    <!-- Mattis Liu -->
+    <div class="member-card oc-member">
+      <div class="member-photo" style="background-image: url('/images/members/mattis.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/%E6%AC%A3%E5%AE%87-%E5%8A%89-a4a09a353/" target="_blank">Mattis Liu</a></h3>
+        <div class="member-title">Logistics Chair (TW)</div>
+        <div class="member-affiliation">Event Organizer</div>
       </div>
     </div>
     
@@ -601,7 +611,6 @@ author_profile: true
         <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
       </div>
     </div>
-    
   </div>
 </div>
 
