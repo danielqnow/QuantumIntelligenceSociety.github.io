@@ -1,13 +1,12 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-redirect-from'
-  gem 'jemoji'
-  gem 'webrick', '~> 1.8'
-end
+# Let github-pages manage Jekyll and plugins
+gem 'github-pages', group: :jekyll_plugins
 
-gem 'github-pages'
+# Additional gems that are safe to include
 gem 'connection_pool', '2.5.0'
+
+# Webrick is needed when running Jekyll locally on Ruby 3.x
+gem 'webrick', '~> 1.8'
