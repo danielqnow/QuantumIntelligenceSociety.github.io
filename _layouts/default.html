@@ -87,6 +87,28 @@ layout: compress
         margin: 0 auto;
         box-sizing: border-box;
       }
+
+      /* Enhanced mobile layout fixes */
+      /* Ensure all content is centered and visible */
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+      }
+
+      /* Fix potential overflow issues */
+      .mobile-dates-tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      .mobile-dates-content {
+        overflow-y: auto;
+        max-height: 400px;
+      }
     </style>
   </body>
 </html>

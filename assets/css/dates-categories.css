@@ -27,23 +27,23 @@
 
 /* SQAI Event Title Colors - Matched with event table and feature cards */
 .sqai-a-title {
-  color: #1976d2; /* Darker shade of Academic Conference Blue */
+  color: #2196f3; /* Light shade of Academic Conference Blue */
 }
 
 .sqai-b-title {
-  color: #0288d1; /* Darker shade of Business Expo Light Blue */
+  color: #03a9f4; /* Light shade of Business Expo Light Blue */
 }
 
 .sqai-c-title {
-  color: #0097a7; /* Darker shade of Capitol Summit Cyan */
+  color: #00bcd4; /* Light shade of Capitol Summit Cyan */
 }
 
 .sqai-d-title {
-  color: #00796b; /* Darker shade of Digital Access Teal */
+  color: #009688; /* Light shade of Digital Access Teal */
 }
 
 .general-title {
-  color: #546e7a;
+  color: #78909c; /* Light shade of General Gray */
 }
 
 /* Adjust spacing for nested lists */
