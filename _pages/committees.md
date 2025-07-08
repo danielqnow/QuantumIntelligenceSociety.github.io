@@ -516,16 +516,6 @@ author_profile: true
         <div class="member-contact">ycchen1989@ieee.org</div>
       </div>
     </div>
-
-    <div class="member-card oc-member">
-      <div class="member-photo" style="background-image: url('/images/farley.jpg')"></div>
-      <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">Farley Warner</a></h3>
-        <div class="member-title">Finance Chair</div>
-        <div class="member-affiliation">Government Contractor</div>
-        <div class="member-contact">cw_netguru@yahoo.com</div>
-      </div>
-    </div>
     
     <!-- Bernadette Harding -->
     <div class="member-card oc-member">
@@ -545,6 +535,16 @@ author_profile: true
         <h3 class="member-name"><a href="https://www.linkedin.com/in/%E6%AC%A3%E5%AE%87-%E5%8A%89-a4a09a353/" target="_blank">Mattis Liu</a></h3>
         <div class="member-title">Logistics Chair (TW)</div>
         <div class="member-affiliation">Event Organizer</div>
+      </div>
+    </div>
+
+    <div class="member-card oc-member">
+      <div class="member-photo" style="background-image: url('/images/farley.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">Farley Warner</a></h3>
+        <div class="member-title">Finance Chair</div>
+        <div class="member-affiliation">Government Contractor</div>
+        <div class="member-contact">cw_netguru@yahoo.com</div>
       </div>
     </div>
     
@@ -591,6 +591,18 @@ author_profile: true
     </div>
     
     <!-- TBD Positions -->
+
+    <!-- Open Position: General Co-Chair -->
+    <div class="member-card oc-member">
+      <div class="member-photo" style="background-image: url('/images/placeholder-profile.png')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">General Co-Chair</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    
     <div class="member-card oc-member">
       <div class="member-photo" style="background-image: url('/images/members/tbd.jpg')"></div>
       <div class="member-info">
@@ -862,6 +874,11 @@ author_profile: true
       <div class="role-item">
         <h4>General Chair</h4>
         <p>The General Chair provides overall leadership for the symposium, setting the vision, coordinating all committees, and serving as the primary representative of SQAI to the broader community. This role involves strategic planning, stakeholder relationship management, and ensuring the event meets its academic and professional objectives.</p>
+      </div>
+      
+      <div class="role-item">
+        <h4>General Co-Chair</h4>
+        <p>The General Co-Chair assists the General Chair in overseeing the conference, with a focus on specific areas such as logistics, sponsorship, or programming. This role is essential for balancing the workload of the General Chair and ensuring all aspects of the conference are effectively managed.</p>
       </div>
       
       <div class="role-item">
