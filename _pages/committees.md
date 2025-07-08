@@ -534,7 +534,8 @@ author_profile: true
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/%E6%AC%A3%E5%AE%87-%E5%8A%89-a4a09a353/" target="_blank">Mattis Liu</a></h3>
         <div class="member-title">Logistics Chair (TW)</div>
-        <div class="member-affiliation">Event Organizer</div>
+        <div class="member-affiliation">COO, Bonafide Strategies</div>
+        <div class="member-contact">bonafidetaiwan@gmail.com</div>
       </div>
     </div>
 
